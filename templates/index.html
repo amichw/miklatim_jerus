@@ -117,6 +117,9 @@
     .leaflet-control-locate.located  a { color: #27ae60; }
     @keyframes spin { to { transform: rotate(360deg); } }
 
+    /* Push GPS button above phone gesture/navigation bar */
+    .leaflet-bottom.leaflet-right { bottom: 60px; }
+
     /* ── Pulsing user-location dot ── */
     .user-dot {
       width: 16px; height: 16px;
@@ -280,6 +283,7 @@ function showNearest(userLatLng) {
       html += `<div class="field"><span class="field-label">${label}:</span> ${val}</div>`;
     }
   }
+  html += mapsLink(shelter.lat, shelter.lon);
   html += `</div>`;
 
   L.popup({ maxWidth: 300 })
@@ -366,6 +370,16 @@ const FIELD_LABELS = {
   category:       'קטגוריה',
 };
 
+function mapsLink(lat, lon) {
+  const url = `https://www.google.com/maps/dir/?api=1&destination=${lat},${lon}&travelmode=walking`;
+  return `<div style="margin-top:8px;text-align:center">
+    <a href="${url}" target="_blank" rel="noopener"
+       style="display:inline-block;padding:6px 16px;background:#1a5276;color:#fff;
+              border-radius:4px;text-decoration:none;font-size:0.85rem">
+      🗺 נווט למקלט
+    </a></div>`;
+}
+
 function buildPopup(s) {
   let html = `<div class="shelter-popup">`;
   html += `<h6>${s.shelter_number || 'מקלט'}</h6>`;
@@ -375,6 +389,7 @@ function buildPopup(s) {
       html += `<div class="field"><span class="field-label">${label}:</span> ${val}</div>`;
     }
   }
+  html += mapsLink(s.lat, s.lon);
   html += `</div>`;
   return html;
 }
@@ -499,6 +514,13 @@ toggleBtn.addEventListener('click', () => {
   toggleBtn.classList.toggle('collapsed');
   setTimeout(() => map.invalidateSize(), 210);
 });
+
+// ── Mobile: start with sidebar closed ────────────────────────
+if (window.innerWidth < 768) {
+  sidebar.classList.add('collapsed');
+  toggleBtn.classList.add('collapsed');
+  setTimeout(() => map.invalidateSize(), 0);
+}
 
 // ── Boot ──────────────────────────────────────────────────────
 loadShelters();

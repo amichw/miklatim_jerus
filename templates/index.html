@@ -338,6 +338,22 @@ function locate(container) {
   });
 }
 
+// ── Zoom-dependent marker radius ──────────────────────────────
+function zoomRadius() {
+  const z = map.getZoom();
+  if (z <= 12) return 5;
+  if (z <= 13) return 7;
+  if (z <= 14) return 9;
+  if (z <= 15) return 12;
+  if (z <= 16) return 15;
+  return 18;
+}
+
+map.on('zoomend', () => {
+  const r = zoomRadius();
+  layerGroup.eachLayer(layer => { if (layer.setRadius) layer.setRadius(r); });
+});
+
 // ── Color coding ──────────────────────────────────────────────
 function shelterType(s) {
   const cat = (s.category || '').toLowerCase();
@@ -499,7 +515,7 @@ function applyFilters() {
 
     const color = TYPE_COLOR[type];
     const marker = L.circleMarker([s.lat, s.lon], {
-      radius: 7,
+      radius: zoomRadius(),
       fillColor: color,
       color: '#fff',
       weight: 1.5,

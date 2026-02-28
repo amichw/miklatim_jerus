@@ -231,6 +231,7 @@ new LocateControl().addTo(map);
 
 let locationLayers = null;   // accuracy circle + position dot
 let nearestLine = null;      // dashed line to nearest shelter
+let userLocation = null;     // last known GPS position
 
 // ── Haversine distance (metres) ───────────────────────────────
 function haversine(lat1, lon1, lat2, lon2) {
@@ -324,6 +325,11 @@ function locate(container) {
     dot.on('click', () => showNearest(e.latlng));
 
     locationLayers = [accCircle, dot];
+
+    // Store location, rebuild markers with distances, auto-show nearest
+    userLocation = e.latlng;
+    applyFilters();
+    showNearest(e.latlng);
   });
 
   map.once('locationerror', (e) => {
@@ -383,6 +389,10 @@ function mapsLink(lat, lon) {
 function buildPopup(s) {
   let html = `<div class="shelter-popup">`;
   html += `<h6>${s.shelter_number || 'מקלט'}</h6>`;
+  if (userLocation) {
+    const d = haversine(userLocation.lat, userLocation.lng, s.lat, s.lon);
+    html += `<div class="field" style="font-weight:700;color:#555">📍 מרחק: ${distLabel(d)}</div>`;
+  }
   for (const [key, label] of Object.entries(FIELD_LABELS)) {
     const val = s[key];
     if (val && String(val).trim()) {

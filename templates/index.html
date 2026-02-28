@@ -227,6 +227,66 @@ const LocateControl = L.Control.extend({
 new LocateControl().addTo(map);
 
 let locationLayers = null;   // accuracy circle + position dot
+let nearestLine = null;      // dashed line to nearest shelter
+
+// ── Haversine distance (metres) ───────────────────────────────
+function haversine(lat1, lon1, lat2, lon2) {
+  const R = 6371000;
+  const φ1 = lat1 * Math.PI / 180, φ2 = lat2 * Math.PI / 180;
+  const Δφ = (lat2 - lat1) * Math.PI / 180;
+  const Δλ = (lon2 - lon1) * Math.PI / 180;
+  const a = Math.sin(Δφ/2)**2 + Math.cos(φ1)*Math.cos(φ2)*Math.sin(Δλ/2)**2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+function findNearest(latlng) {
+  let nearest = null, minDist = Infinity;
+  for (const s of allShelters) {
+    const d = haversine(latlng.lat, latlng.lng, s.lat, s.lon);
+    if (d < minDist) { minDist = d; nearest = s; }
+  }
+  return { shelter: nearest, dist: minDist };
+}
+
+function distLabel(m) {
+  return m < 1000 ? `${Math.round(m)} מ'` : `${(m / 1000).toFixed(1)} ק"מ`;
+}
+
+function showNearest(userLatLng) {
+  if (!allShelters.length) return;
+  const { shelter, dist } = findNearest(userLatLng);
+  if (!shelter) return;
+
+  // Remove old line
+  if (nearestLine) { map.removeLayer(nearestLine); nearestLine = null; }
+
+  // Dashed line from user to nearest shelter
+  nearestLine = L.polyline([userLatLng, [shelter.lat, shelter.lon]], {
+    color: '#e74c3c', weight: 2, dashArray: '6 6', opacity: 0.8,
+  }).addTo(map);
+
+  // Fit both points in view with padding
+  map.fitBounds(L.latLngBounds([userLatLng, [shelter.lat, shelter.lon]]), {
+    padding: [60, 60],
+  });
+
+  // Build popup content with distance row prepended
+  let html = `<div class="shelter-popup">`;
+  html += `<h6 style="color:#e74c3c">המקלט הקרוב ביותר</h6>`;
+  html += `<div class="field" style="font-weight:700">מרחק: ${distLabel(dist)}</div>`;
+  for (const [key, label] of Object.entries(FIELD_LABELS)) {
+    const val = shelter[key];
+    if (val && String(val).trim()) {
+      html += `<div class="field"><span class="field-label">${label}:</span> ${val}</div>`;
+    }
+  }
+  html += `</div>`;
+
+  L.popup({ maxWidth: 300 })
+    .setLatLng([shelter.lat, shelter.lon])
+    .setContent(html)
+    .openOn(map);
+}
 
 function locate(container) {
   container.classList.add('locating');
@@ -246,7 +306,7 @@ function locate(container) {
       fillColor: '#2980b9', fillOpacity: 0.1,
     }).addTo(map);
 
-    // Pulsing dot via divIcon
+    // Pulsing dot — click it to find nearest shelter
     const dot = L.marker(e.latlng, {
       icon: L.divIcon({
         className: '',
@@ -256,6 +316,8 @@ function locate(container) {
       }),
       zIndexOffset: 1000,
     }).addTo(map);
+
+    dot.on('click', () => showNearest(e.latlng));
 
     locationLayers = [accCircle, dot];
   });

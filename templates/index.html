@@ -527,9 +527,7 @@ toggleBtn.addEventListener('click', () => {
 
 // ── Mobile: start with sidebar closed ────────────────────────
 if (window.innerWidth < 768) {
-  sidebar.classList.add('collapsed');
-  toggleBtn.classList.add('collapsed');
-  setTimeout(() => map.invalidateSize(), 0);
+  toggleBtn.click();   // reuses transition + invalidateSize timing
 }
 
 // ── Boot ──────────────────────────────────────────────────────

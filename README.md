@@ -43,7 +43,7 @@ All filters work together (AND logic) and update the map live.
 ## Local development
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/miklatim.git
+git clone https://github.com/amichw/miklatim_jerus.git
 cd miklatim
 python -m venv venv
 venv/bin/pip install -r requirements.txt

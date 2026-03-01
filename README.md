@@ -47,19 +47,16 @@ All filters work together (AND logic) and update the map live.
 Pushes to `master` automatically deploy via GitHub Actions.
 The static site uses `index.html` + `data/shelters.json` at the repo root.
 
-### Local development (Flask)
+### Local development
 ```bash
 git clone https://github.com/amichw/miklatim_jerus.git
 cd miklatim_jerus
-python -m venv venv
-venv/bin/pip install -r requirements.txt
-venv/bin/python app.py
-# → http://localhost:5000
+python3 -m http.server 8080
+# → http://localhost:8080
 ```
 
 ## Stack
 - **Leaflet.js** – interactive map
 - **Bootstrap 5 RTL** – Hebrew-friendly UI
-- **Flask + pandas** – local dev server and CSV processing
 - **GitHub Pages** – static hosting (no server required)
-- Data: `Records.csv` / `data/shelters.json` – 550+ shelter records from the Jerusalem Municipality
+- Data: `data/shelters.json` – 550+ shelter records from the Jerusalem Municipality

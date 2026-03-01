@@ -150,9 +150,10 @@
     .leaflet-control-locate.located  a { background: #27ae60 !important; color: #fff !important; }
     @keyframes spin { to { transform: rotate(360deg); } }
 
-    /* Push GPS button above phone gesture/navigation bar */
+    /* Push both Leaflet corners above phone gesture/navigation bar */
     @media (max-width: 767px) {
-      .leaflet-bottom.leaflet-left { bottom: 60px; }
+      .leaflet-bottom.leaflet-left,
+      .leaflet-bottom.leaflet-right { bottom: 60px; }
     }
 
     /* ── Pulsing user-location dot ── */

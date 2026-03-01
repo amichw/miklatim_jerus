@@ -78,13 +78,13 @@
       font-size: 0.82rem;
       line-height: 1.6;
       box-shadow: 0 1px 5px rgba(0,0,0,0.3);
-      direction: ltr;
+      text-align: right;
     }
     .legend-dot {
       display: inline-block;
       width: 12px; height: 12px;
       border-radius: 50%;
-      margin-right: 5px;
+      margin-left: 5px;
       vertical-align: middle;
     }
 
@@ -221,10 +221,10 @@ legend.onAdd = () => {
   const div = L.DomUtil.create('div', 'legend');
   div.innerHTML = `
     <strong>סוגי מקלטים</strong><br>
-    <span class="legend-dot" style="background:#c0392b"></span> מחסה<br>
-    <span class="legend-dot" style="background:#2980b9"></span> מקלט נגיש<br>
-    <span class="legend-dot" style="background:#27ae60"></span> מקלט ציבורי<br>
-    <span class="legend-dot" style="background:#7f8c8d"></span> בית ספר
+    מחסה <span class="legend-dot" style="background:#c0392b"></span><br>
+    מקלט נגיש <span class="legend-dot" style="background:#2980b9"></span><br>
+    מקלט ציבורי <span class="legend-dot" style="background:#27ae60"></span><br>
+    בית ספר <span class="legend-dot" style="background:#7f8c8d"></span>
   `;
   return div;
 };

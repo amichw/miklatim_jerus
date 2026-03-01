@@ -250,12 +250,12 @@ const LocateControl = L.Control.extend({
 });
 new LocateControl().addTo(map);
 
-// Auto-trigger geolocation on page load
-locate(locateContainer);
-
 let locationLayers = null;   // accuracy circle + position dot
 let nearestLine = null;      // dashed line to nearest shelter
 let userLocation = null;     // last known GPS position
+
+// Auto-trigger geolocation on page load
+locate(locateContainer);
 
 // ── Haversine distance (metres) ───────────────────────────────
 function haversine(lat1, lon1, lat2, lon2) {

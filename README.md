@@ -2,7 +2,7 @@
 
 Interactive map of 550+ public emergency shelters (מקלטים) in Jerusalem.
 
-**Live site: https://miklatim-jerus.onrender.com/**
+**Live site: https://amichw.github.io/miklatim_jerus/**
 
 ---
 
@@ -11,6 +11,7 @@ Interactive map of 550+ public emergency shelters (מקלטים) in Jerusalem.
 ### Map
 - **Pan & zoom** – drag or pinch the map to explore
 - **Tap a marker** – opens a details card with the shelter's address, type, capacity, and a **"🗺 נווט למקלט"** button that launches Google Maps walking directions
+- **Tap the map** – collapses the sidebar on mobile
 
 ### Marker colors
 | Color | Type |
@@ -21,11 +22,11 @@ Interactive map of 550+ public emergency shelters (מקלטים) in Jerusalem.
 | ⚫ Gray | בית ספר – school shelter |
 
 ### GPS / Locate me
-1. Tap **⊕** (bottom-right corner) to find your current location
-2. The map zooms to you and a **pulsing blue dot** marks your position
-3. A **red dashed line** automatically draws to the nearest shelter and its popup opens
+1. The map **automatically requests your location** on load
+2. A **pulsing blue dot** marks your position and a **red dashed line** draws to the nearest shelter
+3. Tap **⊕** (bottom-right) at any time to re-center on your location
 4. Tap **any marker** to see its distance from you
-5. Tap the **blue dot** again at any time to refresh the nearest shelter
+5. Tap the **blue dot** to refresh the nearest shelter
 
 ### Sidebar filters
 Open the sidebar with the **☰** button (top-right on desktop, auto-hidden on mobile):
@@ -40,11 +41,16 @@ All filters work together (AND logic) and update the map live.
 
 ---
 
-## Local development
+## Deployment
 
+### GitHub Pages (static)
+Pushes to `master` automatically deploy via GitHub Actions.
+The static site uses `index.html` + `data/shelters.json` at the repo root.
+
+### Local development (Flask)
 ```bash
 git clone https://github.com/amichw/miklatim_jerus.git
-cd miklatim
+cd miklatim_jerus
 python -m venv venv
 venv/bin/pip install -r requirements.txt
 venv/bin/python app.py
@@ -52,8 +58,8 @@ venv/bin/python app.py
 ```
 
 ## Stack
-- **Flask** – Python web server
-- **pandas** – CSV loading and cleaning
 - **Leaflet.js** – interactive map
 - **Bootstrap 5 RTL** – Hebrew-friendly UI
-- Data: `Records.csv` – 557 shelter records from the Jerusalem Municipality
+- **Flask + pandas** – local dev server and CSV processing
+- **GitHub Pages** – static hosting (no server required)
+- Data: `Records.csv` / `data/shelters.json` – 550+ shelter records from the Jerusalem Municipality

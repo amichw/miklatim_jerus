@@ -98,6 +98,13 @@
     .filter-section label { font-size: 0.85rem; }
     .filter-title { font-weight: 700; font-size: 0.9rem; color: #1a5276; margin-bottom: 6px; }
 
+    /* Prevent Bootstrap hover-fill from lingering after deselect */
+    #type-filters .btn:not(.active) {
+      --bs-btn-hover-bg: transparent;
+      --bs-btn-hover-color: var(--bs-btn-color);
+      --bs-btn-hover-border-color: var(--bs-btn-border-color);
+    }
+
     /* ── Stats badge ── */
     #stats { font-size: 0.8rem; color: #555; margin-bottom: 10px; }
 
@@ -106,19 +113,25 @@
       display: flex !important;
       align-items: center;
       justify-content: center;
-      font-size: 1.3rem;
-      width: 36px !important;
-      height: 36px !important;
+      font-size: 1.5rem;
+      width: 42px !important;
+      height: 42px !important;
       cursor: pointer;
       text-decoration: none;
-      color: #333;
+      background: #2980b9 !important;
+      color: #fff !important;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.4);
     }
-    .leaflet-control-locate.locating a { color: #2980b9; animation: spin 1s linear infinite; }
-    .leaflet-control-locate.located  a { color: #27ae60; }
+    .leaflet-control-locate.locating a { background: #1a6a9f !important; animation: spin 1s linear infinite; }
+    .leaflet-control-locate.located  a { background: #27ae60 !important; color: #fff !important; }
     @keyframes spin { to { transform: rotate(360deg); } }
 
     /* Push GPS button above phone gesture/navigation bar */
     .leaflet-bottom.leaflet-right { bottom: 60px; }
+
+    @media (max-width: 767px) {
+      .leaflet-bottom.leaflet-left { bottom: 80px; }
+    }
 
     /* ── Pulsing user-location dot ── */
     .user-dot {
@@ -193,7 +206,7 @@
 const map = L.map('map').setView([31.78, 35.21], 13);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> | נוצר ע"י <a href="https://github.com/amichw/miklatim_jerus" target="_blank">Ami</a> | <a href="mailto:amiweil2@gmail.com">amiweil2@gmail.com</a>',
   maxZoom: 19,
 }).addTo(map);
 
@@ -213,10 +226,13 @@ legend.onAdd = () => {
 legend.addTo(map);
 
 // ── Locate control ────────────────────────────────────────────
+let locateContainer;
+
 const LocateControl = L.Control.extend({
   options: { position: 'bottomright' },
   onAdd() {
     const container = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-locate');
+    locateContainer = container;
     const btn = L.DomUtil.create('a', '', container);
     btn.title = 'מיקום נוכחי';
     btn.setAttribute('role', 'button');
@@ -228,6 +244,9 @@ const LocateControl = L.Control.extend({
   },
 });
 new LocateControl().addTo(map);
+
+// Auto-trigger geolocation on page load
+locate(locateContainer);
 
 let locationLayers = null;   // accuracy circle + position dot
 let nearestLine = null;      // dashed line to nearest shelter
@@ -541,6 +560,13 @@ toggleBtn.addEventListener('click', () => {
 if (window.innerWidth < 768) {
   toggleBtn.click();   // reuses transition + invalidateSize timing
 }
+
+// ── Mobile: collapse sidebar on map tap ──────────────────────
+map.on('click', () => {
+  if (window.innerWidth < 768 && !sidebar.classList.contains('collapsed')) {
+    toggleBtn.click();
+  }
+});
 
 // ── Boot ──────────────────────────────────────────────────────
 loadShelters();

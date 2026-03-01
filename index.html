@@ -151,10 +151,8 @@
     @keyframes spin { to { transform: rotate(360deg); } }
 
     /* Push GPS button above phone gesture/navigation bar */
-    .leaflet-bottom.leaflet-right { bottom: 60px; }
-
     @media (max-width: 767px) {
-      .leaflet-bottom.leaflet-left { bottom: 80px; }
+      .leaflet-bottom.leaflet-left { bottom: 60px; }
     }
 
     /* ── Pulsing user-location dot ── */
@@ -240,7 +238,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // ── Legend ────────────────────────────────────────────────────
-const legend = L.control({ position: 'bottomleft' });
+const legend = L.control({ position: 'bottomright' });
 legend.onAdd = () => {
   const div = L.DomUtil.create('div', 'legend');
   div.innerHTML = `
@@ -258,14 +256,21 @@ legend.addTo(map);
 let locateContainer;
 
 const LocateControl = L.Control.extend({
-  options: { position: 'bottomright' },
+  options: { position: 'bottomleft' },
   onAdd() {
     const container = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-locate');
     locateContainer = container;
     const btn = L.DomUtil.create('a', '', container);
     btn.title = 'מיקום נוכחי';
     btn.setAttribute('role', 'button');
-    btn.innerHTML = '⊕';
+    btn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"
+  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+  <circle cx="12" cy="12" r="3"/>
+  <line x1="12" y1="2" x2="12" y2="7"/>
+  <line x1="12" y1="17" x2="12" y2="22"/>
+  <line x1="2" y1="12" x2="7" y2="12"/>
+  <line x1="17" y1="12" x2="22" y2="12"/>
+</svg>`;
     L.DomEvent.on(btn, 'click', L.DomEvent.stopPropagation)
               .on(btn, 'click', L.DomEvent.preventDefault)
               .on(btn, 'click', () => locate(container));
@@ -332,7 +337,7 @@ function showNearest(userLatLng) {
       html += `<div class="field"><span class="field-label">${label}:</span> ${val}</div>`;
     }
   }
-  html += mapsLink(shelter.lat, shelter.lon);
+  html += mapsLink(shelter.lat, shelter.lon, shelter.map_address || shelter.address);
   html += `</div>`;
 
   L.popup({ maxWidth: 300 })
@@ -364,6 +369,7 @@ function locate(container) {
       radius: e.accuracy,
       color: '#2980b9', weight: 1,
       fillColor: '#2980b9', fillOpacity: 0.1,
+      interactive: false,
     }).addTo(map);
 
     const dot = L.marker(e.latlng, {
@@ -446,8 +452,9 @@ const FIELD_LABELS = {
   category:       'קטגוריה',
 };
 
-function mapsLink(lat, lon) {
-  const url = `https://www.google.com/maps/dir/?api=1&destination=${lat},${lon}&travelmode=walking`;
+function mapsLink(lat, lon, address) {
+  const dest = address ? encodeURIComponent(address) : `${lat},${lon}`;
+  const url = `https://www.google.com/maps/dir/?api=1&destination=${dest}&travelmode=walking`;
   return `<div style="margin-top:8px;text-align:center">
     <a href="${url}" target="_blank" rel="noopener"
        style="display:inline-block;padding:6px 16px;background:#1a5276;color:#fff;
@@ -469,7 +476,7 @@ function buildPopup(s) {
       html += `<div class="field"><span class="field-label">${label}:</span> ${val}</div>`;
     }
   }
-  html += mapsLink(s.lat, s.lon);
+  html += mapsLink(s.lat, s.lon, s.map_address || s.address);
   html += `</div>`;
   return html;
 }

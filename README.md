@@ -24,7 +24,7 @@ Interactive map of 550+ public emergency shelters (מקלטים) in Jerusalem.
 ### GPS / Locate me
 1. The map **automatically requests your location** on load
 2. A **pulsing blue dot** marks your position and a **red dashed line** draws to the nearest shelter
-3. Tap **⊕** (bottom-right) at any time to re-center on your location
+3. Tap the **crosshair button** (bottom-left) at any time to re-center on your location
 4. Tap **any marker** to see its distance from you
 5. Tap the **blue dot** to refresh the nearest shelter
 
@@ -43,11 +43,7 @@ All filters work together (AND logic) and update the map live.
 
 ## Deployment
 
-### GitHub Pages (static)
-Pushes to `master` automatically deploy via GitHub Actions.
-The static site uses `index.html` + `data/shelters.json` at the repo root.
-
-### Local development
+### Local Development
 ```bash
 git clone https://github.com/amichw/miklatim_jerus.git
 cd miklatim_jerus

@@ -4,3 +4,7 @@ __pycache__/
 .env
 .claude/
 test_app.py
+app.py
+requirements.txt
+Records.csv
+templates/

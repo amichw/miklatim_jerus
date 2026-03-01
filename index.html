@@ -94,6 +94,29 @@
     .shelter-popup .field { margin-bottom: 3px; font-size: 0.85rem; }
     .shelter-popup .field-label { font-weight: 600; color: #444; }
 
+    /* ── Search dropdown ── */
+    .search-dropdown {
+      list-style: none;
+      margin: 2px 0 0;
+      padding: 0;
+      background: #fff;
+      border: 1px solid #ced4da;
+      border-radius: 4px;
+      max-height: 220px;
+      overflow-y: auto;
+      display: none;
+      z-index: 1001;
+      font-size: 0.82rem;
+    }
+    .search-dropdown li {
+      padding: 6px 10px;
+      cursor: pointer;
+      border-bottom: 1px solid #f0f0f0;
+      line-height: 1.3;
+    }
+    .search-dropdown li:last-child { border-bottom: none; }
+    .search-dropdown li:hover { background: #e8f4fd; }
+
     /* ── Filter section ── */
     .filter-section { margin-bottom: 14px; }
     .filter-section label { font-size: 0.85rem; }
@@ -170,7 +193,8 @@
       <div class="filter-section">
         <div class="filter-title">חיפוש חופשי</div>
         <input id="search-input" type="text" class="form-control form-control-sm"
-               placeholder="כתובת, מספר מקלט, שכונה…" />
+               placeholder="כתובת, מספר מקלט, שכונה…" autocomplete="off" />
+        <ul id="search-dropdown" class="search-dropdown"></ul>
       </div>
 
       <!-- Type toggles -->
@@ -525,6 +549,7 @@ function applyFilters() {
 
   layerGroup.clearLayers();
   let visible = 0;
+  const matches = [];
 
   for (const s of allShelters) {
     const type = shelterType(s);
@@ -543,6 +568,8 @@ function applyFilters() {
       if (!haystack.includes(query)) continue;
     }
 
+    matches.push(s);
+
     const color = TYPE_COLOR[type];
     const marker = L.circleMarker([s.lat, s.lon], {
       radius: zoomRadius(),
@@ -553,13 +580,58 @@ function applyFilters() {
       fillOpacity: 0.85,
     });
     marker.bindPopup(buildPopup(s), { maxWidth: 300 });
+    marker._shelterId = s.shelter_number;
     layerGroup.addLayer(marker);
     visible++;
   }
 
   document.getElementById('stats').textContent =
     `מציג ${visible} מתוך ${allShelters.length} מקלטים`;
+
+  updateDropdown(matches, query);
 }
+
+// ── Search dropdown ───────────────────────────────────────────
+function hideDropdown() {
+  const dd = document.getElementById('search-dropdown');
+  dd.style.display = 'none';
+  dd.innerHTML = '';
+}
+
+function updateDropdown(matches, query) {
+  const dd = document.getElementById('search-dropdown');
+  if (!query || matches.length === 0) { hideDropdown(); return; }
+
+  dd.innerHTML = '';
+  for (const s of matches.slice(0, 8)) {
+    const li = document.createElement('li');
+    const addr = s.address || s.map_address || '';
+    const nb = s.neighborhood ? ` — ${s.neighborhood}` : '';
+    li.textContent = addr + nb;
+    li.addEventListener('mousedown', (e) => {
+      e.preventDefault(); // keep focus on input so blur doesn't hide before click
+      flyToShelter(s);
+    });
+    dd.appendChild(li);
+  }
+  dd.style.display = 'block';
+}
+
+function flyToShelter(s) {
+  document.getElementById('search-input').value = s.address || '';
+  hideDropdown();
+  applyFilters();
+  map.setView([s.lat, s.lon], 17);
+  layerGroup.eachLayer(layer => {
+    if (layer._shelterId === s.shelter_number) layer.openPopup();
+  });
+}
+
+const searchInput = document.getElementById('search-input');
+searchInput.addEventListener('blur', hideDropdown);
+searchInput.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') hideDropdown();
+});
 
 // ── Sidebar toggle ────────────────────────────────────────────
 const sidebar   = document.getElementById('sidebar');

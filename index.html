@@ -318,24 +318,30 @@ function showNearest(userLatLng) {
 }
 
 function locate(container) {
+  // If we already have a stored location, center on it immediately
+  if (userLocation) {
+    map.setView(userLocation, Math.max(map.getZoom(), 16));
+  }
+
   container.classList.add('locating');
-  map.locate({ setView: true, maxZoom: 16, enableHighAccuracy: true });
+  map.locate({ enableHighAccuracy: true });
 
   map.once('locationfound', (e) => {
     container.classList.remove('locating');
     container.classList.add('located');
 
-    // Remove previous location layers
+    const isNew = !userLocation ||
+      haversine(userLocation.lat, userLocation.lng, e.latlng.lat, e.latlng.lng) > 15;
+
+    // Always refresh dot + accuracy circle
     if (locationLayers) locationLayers.forEach(l => map.removeLayer(l));
 
-    // Accuracy circle
     const accCircle = L.circle(e.latlng, {
       radius: e.accuracy,
       color: '#2980b9', weight: 1,
       fillColor: '#2980b9', fillOpacity: 0.1,
     }).addTo(map);
 
-    // Pulsing dot — click it to find nearest shelter
     const dot = L.marker(e.latlng, {
       icon: L.divIcon({
         className: '',
@@ -347,13 +353,17 @@ function locate(container) {
     }).addTo(map);
 
     dot.on('click', () => showNearest(e.latlng));
-
     locationLayers = [accCircle, dot];
-
-    // Store location, rebuild markers with distances, auto-show nearest
     userLocation = e.latlng;
-    applyFilters();
-    showNearest(e.latlng);
+
+    // Always re-center on new GPS result
+    map.setView(e.latlng, Math.max(map.getZoom(), 16));
+
+    // Only pop nearest and recompute distances if location changed
+    if (isNew) {
+      applyFilters();
+      showNearest(e.latlng);
+    }
   });
 
   map.once('locationerror', (e) => {

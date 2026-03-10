@@ -2,20 +2,25 @@
 Geocode shelter addresses → geo_lat/geo_lon columns in data/shelters.json.
 
 Strategy (in order):
-  1. Nominatim  (1 req/sec limit)
-  2. Photon     (fallback, no hard rate limit but be polite)
+  1. Google Maps  (requires GOOGLE_MAPS_API_KEY env var, --google flag)
+  2. Nominatim   (1 req/sec limit)
+  3. Photon      (fallback, no hard rate limit but be polite)
 
 Run:
-    venv/bin/python geocode_shelters.py          # skips already-geocoded
-    venv/bin/python geocode_shelters.py --retry  # re-tries nulls too
+    venv/bin/python geocode_shelters.py                   # skips already-geocoded
+    venv/bin/python geocode_shelters.py --retry           # re-tries nulls too
+    venv/bin/python geocode_shelters.py --google --retry  # use Google Maps first
 """
 
 import json
+import os
 import sys
 import time
 import urllib.request
 import urllib.parse
 from pathlib import Path
+
+GOOGLE_KEY = os.environ.get("GOOGLE_MAPS_API_KEY")
 
 DATA_FILE = Path(__file__).parent / "data" / "shelters.json"
 HEADERS = {"User-Agent": "miklatim-jerusalem-geocoder/1.0 (amiweil2@gmail.com)"}
@@ -25,6 +30,26 @@ def _fetch(url: str) -> list | dict:
     req = urllib.request.Request(url, headers=HEADERS)
     with urllib.request.urlopen(req, timeout=10) as r:
         return json.loads(r.read())
+
+
+def google_maps(address: str) -> tuple[float, float] | None:
+    if not GOOGLE_KEY:
+        return None
+    params = urllib.parse.urlencode({
+        "address": address,
+        "key": GOOGLE_KEY,
+        "language": "he",
+        "region": "il",
+        "bounds": "31.70,35.15|31.85,35.32",
+    })
+    try:
+        data = _fetch(f"https://maps.googleapis.com/maps/api/geocode/json?{params}")
+        if data.get("status") == "OK" and data["results"]:
+            loc = data["results"][0]["geometry"]["location"]
+            return float(loc["lat"]), float(loc["lng"])
+    except Exception as e:
+        print(f"    Google error: {e}")
+    return None
 
 
 def nominatim(address: str) -> tuple[float, float] | None:
@@ -62,8 +87,13 @@ def photon(address: str) -> tuple[float, float] | None:
     return None
 
 
-def geocode(address: str) -> tuple[tuple[float, float] | None, str]:
-    """Returns (result, source) where source is 'nominatim', 'photon', or 'none'."""
+def geocode(address: str, use_google: bool = False) -> tuple[tuple[float, float] | None, str]:
+    """Returns (result, source) where source is 'google', 'nominatim', 'photon', or 'none'."""
+    if use_google:
+        result = google_maps(address)
+        if result:
+            return result, "google"
+
     result = nominatim(address)
     time.sleep(1.1)  # Nominatim rate limit
     if result:
@@ -79,6 +109,10 @@ def geocode(address: str) -> tuple[tuple[float, float] | None, str]:
 
 def main():
     retry_nulls = "--retry" in sys.argv
+    use_google  = "--google" in sys.argv
+    if use_google and not GOOGLE_KEY:
+        print("WARNING: --google flag set but GOOGLE_MAPS_API_KEY env var is not set. Skipping Google.")
+        use_google = False
 
     shelters = json.loads(DATA_FILE.read_text(encoding="utf-8"))
     total = len(shelters)
@@ -101,7 +135,7 @@ def main():
             print(f"[{count}/{len(pending)}] #{idx} — no address")
             continue
 
-        result, source = geocode(address)
+        result, source = geocode(address, use_google=use_google)
         if result:
             s["geo_lat"], s["geo_lon"] = result
             s["geo_source"] = source

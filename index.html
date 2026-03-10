@@ -194,6 +194,9 @@
   @media (max-width: 767px) {
     .leaflet-control-attribution .attr-break { display: block; }
   }
+
+  /* ── Street-pin marker ── */
+  .street-pin { font-size: 1.5rem; line-height: 1; filter: drop-shadow(0 1px 2px rgba(0,0,0,0.5)); }
   </style>
 </head>
 <body>
@@ -208,11 +211,14 @@
 
       <div id="stats">טוען נתונים…</div>
 
-      <!-- Text search -->
+      <!-- Street search -->
       <div class="filter-section">
-        <div class="filter-title">חיפוש חופשי</div>
-        <input id="search-input" type="text" class="form-control form-control-sm"
-               placeholder="כתובת, מספר מקלט, שכונה…" autocomplete="off" />
+        <div class="filter-title">חיפוש רחוב</div>
+        <div class="input-group input-group-sm">
+          <input id="search-input" type="text" class="form-control"
+                 placeholder="חפש רחוב בירושלים..." autocomplete="off" />
+          <button class="btn btn-outline-secondary" id="search-btn" type="button" title="חיפוש">🔍</button>
+        </div>
         <ul id="search-dropdown" class="search-dropdown"></ul>
       </div>
 
@@ -331,27 +337,28 @@ function distLabel(m) {
   return m < 1000 ? `${Math.round(m)} מ'` : `${(m / 1000).toFixed(1)} ק"מ`;
 }
 
-function showNearest(userLatLng) {
+function showNearestAt(lat, lon, fromLabel = 'מיקומך') {
   if (!allShelters.length) return;
-  const { shelter, dist } = findNearest(userLatLng);
+  const latlng = L.latLng(lat, lon);
+  const { shelter, dist } = findNearest(latlng);
   if (!shelter) return;
 
   // Remove old line
   if (nearestLine) { map.removeLayer(nearestLine); nearestLine = null; }
 
-  // Dashed line from user to nearest shelter
-  nearestLine = L.polyline([userLatLng, [shelter.lat, shelter.lon]], {
+  // Dashed line from origin to nearest shelter
+  nearestLine = L.polyline([latlng, [shelter.lat, shelter.lon]], {
     color: '#e74c3c', weight: 2, dashArray: '6 6', opacity: 0.8,
   }).addTo(map);
 
   // Fit both points in view with padding
-  map.fitBounds(L.latLngBounds([userLatLng, [shelter.lat, shelter.lon]]), {
+  map.fitBounds(L.latLngBounds([latlng, [shelter.lat, shelter.lon]]), {
     padding: [60, 60],
   });
 
   // Build popup content with distance row prepended
   let html = `<div class="shelter-popup">`;
-  html += `<h6 style="color:#e74c3c">המקלט הקרוב ביותר</h6>`;
+  html += `<h6 style="color:#e74c3c">מקלט קרוב ל${fromLabel}</h6>`;
   html += `<div class="field" style="font-weight:700">מרחק: ${distLabel(dist)}</div>`;
   for (const [key, label] of Object.entries(FIELD_LABELS)) {
     const val = shelter[key];
@@ -413,7 +420,7 @@ function locate(container, userInitiated = false) {
       zIndexOffset: 1000,
     }).addTo(map);
 
-    dot.on('click', () => showNearest(e.latlng));
+    dot.on('click', () => showNearestAt(e.latlng.lat, e.latlng.lng));
     locationLayers = [accCircle, dot];
     userLocation = e.latlng;
 
@@ -423,7 +430,7 @@ function locate(container, userInitiated = false) {
     // Only pop nearest and recompute distances if location changed
     if (isNew) {
       applyFilters();
-      showNearest(e.latlng);
+      showNearestAt(e.latlng.lat, e.latlng.lng);
     }
   });
 
@@ -576,20 +583,14 @@ document.getElementById('clear-all-nb').addEventListener('click', () => {
   applyFilters();
 });
 
-// ── Search input ──────────────────────────────────────────────
-document.getElementById('search-input').addEventListener('input', applyFilters);
-
 // ── Filter logic ──────────────────────────────────────────────
 function applyFilters() {
-  const query = document.getElementById('search-input').value.trim().toLowerCase();
-
   const checkedNB = new Set(
     [...document.querySelectorAll('.nb-check:checked')].map(cb => cb.value)
   );
 
   layerGroup.clearLayers();
   let visible = 0;
-  const matches = [];
 
   for (const s of allShelters) {
     const type = shelterType(s);
@@ -600,15 +601,6 @@ function applyFilters() {
     // Neighborhood filter (shelters with no neighborhood always pass)
     const nb = s.neighborhood || '';
     if (nb && checkedNB.size > 0 && !checkedNB.has(nb)) continue;
-
-    // Text search
-    if (query) {
-      const haystack = [s.address, s.shelter_number, s.neighborhood, s.map_address]
-        .join(' ').toLowerCase();
-      if (!haystack.includes(query)) continue;
-    }
-
-    matches.push(s);
 
     const color = TYPE_COLOR[type];
     const marker = L.circleMarker([s.lat, s.lon], {
@@ -627,51 +619,167 @@ function applyFilters() {
 
   document.getElementById('stats').textContent =
     `מציג ${visible} מתוך ${allShelters.length} מקלטים`;
-
-  updateDropdown(matches, query);
 }
 
-// ── Search dropdown ───────────────────────────────────────────
-function hideDropdown() {
+// ── Street geocoder ───────────────────────────────────────────
+let streetPin = null;
+let streetPinTimer = null;
+let streetSearchController = null;
+
+function clearStreetPin() {
+  if (streetPin) { map.removeLayer(streetPin); streetPin = null; }
+  if (streetPinTimer) { clearTimeout(streetPinTimer); streetPinTimer = null; }
+}
+
+function hideGeoDropdown() {
   const dd = document.getElementById('search-dropdown');
   dd.style.display = 'none';
   dd.innerHTML = '';
 }
 
-function updateDropdown(matches, query) {
+function showGeoDropdown(results) {
   const dd = document.getElementById('search-dropdown');
-  if (!query || matches.length === 0) { hideDropdown(); return; }
-
   dd.innerHTML = '';
-  for (const s of matches.slice(0, 8)) {
+  for (const r of results) {
     const li = document.createElement('li');
-    const addr = s.address || s.map_address || '';
-    const nb = s.neighborhood ? ` — ${s.neighborhood}` : '';
-    li.textContent = addr + nb;
+    li.textContent = r.display_name.split(',').slice(0, 3).join(', ');
     li.addEventListener('mousedown', (e) => {
-      e.preventDefault(); // keep focus on input so blur doesn't hide before click
-      flyToShelter(s);
+      e.preventDefault();
+      selectGeoResult(r);
     });
     dd.appendChild(li);
   }
   dd.style.display = 'block';
 }
 
-function flyToShelter(s) {
-  document.getElementById('search-input').value = s.address || '';
-  hideDropdown();
-  applyFilters();
-  map.setView([s.lat, s.lon], 17);
-  layerGroup.eachLayer(layer => {
-    if (layer._shelterId === s.shelter_number) layer.openPopup();
-  });
+function selectGeoResult(result) {
+  hideGeoDropdown();
+  document.getElementById('search-input').value =
+    result.display_name.split(',').slice(0, 2).join(', ');
+  const lat = parseFloat(result.lat);
+  const lon = parseFloat(result.lon);
+
+  // Place / refresh street pin
+  clearStreetPin();
+  streetPin = L.marker([lat, lon], {
+    icon: L.divIcon({
+      className: '',
+      html: '<div class="street-pin">📍</div>',
+      iconSize: [24, 24],
+      iconAnchor: [12, 24],
+    }),
+    zIndexOffset: 500,
+  }).addTo(map);
+  streetPinTimer = setTimeout(clearStreetPin, 30000);
+
+  showNearestAt(lat, lon, 'הרחוב שבחרת');
+}
+
+function setSearchSpinner(show) {
+  document.getElementById('search-btn').innerHTML = show
+    ? '<span class="spinner-border spinner-border-sm" role="status"></span>'
+    : '🔍';
+}
+
+async function searchStreet() {
+  const query = document.getElementById('search-input').value.trim();
+  if (!query) return;
+
+  // Cancel any in-flight request
+  if (streetSearchController) streetSearchController.abort();
+  streetSearchController = new AbortController();
+
+  setSearchSpinner(true);
+  hideGeoDropdown();
+
+  try {
+    const url = 'https://nominatim.openstreetmap.org/search?'
+      + new URLSearchParams({
+          q: query + ', ירושלים',
+          format: 'json',
+          limit: '5',
+          countrycodes: 'il',
+          viewbox: '35.15,31.85,35.32,31.70',
+          bounded: '1',
+        });
+    const res = await fetch(url, { signal: streetSearchController.signal });
+    const results = await res.json();
+
+    if (!results.length) {
+      showLocToast('רחוב לא נמצא');
+      return;
+    }
+    if (results.length === 1) {
+      selectGeoResult(results[0]);
+    } else {
+      showGeoDropdown(results);
+    }
+  } catch (err) {
+    if (err.name !== 'AbortError') showLocToast('שגיאה בחיפוש');
+  } finally {
+    setSearchSpinner(false);
+  }
 }
 
 const searchInput = document.getElementById('search-input');
-searchInput.addEventListener('blur', hideDropdown);
+document.getElementById('search-btn').addEventListener('click', searchStreet);
 searchInput.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape') hideDropdown();
+  if (e.key === 'Enter') { e.preventDefault(); searchStreet(); }
+  if (e.key === 'Escape') hideGeoDropdown();
 });
+searchInput.addEventListener('blur', () => setTimeout(hideGeoDropdown, 150));
+
+// ── Right-click / long-press → find nearest shelter ───────────
+function openLongPressPopup(latlng) {
+  const html = `<div style="text-align:right;direction:rtl">
+    <b>מצא מקלט קרוב</b><br>
+    <button class="btn btn-sm btn-danger mt-1"
+            onclick="findNearestFromPopup(${latlng.lat},${latlng.lng})">
+      מצא מקלט קרוב כאן
+    </button>
+  </div>`;
+  L.popup({ maxWidth: 230 })
+    .setLatLng(latlng)
+    .setContent(html)
+    .openOn(map);
+}
+
+function findNearestFromPopup(lat, lon) {
+  map.closePopup();
+  showNearestAt(lat, lon, 'הנקודה שבחרת');
+}
+
+// Desktop right-click
+map.on('contextmenu', (e) => {
+  L.DomEvent.preventDefault(e.originalEvent);
+  openLongPressPopup(e.latlng);
+});
+
+// Mobile long-press (600 ms, cancel on move > 10 px)
+let _touchTimer = null;
+let _touchStartPos = null;
+let _longPressLatLng = null;
+
+map.on('touchstart', (e) => {
+  if (e.originalEvent.touches.length !== 1) return;
+  const t = e.originalEvent.touches[0];
+  _touchStartPos = { x: t.clientX, y: t.clientY };
+  _longPressLatLng = e.latlng;
+  _touchTimer = setTimeout(() => {
+    openLongPressPopup(_longPressLatLng);
+    _touchTimer = null;
+  }, 600);
+});
+
+map.on('touchmove', (e) => {
+  if (!_touchTimer || !_touchStartPos) return;
+  const t = e.originalEvent.touches[0];
+  const dx = t.clientX - _touchStartPos.x;
+  const dy = t.clientY - _touchStartPos.y;
+  if (dx * dx + dy * dy > 100) { clearTimeout(_touchTimer); _touchTimer = null; }
+});
+
+map.on('touchend', () => { clearTimeout(_touchTimer); _touchTimer = null; });
 
 // ── Sidebar toggle ────────────────────────────────────────────
 const sidebar   = document.getElementById('sidebar');

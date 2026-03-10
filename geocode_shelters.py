@@ -8,8 +8,10 @@ Strategy (in order):
 
 Run:
     venv/bin/python geocode_shelters.py                   # skips already-geocoded
-    venv/bin/python geocode_shelters.py --retry           # re-tries nulls too
-    venv/bin/python geocode_shelters.py --google --retry  # use Google Maps first
+    venv/bin/python geocode_shelters.py --retry           # re-tries nulls only
+    venv/bin/python geocode_shelters.py --force           # re-geocodes ALL shelters
+    venv/bin/python geocode_shelters.py --google --retry  # use Google Maps, nulls only
+    venv/bin/python geocode_shelters.py --google --force  # use Google Maps for all
 """
 
 import json
@@ -110,6 +112,7 @@ def geocode(address: str, use_google: bool = False) -> tuple[tuple[float, float]
 def main():
     retry_nulls = "--retry" in sys.argv
     use_google  = "--google" in sys.argv
+    force_all   = "--force" in sys.argv
     if use_google and not GOOGLE_KEY:
         print("WARNING: --google flag set but GOOGLE_MAPS_API_KEY env var is not set. Skipping Google.")
         use_google = False
@@ -117,7 +120,10 @@ def main():
     shelters = json.loads(DATA_FILE.read_text(encoding="utf-8"))
     total = len(shelters)
 
-    if retry_nulls:
+    if force_all:
+        pending = list(range(len(shelters)))
+        print(f"Force mode — re-geocoding all {len(pending)} shelters")
+    elif retry_nulls:
         pending = [i for i, s in enumerate(shelters) if s.get("geo_lat") is None]
         print(f"Retry mode — re-geocoding {len(pending)} nulls")
     else:

@@ -535,6 +535,11 @@ async function loadShelters() {
     const res = await fetch('data/shelters.json');
     if (!res.ok) throw new Error(`HTTP error: ${res.status} ${res.statusText}`);
     allShelters = await res.json();
+    // Prefer geocoded coords over original when available
+    for (const s of allShelters) {
+      if (s.geo_lat != null) s.lat = s.geo_lat;
+      if (s.geo_lon != null) s.lon = s.geo_lon;
+    }
     buildNeighborhoodFilters();
     applyFilters();
   } catch (err) {
@@ -643,14 +648,16 @@ function hideGeoDropdown() {
   dd.innerHTML = '';
 }
 
+function photonLabel(p) {
+  return [p.name, p.district || p.city].filter(Boolean).join(', ');
+}
+
 function showGeoDropdown(results) {
   const dd = document.getElementById('search-dropdown');
   dd.innerHTML = '';
   for (const r of results) {
-    const p = r.properties;
-    const label = [p.name, p.district || p.city].filter(Boolean).join(', ');
     const li = document.createElement('li');
-    li.textContent = label;
+    li.textContent = photonLabel(r.properties);
     li.addEventListener('mousedown', (e) => { e.preventDefault(); selectGeoResult(r); });
     dd.appendChild(li);
   }
@@ -660,8 +667,7 @@ function showGeoDropdown(results) {
 function selectGeoResult(result) {
   hideGeoDropdown();
   const p = result.properties;
-  document.getElementById('search-input').value =
-    [p.name, p.district || p.city].filter(Boolean).join(', ');
+  document.getElementById('search-input').value = photonLabel(p);
   const lon = result.geometry.coordinates[0];
   const lat = result.geometry.coordinates[1];
 
@@ -698,7 +704,8 @@ async function searchStreet(explicit = false) {
   hideGeoDropdown();
 
   try {
-    const url = `https://photon.komoot.io/api/?q=${encodeURIComponent(query)}&lang=default&limit=5&bbox=35.15,31.70,35.32,31.85`;
+    const lang = /[\u0590-\u05FF]/.test(query) ? 'default' : 'en';
+    const url = `https://photon.komoot.io/api/?q=${encodeURIComponent(query)}&lang=${lang}&limit=5&bbox=35.15,31.70,35.32,31.85`;
     const res = await fetch(url, { signal: streetSearchController.signal });
     const data = await res.json();
     const results = data.features || [];

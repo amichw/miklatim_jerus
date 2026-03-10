@@ -139,7 +139,7 @@
       justify-content: center;
       font-size: 1.5rem;
       width: 42px !important;
-      height: 42px !important;
+      height: 50px !important;
       cursor: pointer;
       text-decoration: none;
       background: #2980b9 !important;
@@ -291,14 +291,17 @@ const LocateControl = L.Control.extend({
     const btn = L.DomUtil.create('a', '', container);
     btn.title = 'מיקום נוכחי';
     btn.setAttribute('role', 'button');
-    btn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"
-  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
-  <circle cx="12" cy="12" r="3"/>
-  <line x1="12" y1="2" x2="12" y2="7"/>
-  <line x1="12" y1="17" x2="12" y2="22"/>
-  <line x1="2" y1="12" x2="7" y2="12"/>
-  <line x1="17" y1="12" x2="22" y2="12"/>
-</svg>`;
+    btn.innerHTML = `<span style="display:flex;flex-direction:column;align-items:center;gap:1px">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18"
+    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+    <circle cx="12" cy="12" r="3"/>
+    <line x1="12" y1="2" x2="12" y2="7"/>
+    <line x1="12" y1="17" x2="12" y2="22"/>
+    <line x1="2" y1="12" x2="7" y2="12"/>
+    <line x1="17" y1="12" x2="22" y2="12"/>
+  </svg>
+  <span style="font-size:0.55rem;line-height:1;font-weight:600;letter-spacing:0">מיקום</span>
+</span>`;
     L.DomEvent.on(btn, 'click', L.DomEvent.stopPropagation)
               .on(btn, 'click', L.DomEvent.preventDefault)
               .on(btn, 'click', () => locate(container, true));
@@ -310,6 +313,8 @@ new LocateControl().addTo(map);
 let locationLayers = null;   // accuracy circle + position dot
 let nearestLine = null;      // dashed line to nearest shelter
 let userLocation = null;     // last known GPS position
+let activeOrigin = null;     // { lat, lng, label } — distance source (GPS or manual pick)
+let _nearestOSRMGen = 0;     // generation counter to discard stale OSRM responses
 
 // Auto-trigger geolocation on page load (silent – no error toast)
 locate(locateContainer, false);
@@ -337,11 +342,31 @@ function distLabel(m) {
   return m < 1000 ? `${Math.round(m)} מ'` : `${(m / 1000).toFixed(1)} ק"מ`;
 }
 
-function showNearestAt(lat, lon, fromLabel = 'מיקומך') {
+function walkLabel(dist, seconds) {
+  const mins = Math.round(seconds / 60);
+  return `(הליכה: ${distLabel(dist)} ~${mins} דק')`;
+}
+
+async function walkingRoute(lat1, lon1, lat2, lon2) {
+  try {
+    const url = `https://routing.openstreetmap.de/routed-foot/route/v1/driving/`
+      + `${lon1},${lat1};${lon2},${lat2}?overview=false`;
+    const res = await fetch(url);
+    const data = await res.json();
+    if (data.code === 'Ok' && data.routes.length) {
+      return { dist: data.routes[0].distance, duration: data.routes[0].duration };
+    }
+  } catch (_) {}
+  return null;
+}
+
+async function showNearestAt(lat, lon, fromLabel = 'מיקומך') {
   if (!allShelters.length) return;
   const latlng = L.latLng(lat, lon);
   const { shelter, dist } = findNearest(latlng);
   if (!shelter) return;
+
+  const gen = ++_nearestOSRMGen;
 
   // Remove old line
   if (nearestLine) { map.removeLayer(nearestLine); nearestLine = null; }
@@ -357,9 +382,10 @@ function showNearestAt(lat, lon, fromLabel = 'מיקומך') {
   });
 
   // Build popup content with distance row prepended
+  const distSpanId = 'nearest-dist';
   let html = `<div class="shelter-popup">`;
   html += `<h6 style="color:#e74c3c">מקלט קרוב ל${fromLabel}</h6>`;
-  html += `<div class="field" style="font-weight:700">מרחק: ${distLabel(dist)}</div>`;
+  html += `<div class="field" style="font-weight:700">מרחק: <span id="${distSpanId}">${distLabel(dist)} ✈</span></div>`;
   for (const [key, label] of Object.entries(FIELD_LABELS)) {
     const val = shelter[key];
     if (val && String(val).trim()) {
@@ -373,6 +399,14 @@ function showNearestAt(lat, lon, fromLabel = 'מיקומך') {
     .setLatLng([shelter.lat, shelter.lon])
     .setContent(html)
     .openOn(map);
+
+  // Async: update span with walking distance once OSRM responds
+  // Guard with generation counter — discard if a newer call already opened a popup
+  walkingRoute(lat, lon, shelter.lat, shelter.lon).then(route => {
+    if (gen !== _nearestOSRMGen) return;
+    const el = document.getElementById(distSpanId);
+    if (el && route) el.innerHTML = `${distLabel(dist)} ✈ ${walkLabel(route.dist, route.duration)}`;
+  });
 }
 
 let _locToastTimer = null;
@@ -423,6 +457,7 @@ function locate(container, userInitiated = false) {
     dot.on('click', () => showNearestAt(e.latlng.lat, e.latlng.lng));
     locationLayers = [accCircle, dot];
     userLocation = e.latlng;
+    activeOrigin = { lat: e.latlng.lat, lng: e.latlng.lng, label: 'מיקומך' };
 
     // Always re-center on new GPS result
     map.setView(e.latlng, Math.max(map.getZoom(), 16));
@@ -509,9 +544,14 @@ function mapsLink(lat, lon, address, originLat, originLon) {
 function buildPopup(s) {
   let html = `<div class="shelter-popup">`;
   html += `<h6>${s.shelter_number || 'מקלט'}</h6>`;
-  if (userLocation) {
-    const d = haversine(userLocation.lat, userLocation.lng, s.lat, s.lon);
-    html += `<div class="field" style="font-weight:700;color:#555">📍 מרחק: ${distLabel(d)}</div>`;
+  if (activeOrigin) {
+    const d = haversine(activeOrigin.lat, activeOrigin.lng, s.lat, s.lon);
+    const popupId = `pdist-${s.shelter_number}`;
+    html += `<div class="field" style="font-weight:700;color:#555" id="${popupId}">📍 מרחק: ${distLabel(d)} ✈</div>`;
+    walkingRoute(activeOrigin.lat, activeOrigin.lng, s.lat, s.lon).then(route => {
+      const el = document.getElementById(popupId);
+      if (el && route) el.innerHTML = `📍 מרחק: ${distLabel(d)} ✈ ${walkLabel(route.dist, route.duration)}`;
+    });
   }
   for (const [key, label] of Object.entries(FIELD_LABELS)) {
     const val = s[key];
@@ -520,8 +560,8 @@ function buildPopup(s) {
     }
   }
   html += mapsLink(s.lat, s.lon, s.map_address || s.address,
-    userLocation ? userLocation.lat : null,
-    userLocation ? userLocation.lng : null);
+    activeOrigin ? activeOrigin.lat : null,
+    activeOrigin ? activeOrigin.lng : null);
   html += `</div>`;
   return html;
 }
@@ -535,10 +575,12 @@ async function loadShelters() {
     const res = await fetch('data/shelters.json');
     if (!res.ok) throw new Error(`HTTP error: ${res.status} ${res.statusText}`);
     allShelters = await res.json();
-    // Prefer geocoded coords over original when available
+    // Prefer geocoded coords unless explicitly overridden (use_geo === false)
     for (const s of allShelters) {
-      if (s.geo_lat != null) s.lat = s.geo_lat;
-      if (s.geo_lon != null) s.lon = s.geo_lon;
+      if (s.geo_lat != null && s.use_geo !== false) {
+        s.lat = s.geo_lat;
+        s.lon = s.geo_lon;
+      }
     }
     buildNeighborhoodFilters();
     applyFilters();
@@ -621,7 +663,7 @@ function applyFilters() {
       opacity: 1,
       fillOpacity: 0.85,
     });
-    marker.bindPopup(buildPopup(s), { maxWidth: 300 });
+    marker.bindPopup(() => buildPopup(s), { maxWidth: 300 });
     marker._shelterId = s.shelter_number;
     layerGroup.addLayer(marker);
     visible++;
@@ -670,6 +712,7 @@ function selectGeoResult(result) {
   document.getElementById('search-input').value = photonLabel(p);
   const lon = result.geometry.coordinates[0];
   const lat = result.geometry.coordinates[1];
+  activeOrigin = { lat, lng: lon, label: 'הרחוב שבחרת' };
 
   // Place / refresh street pin
   clearStreetPin();
@@ -755,6 +798,7 @@ function openLongPressPopup(latlng) {
 
 function findNearestFromPopup(lat, lon) {
   map.closePopup();
+  activeOrigin = { lat, lng: lon, label: 'הנקודה שבחרת' };
   showNearestAt(lat, lon, 'הנקודה שבחרת');
 }
 

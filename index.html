@@ -366,7 +366,7 @@ function showNearestAt(lat, lon, fromLabel = 'מיקומך') {
       html += `<div class="field"><span class="field-label">${label}:</span> ${val}</div>`;
     }
   }
-  html += mapsLink(shelter.lat, shelter.lon, shelter.map_address || shelter.address);
+  html += mapsLink(shelter.lat, shelter.lon, shelter.map_address || shelter.address, lat, lon);
   html += `</div>`;
 
   L.popup({ maxWidth: 300 })
@@ -492,9 +492,12 @@ const FIELD_LABELS = {
   category:       'קטגוריה',
 };
 
-function mapsLink(lat, lon, address) {
+function mapsLink(lat, lon, address, originLat, originLon) {
   const dest = address ? encodeURIComponent(address) : `${lat},${lon}`;
-  const url = `https://www.google.com/maps/dir/?api=1&destination=${dest}&travelmode=walking`;
+  let url = `https://www.google.com/maps/dir/?api=1&destination=${dest}&travelmode=walking`;
+  if (originLat != null && originLon != null) {
+    url += `&origin=${originLat},${originLon}`;
+  }
   return `<div style="margin-top:8px;text-align:center">
     <a href="${url}" target="_blank" rel="noopener"
        style="display:inline-block;padding:6px 16px;background:#1a5276;color:#fff;
@@ -516,7 +519,9 @@ function buildPopup(s) {
       html += `<div class="field"><span class="field-label">${label}:</span> ${val}</div>`;
     }
   }
-  html += mapsLink(s.lat, s.lon, s.map_address || s.address);
+  html += mapsLink(s.lat, s.lon, s.map_address || s.address,
+    userLocation ? userLocation.lat : null,
+    userLocation ? userLocation.lng : null);
   html += `</div>`;
   return html;
 }
@@ -625,6 +630,7 @@ function applyFilters() {
 let streetPin = null;
 let streetPinTimer = null;
 let streetSearchController = null;
+let _searchDebounce = null;
 
 function clearStreetPin() {
   if (streetPin) { map.removeLayer(streetPin); streetPin = null; }
@@ -701,6 +707,7 @@ async function searchStreet() {
           countrycodes: 'il',
           viewbox: '35.15,31.85,35.32,31.70',
           bounded: '1',
+          'accept-language': /[\u0590-\u05FF]/.test(query) ? 'he' : 'en',
         });
     const res = await fetch(url, { signal: streetSearchController.signal });
     const results = await res.json();
@@ -709,11 +716,7 @@ async function searchStreet() {
       showLocToast('רחוב לא נמצא');
       return;
     }
-    if (results.length === 1) {
-      selectGeoResult(results[0]);
-    } else {
-      showGeoDropdown(results);
-    }
+    showGeoDropdown(results);
   } catch (err) {
     if (err.name !== 'AbortError') showLocToast('שגיאה בחיפוש');
   } finally {
@@ -722,10 +725,19 @@ async function searchStreet() {
 }
 
 const searchInput = document.getElementById('search-input');
-document.getElementById('search-btn').addEventListener('click', searchStreet);
+document.getElementById('search-btn').addEventListener('click', () => {
+  clearTimeout(_searchDebounce);
+  searchStreet();
+});
 searchInput.addEventListener('keydown', (e) => {
-  if (e.key === 'Enter') { e.preventDefault(); searchStreet(); }
+  if (e.key === 'Enter') { e.preventDefault(); clearTimeout(_searchDebounce); searchStreet(); }
   if (e.key === 'Escape') hideGeoDropdown();
+});
+searchInput.addEventListener('input', () => {
+  clearTimeout(_searchDebounce);
+  const q = searchInput.value.trim();
+  if (q.length < 3) { hideGeoDropdown(); return; }
+  _searchDebounce = setTimeout(searchStreet, 400);
 });
 searchInput.addEventListener('blur', () => setTimeout(hideGeoDropdown, 150));
 

@@ -263,6 +263,8 @@ const map = L.map('map').setView([31.78, 35.21], 13);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> | <span class="attr-break"></span>Created by: <a href="https://github.com/amichw/miklatim_jerus" target="_blank">Ami</a> | <a href="mailto:amiweil2@gmail.com">amiweil2@gmail.com</a>',
   maxZoom: 19,
+  updateWhenIdle: true,
+  updateWhenZooming: false,
 }).addTo(map);
 
 // ── Legend ────────────────────────────────────────────────────
@@ -494,21 +496,14 @@ map.on('zoomend', () => {
 });
 
 // ── Color coding ──────────────────────────────────────────────
-function shelterType(s) {
-  const cat = (s.category || '').toLowerCase();
-  const type = (s.type || '').toLowerCase();
-  const acc  = (s.accessibility || '').toLowerCase();
-  if (type.includes('מחסה') || cat.includes('מחסה')) return 'protected';
-  if (acc.includes('נגיש') || cat.includes('נגיש') || type.includes('נגיש')) return 'accessible';
-  if (cat.includes('בית ספר') || cat.includes('בית-ספר')) return 'school';
-  return 'standard';
-}
+// t values from slim_shelters.py: 'P'=protected, 'A'=accessible, 'S'=school, 'T'=standard
+const TYPE_CODE = { standard: 'T', school: 'S', accessible: 'A', protected: 'P' };
 
 const TYPE_COLOR = {
-  protected:  '#c0392b',
-  accessible: '#2980b9',
-  standard:   '#27ae60',
-  school:     '#7f8c8d',
+  P: '#c0392b',
+  A: '#2980b9',
+  T: '#27ae60',
+  S: '#7f8c8d',
 };
 
 // ── Popup builder ─────────────────────────────────────────────
@@ -522,8 +517,6 @@ const FIELD_LABELS = {
   capacity:       'מס\' נפשות',
   affiliation:    'שייכות',
   map_address:    'כתובת למפה',
-  admin:          'מינהל',
-  district:       'שכונה (מינהל)',
   category:       'קטגוריה',
 };
 
@@ -568,6 +561,7 @@ function buildPopup(s) {
 
 // ── Data & markers ────────────────────────────────────────────
 let allShelters = [];
+let allMarkers  = [];
 const layerGroup = L.layerGroup().addTo(map);
 
 async function loadShelters() {
@@ -575,19 +569,30 @@ async function loadShelters() {
     const res = await fetch('data/shelters.json');
     if (!res.ok) throw new Error(`HTTP error: ${res.status} ${res.statusText}`);
     allShelters = await res.json();
-    // Prefer geocoded coords unless explicitly overridden (use_geo === false)
-    for (const s of allShelters) {
-      if (s.geo_lat != null && s.use_geo !== false) {
-        s.lat = s.geo_lat;
-        s.lon = s.geo_lon;
-      }
-    }
     buildNeighborhoodFilters();
+    buildMarkers();
     applyFilters();
   } catch (err) {
     document.getElementById('stats').textContent = `שגיאה בטעינת הנתונים: ${err.message}`;
     console.error('loadShelters failed:', err);
   }
+}
+
+function buildMarkers() {
+  allMarkers = allShelters.map(s => {
+    const marker = L.circleMarker([s.lat, s.lon], {
+      radius: zoomRadius(),
+      fillColor: TYPE_COLOR[s.t],
+      color: '#fff',
+      weight: 1.5,
+      opacity: 1,
+      fillOpacity: 0.85,
+    });
+    marker.bindPopup(() => buildPopup(s), { maxWidth: 300 });
+    marker._shelterType = s.t;
+    marker._shelterNb   = s.neighborhood || '';
+    return marker;
+  });
 }
 
 function buildNeighborhoodFilters() {
@@ -609,11 +614,12 @@ function buildNeighborhoodFilters() {
     container.appendChild(div);
   }
   container.querySelectorAll('.nb-check').forEach(cb =>
-    cb.addEventListener('change', applyFilters)
+    cb.addEventListener('change', scheduleFilter)
   );
 }
 
 // ── Active type set ───────────────────────────────────────────
+// activeTypes stores the button data-type values ('standard','school','accessible','protected')
 const activeTypes = new Set(['standard', 'school', 'accessible', 'protected']);
 
 document.getElementById('type-filters').querySelectorAll('button').forEach(btn => {
@@ -621,54 +627,42 @@ document.getElementById('type-filters').querySelectorAll('button').forEach(btn =
     const t = btn.dataset.type;
     if (activeTypes.has(t)) { activeTypes.delete(t); btn.classList.remove('active'); }
     else                     { activeTypes.add(t);    btn.classList.add('active'); }
-    applyFilters();
+    scheduleFilter();
   });
 });
 
 // ── Select/clear all neighborhoods ───────────────────────────
 document.getElementById('select-all-nb').addEventListener('click', () => {
   document.querySelectorAll('.nb-check').forEach(cb => { cb.checked = true; });
-  applyFilters();
+  scheduleFilter();
 });
 document.getElementById('clear-all-nb').addEventListener('click', () => {
   document.querySelectorAll('.nb-check').forEach(cb => { cb.checked = false; });
-  applyFilters();
+  scheduleFilter();
 });
+
+// ── Filter debounce ───────────────────────────────────────────
+let _filterTimer = null;
+function scheduleFilter() {
+  clearTimeout(_filterTimer);
+  _filterTimer = setTimeout(applyFilters, 150);
+}
 
 // ── Filter logic ──────────────────────────────────────────────
 function applyFilters() {
   const checkedNB = new Set(
     [...document.querySelectorAll('.nb-check:checked')].map(cb => cb.value)
   );
-
-  layerGroup.clearLayers();
+  // Convert activeTypes (long button names) → single-char codes for fast lookup
+  const activeCodes = new Set([...activeTypes].map(t => TYPE_CODE[t]));
   let visible = 0;
-
-  for (const s of allShelters) {
-    const type = shelterType(s);
-
-    // Type filter
-    if (!activeTypes.has(type)) continue;
-
-    // Neighborhood filter (shelters with no neighborhood always pass)
-    const nb = s.neighborhood || '';
-    if (nb && checkedNB.size > 0 && !checkedNB.has(nb)) continue;
-
-    const color = TYPE_COLOR[type];
-    const marker = L.circleMarker([s.lat, s.lon], {
-      radius: zoomRadius(),
-      fillColor: color,
-      color: '#fff',
-      weight: 1.5,
-      opacity: 1,
-      fillOpacity: 0.85,
-    });
-    marker.bindPopup(() => buildPopup(s), { maxWidth: 300 });
-    marker._shelterId = s.shelter_number;
-    layerGroup.addLayer(marker);
-    visible++;
+  for (let i = 0; i < allMarkers.length; i++) {
+    const m = allMarkers[i];
+    const show = activeCodes.has(m._shelterType)
+              && (!m._shelterNb || checkedNB.size === 0 || checkedNB.has(m._shelterNb));
+    if (show) { if (!layerGroup.hasLayer(m)) layerGroup.addLayer(m); visible++; }
+    else       { if ( layerGroup.hasLayer(m)) layerGroup.removeLayer(m); }
   }
-
   document.getElementById('stats').textContent =
     `מציג ${visible} מתוך ${allShelters.length} מקלטים`;
 }

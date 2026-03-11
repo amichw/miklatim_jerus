@@ -14,8 +14,9 @@
     "admin": null,
     "district": null,
     "category": "הבוכרים - בית ישראל, מקלט ציבורי",
-    "geo_lat": 31.7922002,
-    "geo_lon": 35.2178229
+    "geo_lat": 31.7922354,
+    "geo_lon": 35.2176755,
+    "geo_source": "google"
   },
   {
     "neighborhood": "בוכרים",
@@ -32,8 +33,9 @@
     "admin": null,
     "district": null,
     "category": "הבוכרים - בית ישראל, מקלט ציבורי, מקלט נגיש",
-    "geo_lat": 31.7930662,
-    "geo_lon": 35.220951
+    "geo_lat": 31.7931357,
+    "geo_lon": 35.2208882,
+    "geo_source": "google"
   },
   {
     "neighborhood": "בוכרים",
@@ -50,8 +52,9 @@
     "admin": null,
     "district": null,
     "category": "הבוכרים - בית ישראל, מקלט ציבורי",
-    "geo_lat": 31.7899457,
-    "geo_lon": 35.2209264
+    "geo_lat": 31.7898159,
+    "geo_lon": 35.2208176,
+    "geo_source": "google"
   },
   {
     "neighborhood": "בוכרים",
@@ -68,8 +71,9 @@
     "admin": null,
     "district": null,
     "category": "הבוכרים - בית ישראל, מקלט ציבורי",
-    "geo_lat": 31.7911463,
-    "geo_lon": 35.2151836
+    "geo_lat": 31.7915555,
+    "geo_lon": 35.2149424,
+    "geo_source": "google"
   },
   {
     "neighborhood": "בית הכרם",
@@ -86,8 +90,9 @@
     "admin": null,
     "district": null,
     "category": "בית הכרם, מקלט ציבורי",
-    "geo_lat": 31.776293,
-    "geo_lon": 35.1920992
+    "geo_lat": 31.7750135,
+    "geo_lon": 35.1904157,
+    "geo_source": "google"
   },
   {
     "neighborhood": "בית הכרם",
@@ -104,8 +109,9 @@
     "admin": null,
     "district": null,
     "category": "בית הכרם, מקלט ציבורי",
-    "geo_lat": 31.7774399,
-    "geo_lon": 35.1922188
+    "geo_lat": 31.7774853,
+    "geo_lon": 35.1922716,
+    "geo_source": "google"
   },
   {
     "neighborhood": "בית וגן",
@@ -122,8 +128,9 @@
     "admin": null,
     "district": null,
     "category": "בית וגן, מקלט ציבורי",
-    "geo_lat": 31.7659324,
-    "geo_lon": 35.1829147
+    "geo_lat": 31.7658063,
+    "geo_lon": 35.18298,
+    "geo_source": "google"
   },
   {
     "neighborhood": "בית וגן",
@@ -140,8 +147,9 @@
     "admin": "בית וגן - 60",
     "district": "בית וגן",
     "category": "בית וגן, מקלט ציבורי",
-    "geo_lat": 31.7691054,
-    "geo_lon": 35.1845934
+    "geo_lat": 31.7691125,
+    "geo_lon": 35.1845254,
+    "geo_source": "google"
   },
   {
     "neighborhood": "בית ישראל",
@@ -158,8 +166,9 @@
     "admin": null,
     "district": null,
     "category": "הבוכרים - בית ישראל, מקלט ציבורי",
-    "geo_lat": 31.7924996,
-    "geo_lon": 35.2224805
+    "geo_lat": 31.79186859999999,
+    "geo_lon": 35.2232357,
+    "geo_source": "google"
   },
   {
     "neighborhood": "בית ישראל",
@@ -176,8 +185,9 @@
     "admin": null,
     "district": null,
     "category": "הבוכרים - בית ישראל, מקלט ציבורי",
-    "geo_lat": 31.7910451,
-    "geo_lon": 35.221595
+    "geo_lat": 31.7910905,
+    "geo_lon": 35.2213935,
+    "geo_source": "google"
   },
   {
     "neighborhood": "בקעה",
@@ -194,8 +204,9 @@
     "admin": null,
     "district": null,
     "category": "בקעה, מקלט ציבורי",
-    "geo_lat": 31.7612047,
-    "geo_lon": 35.2211416
+    "geo_lat": 31.7617068,
+    "geo_lon": 35.2212796,
+    "geo_source": "google"
   },
   {
     "neighborhood": "בקעה",
@@ -212,8 +223,9 @@
     "admin": null,
     "district": null,
     "category": "בקעה, מקלט ציבורי",
-    "geo_lat": 31.7551005,
-    "geo_lon": 35.2166908
+    "geo_lat": 31.7551392,
+    "geo_lon": 35.2166202,
+    "geo_source": "google"
   },
   {
     "neighborhood": "בקעה",
@@ -230,8 +242,9 @@
     "admin": null,
     "district": null,
     "category": "בקעה, מקלט ציבורי",
-    "geo_lat": 31.7573816,
-    "geo_lon": 35.2203941
+    "geo_lat": 31.8418241,
+    "geo_lon": 35.2457168,
+    "geo_source": "google"
   },
   {
     "neighborhood": "בקעה",
@@ -248,8 +261,9 @@
     "admin": null,
     "district": null,
     "category": "בקעה, מקלט ציבורי",
-    "geo_lat": 31.759291,
-    "geo_lon": 35.2188105
+    "geo_lat": 31.7593263,
+    "geo_lon": 35.2188286,
+    "geo_source": "google"
   },
   {
     "neighborhood": "בקעה",
@@ -266,8 +280,9 @@
     "admin": null,
     "district": null,
     "category": "בקעה, מקלט ציבורי",
-    "geo_lat": 31.7597828,
-    "geo_lon": 35.2235308
+    "geo_lat": 31.7598214,
+    "geo_lon": 35.22352619999999,
+    "geo_source": "google"
   },
   {
     "neighborhood": "בקעה",
@@ -284,8 +299,9 @@
     "admin": null,
     "district": null,
     "category": "בקעה, מקלט ציבורי",
-    "geo_lat": 31.7587728,
-    "geo_lon": 35.222651
+    "geo_lat": 31.7591078,
+    "geo_lon": 35.22266,
+    "geo_source": "google"
   },
   {
     "neighborhood": "בקעה",
@@ -302,8 +318,9 @@
     "admin": null,
     "district": null,
     "category": "בקעה, מקלט ציבורי",
-    "geo_lat": 31.7570131,
-    "geo_lon": 35.22189
+    "geo_lat": 31.7570147,
+    "geo_lon": 35.2220161,
+    "geo_source": "google"
   },
   {
     "neighborhood": "בקעה",
@@ -320,8 +337,9 @@
     "admin": null,
     "district": null,
     "category": "בקעה, מקלט ציבורי",
-    "geo_lat": 31.7594342,
-    "geo_lon": 35.2199906
+    "geo_lat": 31.7594673,
+    "geo_lon": 35.2199033,
+    "geo_source": "google"
   },
   {
     "neighborhood": "בקעה",
@@ -338,8 +356,9 @@
     "admin": null,
     "district": null,
     "category": "בקעה, מקלט ציבורי",
-    "geo_lat": 31.7610602,
-    "geo_lon": 35.2199724
+    "geo_lat": 31.7593928,
+    "geo_lon": 35.2189683,
+    "geo_source": "google"
   },
   {
     "neighborhood": "גאולה",
@@ -356,8 +375,9 @@
     "admin": null,
     "district": null,
     "category": "גאולה, מקלט ציבורי",
-    "geo_lat": 31.7893726,
-    "geo_lon": 35.2196127
+    "geo_lat": 31.7895088,
+    "geo_lon": 35.2196259,
+    "geo_source": "google"
   },
   {
     "neighborhood": "גאולה",
@@ -374,9 +394,9 @@
     "admin": null,
     "district": null,
     "category": "גאולה, מקלט ציבורי, מקלט נגיש",
-    "geo_lat": 31.7875614,
-    "geo_lon": 35.2194585,
-    "geo_source": "photon"
+    "geo_lat": 31.7875368,
+    "geo_lon": 35.2199891,
+    "geo_source": "google"
   },
   {
     "neighborhood": "גאולה",
@@ -393,8 +413,9 @@
     "admin": null,
     "district": null,
     "category": "גאולה, מקלט ציבורי",
-    "geo_lat": 31.7912661,
-    "geo_lon": 35.2172639
+    "geo_lat": 31.791313,
+    "geo_lon": 35.2172062,
+    "geo_source": "google"
   },
   {
     "neighborhood": "גאולה",
@@ -411,8 +432,9 @@
     "admin": null,
     "district": null,
     "category": "גאולה, מקלט ציבורי",
-    "geo_lat": 31.790049,
-    "geo_lon": 35.2115964
+    "geo_lat": 31.79017869999999,
+    "geo_lon": 35.2112935,
+    "geo_source": "google"
   },
   {
     "neighborhood": "גבעת הורדים (רסקו)",
@@ -429,9 +451,9 @@
     "admin": null,
     "district": null,
     "category": "רסקו - גבעת הורדים, מקלט ציבורי",
-    "geo_lat": 31.7612707,
-    "geo_lon": 35.2012468,
-    "geo_source": "photon"
+    "geo_lat": 31.7613455,
+    "geo_lon": 35.2011204,
+    "geo_source": "google"
   },
   {
     "neighborhood": "גבעת הורדים (רסקו)",
@@ -448,8 +470,9 @@
     "admin": null,
     "district": null,
     "category": "רסקו - גבעת הורדים, מקלט ציבורי",
-    "geo_lat": 31.7653659,
-    "geo_lon": 35.2071419
+    "geo_lat": 31.7654279,
+    "geo_lon": 35.2072491,
+    "geo_source": "google"
   },
   {
     "neighborhood": "גבעת שאול",
@@ -466,8 +489,9 @@
     "admin": null,
     "district": null,
     "category": "גבעת שאול, מקלט ציבורי",
-    "geo_lat": 31.7906761,
-    "geo_lon": 35.1917225
+    "geo_lat": 31.7905816,
+    "geo_lon": 35.1919222,
+    "geo_source": "google"
   },
   {
     "neighborhood": "גוננים",
@@ -484,9 +508,9 @@
     "admin": null,
     "district": null,
     "category": "גוננים - קטמונים, מקלט נגיש, מקלט ציבורי",
-    "geo_lat": 31.7651431,
-    "geo_lon": 35.2049798,
-    "geo_source": "photon"
+    "geo_lat": 31.7651489,
+    "geo_lon": 35.2049945,
+    "geo_source": "google"
   },
   {
     "neighborhood": "הגבעה הצרפתית",
@@ -503,8 +527,9 @@
     "admin": null,
     "district": null,
     "category": "הגבעה הצרפתית, מקלט ציבורי",
-    "geo_lat": 31.8054902,
-    "geo_lon": 35.2415
+    "geo_lat": 31.8054862,
+    "geo_lon": 35.2415907,
+    "geo_source": "google"
   },
   {
     "neighborhood": "המושבה הגרמנית",
@@ -521,8 +546,9 @@
     "admin": null,
     "district": null,
     "category": "המושבה הגרמנית, מקלט ציבורי",
-    "geo_lat": 31.762019,
-    "geo_lon": 35.2153838
+    "geo_lat": 31.7621138,
+    "geo_lon": 35.2155554,
+    "geo_source": "google"
   },
   {
     "neighborhood": "זכרון משה",
@@ -539,8 +565,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, מקלט ציבורי",
-    "geo_lat": 31.7871449,
-    "geo_lon": 35.2176491
+    "geo_lat": 31.7872212,
+    "geo_lon": 35.2175901,
+    "geo_source": "google"
   },
   {
     "neighborhood": "טלביה",
@@ -557,8 +584,9 @@
     "admin": null,
     "district": null,
     "category": "טלביה - קוממיות, מקלט ציבורי",
-    "geo_lat": 31.7698957,
-    "geo_lon": 35.2182972
+    "geo_lat": 31.7699588,
+    "geo_lon": 35.2180323,
+    "geo_source": "google"
   },
   {
     "neighborhood": "מאה שערים",
@@ -575,8 +603,9 @@
     "admin": null,
     "district": null,
     "category": "מאה שערים, מקלט ציבורי",
-    "geo_lat": 31.7857346,
-    "geo_lon": 35.2244552
+    "geo_lat": 31.7856464,
+    "geo_lon": 35.2246079,
+    "geo_source": "google"
   },
   {
     "neighborhood": "מאה שערים",
@@ -593,8 +622,9 @@
     "admin": null,
     "district": null,
     "category": "מאה שערים, מקלט ציבורי",
-    "geo_lat": 31.7862763,
-    "geo_lon": 35.2255848
+    "geo_lat": 31.786634,
+    "geo_lon": 35.225261,
+    "geo_source": "google"
   },
   {
     "neighborhood": "מורשה",
@@ -611,8 +641,9 @@
     "admin": null,
     "district": null,
     "category": "מוסררה - מורשה, מקלט ציבורי",
-    "geo_lat": 31.7829263,
-    "geo_lon": 35.2264197
+    "geo_lat": 31.7829687,
+    "geo_lon": 35.2263429,
+    "geo_source": "google"
   },
   {
     "neighborhood": "מורשה",
@@ -629,8 +660,9 @@
     "admin": null,
     "district": null,
     "category": "מוסררה - מורשה, מקלט ציבורי",
-    "geo_lat": 31.7815403,
-    "geo_lon": 35.2267652
+    "geo_lat": 31.7813353,
+    "geo_lon": 35.2267942,
+    "geo_source": "google"
   },
   {
     "neighborhood": "מורשה",
@@ -647,8 +679,9 @@
     "admin": null,
     "district": null,
     "category": "מוסררה - מורשה, מקלט ציבורי",
-    "geo_lat": 31.7828411,
-    "geo_lon": 35.2273684
+    "geo_lat": 31.7857459,
+    "geo_lon": 35.2271006,
+    "geo_source": "google"
   },
   {
     "neighborhood": "מחנה יהודה",
@@ -665,8 +698,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, מקלט ציבורי",
-    "geo_lat": 31.7831838,
-    "geo_lon": 35.2094563
+    "geo_lat": 31.7831561,
+    "geo_lon": 35.2094088,
+    "geo_source": "google"
   },
   {
     "neighborhood": "מחנה יהודה",
@@ -683,8 +717,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, מקלט ציבורי",
-    "geo_lat": 31.7826983,
-    "geo_lon": 35.2136397
+    "geo_lat": 31.782797,
+    "geo_lon": 35.2136024,
+    "geo_source": "google"
   },
   {
     "neighborhood": "מחנה יהודה",
@@ -701,8 +736,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, מקלט ציבורי",
-    "geo_lat": 31.7821433,
-    "geo_lon": 35.21149
+    "geo_lat": 31.7825739,
+    "geo_lon": 35.2105802,
+    "geo_source": "google"
   },
   {
     "neighborhood": "מחנה יהודה",
@@ -719,8 +755,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, מקלט ציבורי",
-    "geo_lat": 31.7804543,
-    "geo_lon": 35.2112118
+    "geo_lat": 31.7804631,
+    "geo_lon": 35.2111833,
+    "geo_source": "google"
   },
   {
     "neighborhood": "מנחת-מלחה",
@@ -737,8 +774,9 @@
     "admin": null,
     "district": null,
     "category": "מלחה, מקלט ציבורי",
-    "geo_lat": 31.7552302,
-    "geo_lon": 35.1831256
+    "geo_lat": 31.7553963,
+    "geo_lon": 35.1832669,
+    "geo_source": "google"
   },
   {
     "neighborhood": "מקור ברוך",
@@ -755,8 +793,9 @@
     "admin": null,
     "district": null,
     "category": "מקור ברוך, מקלט ציבורי",
-    "geo_lat": 31.789014,
-    "geo_lon": 35.2131781
+    "geo_lat": 31.7890854,
+    "geo_lon": 35.2142324,
+    "geo_source": "google"
   },
   {
     "neighborhood": "מקור ברוך",
@@ -773,8 +812,9 @@
     "admin": null,
     "district": null,
     "category": "מקור ברוך, מקלט ציבורי",
-    "geo_lat": 31.7904565,
-    "geo_lon": 35.2113265
+    "geo_lat": 31.7905859,
+    "geo_lon": 35.2108421,
+    "geo_source": "google"
   },
   {
     "neighborhood": "מקור ברוך",
@@ -791,8 +831,9 @@
     "admin": null,
     "district": null,
     "category": "מקור ברוך, מקלט ציבורי",
-    "geo_lat": 31.7887053,
-    "geo_lon": 35.207386
+    "geo_lat": 31.7887194,
+    "geo_lon": 35.2073697,
+    "geo_source": "google"
   },
   {
     "neighborhood": "מקור ברוך",
@@ -809,9 +850,9 @@
     "admin": null,
     "district": null,
     "category": "מקור ברוך, מקלט ציבורי",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.7768831,
+    "geo_lon": 35.22243460000001,
+    "geo_source": "google"
   },
   {
     "neighborhood": "מקור ברוך",
@@ -828,8 +869,9 @@
     "admin": null,
     "district": null,
     "category": "מקור ברוך, מקלט ציבורי",
-    "geo_lat": 31.7885245,
-    "geo_lon": 35.2096395
+    "geo_lat": 31.7891682,
+    "geo_lon": 35.209535,
+    "geo_source": "google"
   },
   {
     "neighborhood": "מרכז העיר",
@@ -846,9 +888,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, מקלט ציבורי",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.7855617,
+    "geo_lon": 35.2158946,
+    "geo_source": "google"
   },
   {
     "neighborhood": "מרכז העיר",
@@ -865,8 +907,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, מקלט ציבורי",
-    "geo_lat": 31.7832007,
-    "geo_lon": 35.2127501
+    "geo_lat": 31.7830058,
+    "geo_lon": 35.212869,
+    "geo_source": "google"
   },
   {
     "neighborhood": "מרכז העיר",
@@ -883,9 +926,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, מקלט ציבורי",
-    "geo_lat": 31.8081969,
-    "geo_lon": 35.2216844,
-    "geo_source": "photon"
+    "geo_lat": 31.7777006,
+    "geo_lon": 35.2166985,
+    "geo_source": "google"
   },
   {
     "neighborhood": "מרכז העיר",
@@ -902,8 +945,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, מקלט ציבורי",
-    "geo_lat": 31.7786158,
-    "geo_lon": 35.2152197
+    "geo_lat": 31.77967319999999,
+    "geo_lon": 35.2147312,
+    "geo_source": "google"
   },
   {
     "neighborhood": "מרכז העיר",
@@ -920,9 +964,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, מקלט ציבורי",
-    "geo_lat": 31.7852798,
-    "geo_lon": 35.21881,
-    "geo_source": "photon"
+    "geo_lat": 31.7852431,
+    "geo_lon": 35.218767,
+    "geo_source": "google"
   },
   {
     "neighborhood": "נווה שאנן",
@@ -939,9 +983,9 @@
     "admin": null,
     "district": null,
     "category": "נווה שאנן, מקלט נגיש, מקלט ציבורי",
-    "geo_lat": 31.7715594,
-    "geo_lon": 35.2009689,
-    "geo_source": "photon"
+    "geo_lat": 31.7720169,
+    "geo_lon": 35.2010572,
+    "geo_source": "google"
   },
   {
     "neighborhood": "נחלאות",
@@ -958,8 +1002,9 @@
     "admin": null,
     "district": null,
     "category": "נחלאות - לב העיר, מקלט ציבורי",
-    "geo_lat": 31.779531,
-    "geo_lon": 35.2111827
+    "geo_lat": 31.7795431,
+    "geo_lon": 35.2112192,
+    "geo_source": "google"
   },
   {
     "neighborhood": "סנהדריה",
@@ -976,8 +1021,9 @@
     "admin": null,
     "district": null,
     "category": "סנהדריה, מקלט ציבורי",
-    "geo_lat": 31.797465,
-    "geo_lon": 35.2188111
+    "geo_lat": 31.7974743,
+    "geo_lon": 35.218736,
+    "geo_source": "google"
   },
   {
     "neighborhood": "עין כרם",
@@ -994,8 +1040,9 @@
     "admin": "עין כרם - 488",
     "district": "יובלים",
     "category": "עין כרם, מקלט ציבורי",
-    "geo_lat": 31.7684907,
-    "geo_lon": 35.1641334
+    "geo_lat": 31.7682342,
+    "geo_lon": 35.16362170000001,
+    "geo_source": "google"
   },
   {
     "neighborhood": "עיר גנים",
@@ -1012,8 +1059,9 @@
     "admin": null,
     "district": null,
     "category": "עיר גנים, מקלט ציבורי",
-    "geo_lat": 31.752691,
-    "geo_lon": 35.1720506
+    "geo_lat": 31.752843,
+    "geo_lon": 35.1721424,
+    "geo_source": "google"
   },
   {
     "neighborhood": "עיר גנים",
@@ -1030,8 +1078,9 @@
     "admin": null,
     "district": null,
     "category": "עיר גנים, מקלט ציבורי",
-    "geo_lat": 31.752691,
-    "geo_lon": 35.1720506
+    "geo_lat": 31.752341,
+    "geo_lon": 35.171552,
+    "geo_source": "google"
   },
   {
     "neighborhood": "עיר גנים",
@@ -1048,8 +1097,9 @@
     "admin": null,
     "district": null,
     "category": "עיר גנים, מקלט ציבורי",
-    "geo_lat": 31.754479,
-    "geo_lon": 35.1707946
+    "geo_lat": 31.7543072,
+    "geo_lon": 35.1705904,
+    "geo_source": "google"
   },
   {
     "neighborhood": "עיר גנים",
@@ -1066,8 +1116,9 @@
     "admin": null,
     "district": null,
     "category": "עיר גנים, מקלט ציבורי",
-    "geo_lat": 31.7546636,
-    "geo_lon": 35.1703574
+    "geo_lat": 31.7546412,
+    "geo_lon": 35.1701886,
+    "geo_source": "google"
   },
   {
     "neighborhood": "עיר גנים",
@@ -1084,8 +1135,9 @@
     "admin": null,
     "district": null,
     "category": "עיר גנים, מקלט ציבורי",
-    "geo_lat": 31.7534683,
-    "geo_lon": 35.1661261
+    "geo_lat": 31.753504,
+    "geo_lon": 35.1664324,
+    "geo_source": "google"
   },
   {
     "neighborhood": "עיר גנים",
@@ -1102,8 +1154,9 @@
     "admin": null,
     "district": null,
     "category": "עיר גנים, מקלט נגיש, מקלט ציבורי",
-    "geo_lat": 31.752848,
-    "geo_lon": 35.1668681
+    "geo_lat": 31.75289849999999,
+    "geo_lon": 35.167057,
+    "geo_source": "google"
   },
   {
     "neighborhood": "עיר גנים",
@@ -1120,8 +1173,9 @@
     "admin": null,
     "district": null,
     "category": "עיר גנים, מקלט ציבורי",
-    "geo_lat": 31.7587943,
-    "geo_lon": 35.1665389
+    "geo_lat": 31.7591071,
+    "geo_lon": 35.1665208,
+    "geo_source": "google"
   },
   {
     "neighborhood": "עיר גנים",
@@ -1138,8 +1192,9 @@
     "admin": null,
     "district": null,
     "category": "עיר גנים, מקלט ציבורי",
-    "geo_lat": 31.7545662,
-    "geo_lon": 35.1692974
+    "geo_lat": 31.7546734,
+    "geo_lon": 35.1690152,
+    "geo_source": "google"
   },
   {
     "neighborhood": "עיר גנים",
@@ -1156,8 +1211,9 @@
     "admin": null,
     "district": null,
     "category": "עיר גנים, מקלט ציבורי",
-    "geo_lat": 31.7562075,
-    "geo_lon": 35.1705995
+    "geo_lat": 31.7570072,
+    "geo_lon": 35.1708159,
+    "geo_source": "google"
   },
   {
     "neighborhood": "עיר גנים",
@@ -1174,8 +1230,9 @@
     "admin": null,
     "district": null,
     "category": "עיר גנים, מקלט ציבורי",
-    "geo_lat": 31.752691,
-    "geo_lon": 35.1720506
+    "geo_lat": 31.752509,
+    "geo_lon": 35.171076,
+    "geo_source": "google"
   },
   {
     "neighborhood": "עמק רפאים",
@@ -1192,8 +1249,9 @@
     "admin": null,
     "district": null,
     "category": "המושבה הגרמנית, מקלט ציבורי",
-    "geo_lat": 31.7653201,
-    "geo_lon": 35.2128482
+    "geo_lat": 31.7654554,
+    "geo_lon": 35.2129114,
+    "geo_source": "google"
   },
   {
     "neighborhood": "עמק רפאים",
@@ -1210,8 +1268,9 @@
     "admin": "מושבה גרמנית - 520",
     "district": "גינות העיר",
     "category": "המושבה הגרמנית, מקלט ציבורי",
-    "geo_lat": 31.7648559,
-    "geo_lon": 35.2172998
+    "geo_lat": 31.7648535,
+    "geo_lon": 35.2173875,
+    "geo_source": "google"
   },
   {
     "neighborhood": "עמק רפאים",
@@ -1228,9 +1287,9 @@
     "admin": null,
     "district": null,
     "category": "המושבה הגרמנית, מקלט ציבורי",
-    "geo_lat": 31.7477545,
-    "geo_lon": 35.1882146,
-    "geo_source": "photon"
+    "geo_lat": 31.7634619,
+    "geo_lon": 35.2185825,
+    "geo_source": "google"
   },
   {
     "neighborhood": "עמק רפאים",
@@ -1247,8 +1306,9 @@
     "admin": null,
     "district": null,
     "category": "המושבה הגרמנית, מקלט ציבורי",
-    "geo_lat": 31.7660014,
-    "geo_lon": 35.21835
+    "geo_lat": 31.7659787,
+    "geo_lon": 35.2182841,
+    "geo_source": "google"
   },
   {
     "neighborhood": "עמק רפאים",
@@ -1265,8 +1325,9 @@
     "admin": null,
     "district": null,
     "category": "המושבה הגרמנית, מקלט ציבורי",
-    "geo_lat": 31.7641321,
-    "geo_lon": 35.2214102
+    "geo_lat": 31.7643611,
+    "geo_lon": 35.2210073,
+    "geo_source": "google"
   },
   {
     "neighborhood": "עמק רפאים",
@@ -1283,8 +1344,9 @@
     "admin": null,
     "district": null,
     "category": "המושבה הגרמנית, מקלט ציבורי",
-    "geo_lat": 31.7637318,
-    "geo_lon": 35.2211701
+    "geo_lat": 31.7638854,
+    "geo_lon": 35.2212993,
+    "geo_source": "google"
   },
   {
     "neighborhood": "עמק רפאים",
@@ -1301,8 +1363,9 @@
     "admin": null,
     "district": null,
     "category": "המושבה הגרמנית, מקלט ציבורי",
-    "geo_lat": 31.7625194,
-    "geo_lon": 35.2145351
+    "geo_lat": 31.7625105,
+    "geo_lon": 35.2147674,
+    "geo_source": "google"
   },
   {
     "neighborhood": "עמק רפאים",
@@ -1319,8 +1382,9 @@
     "admin": null,
     "district": null,
     "category": "המושבה הגרמנית, מקלט ציבורי",
-    "geo_lat": 31.7627416,
-    "geo_lon": 35.2184435
+    "geo_lat": 31.7632028,
+    "geo_lon": 35.2191222,
+    "geo_source": "google"
   },
   {
     "neighborhood": "עמק רפאים",
@@ -1337,8 +1401,9 @@
     "admin": null,
     "district": null,
     "category": "המושבה הגרמנית, מקלט ציבורי",
-    "geo_lat": 31.7646073,
-    "geo_lon": 35.2195185
+    "geo_lat": 31.7647172,
+    "geo_lon": 35.2196378,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קטמון",
@@ -1355,8 +1420,9 @@
     "admin": null,
     "district": null,
     "category": "קטמון, מקלט ציבורי",
-    "geo_lat": 31.7605425,
-    "geo_lon": 35.2079143
+    "geo_lat": 31.7596417,
+    "geo_lon": 35.2077239,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קטמון",
@@ -1373,8 +1439,9 @@
     "admin": null,
     "district": null,
     "category": "קטמון, מקלט נגיש, מקלט ציבורי",
-    "geo_lat": 31.7589332,
-    "geo_lon": 35.213194
+    "geo_lat": 31.7589357,
+    "geo_lon": 35.2131827,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קטמון",
@@ -1391,8 +1458,9 @@
     "admin": null,
     "district": null,
     "category": "קטמון, מקלט ציבורי, מקלט נגיש",
-    "geo_lat": 31.7541578,
-    "geo_lon": 35.1936747
+    "geo_lat": 31.7542746,
+    "geo_lon": 35.1938906,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קטמון",
@@ -1409,8 +1477,9 @@
     "admin": "גוננים - 156",
     "district": "גוננים",
     "category": "קטמון, מקלט ציבורי",
-    "geo_lat": 31.7561433,
-    "geo_lon": 35.1963986
+    "geo_lat": 31.756184,
+    "geo_lon": 35.1966235,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קטמון",
@@ -1427,9 +1496,9 @@
     "admin": null,
     "district": null,
     "category": "קטמון, מקלט ציבורי",
-    "geo_lat": 31.7564261,
-    "geo_lon": 35.1946824,
-    "geo_source": "photon"
+    "geo_lat": 31.7561214,
+    "geo_lon": 35.1946299,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קטמון",
@@ -1446,8 +1515,9 @@
     "admin": null,
     "district": null,
     "category": "קטמון, מקלט ציבורי",
-    "geo_lat": 31.75503,
-    "geo_lon": 35.1974478
+    "geo_lat": 31.7555179,
+    "geo_lon": 35.19782,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קטמון",
@@ -1464,8 +1534,9 @@
     "admin": null,
     "district": null,
     "category": "קטמון, מקלט ציבורי",
-    "geo_lat": 31.7623209,
-    "geo_lon": 35.2109334
+    "geo_lat": 31.7622002,
+    "geo_lon": 35.2107496,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קטמון",
@@ -1482,8 +1553,9 @@
     "admin": "קטמון הישנה - 152",
     "district": "גינות העיר",
     "category": "קטמון, מקלט ציבורי",
-    "geo_lat": 31.7605122,
-    "geo_lon": 35.2122737
+    "geo_lat": 31.7605935,
+    "geo_lon": 35.2122387,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קטמון",
@@ -1500,8 +1572,9 @@
     "admin": null,
     "district": null,
     "category": "קטמון, מקלט ציבורי",
-    "geo_lat": 31.7552041,
-    "geo_lon": 35.2086274
+    "geo_lat": 31.7552924,
+    "geo_lon": 35.2084743,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קטמון",
@@ -1518,8 +1591,9 @@
     "admin": null,
     "district": null,
     "category": "קטמון, מקלט ציבורי",
-    "geo_lat": 31.7535448,
-    "geo_lon": 35.2016094
+    "geo_lat": 31.7534272,
+    "geo_lon": 35.201658,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קטמון",
@@ -1536,8 +1610,9 @@
     "admin": null,
     "district": null,
     "category": "קטמון, מקלט ציבורי",
-    "geo_lat": 31.7732353,
-    "geo_lon": 35.2102215
+    "geo_lat": 31.7595573,
+    "geo_lon": 35.213266,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קטמון",
@@ -1554,8 +1629,9 @@
     "admin": null,
     "district": null,
     "category": "קטמון, מקלט ציבורי",
-    "geo_lat": 31.7557896,
-    "geo_lon": 35.1952031
+    "geo_lat": 31.755842,
+    "geo_lon": 35.1952292,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קטמון",
@@ -1572,8 +1648,9 @@
     "admin": null,
     "district": null,
     "category": "קטמון, מקלט ציבורי, מקלט נגיש",
-    "geo_lat": 31.7529769,
-    "geo_lon": 35.1958991
+    "geo_lat": 31.7529687,
+    "geo_lon": 35.1953426,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קטמון",
@@ -1590,8 +1667,9 @@
     "admin": null,
     "district": null,
     "category": "קטמון, מקלט ציבורי",
-    "geo_lat": 31.7527747,
-    "geo_lon": 35.1948145
+    "geo_lat": 31.7541317,
+    "geo_lon": 35.1987596,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קטמון",
@@ -1608,8 +1686,9 @@
     "admin": null,
     "district": null,
     "category": "קטמון, מקלט ציבורי",
-    "geo_lat": 31.7597443,
-    "geo_lon": 35.2151058
+    "geo_lat": 31.761699,
+    "geo_lon": 35.213869,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קטמון",
@@ -1626,8 +1705,9 @@
     "admin": null,
     "district": null,
     "category": "גוננים - קטמונים, מקלט ציבורי",
-    "geo_lat": 31.7611056,
-    "geo_lon": 35.2076941
+    "geo_lat": 31.7614742,
+    "geo_lon": 35.2096607,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קטמון",
@@ -1644,8 +1724,9 @@
     "admin": null,
     "district": null,
     "category": "גוננים - קטמונים, מקלט ציבורי",
-    "geo_lat": 31.7537521,
-    "geo_lon": 35.196576
+    "geo_lat": 31.7535723,
+    "geo_lon": 35.1964302,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קטמון",
@@ -1662,9 +1743,9 @@
     "admin": null,
     "district": null,
     "category": "גוננים - קטמונים, מקלט ציבורי",
-    "geo_lat": 31.758618,
-    "geo_lon": 35.2093348,
-    "geo_source": "photon"
+    "geo_lat": 31.758686,
+    "geo_lon": 35.209264,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קטמון",
@@ -1681,8 +1762,9 @@
     "admin": null,
     "district": null,
     "category": "גוננים - קטמונים, מקלט ציבורי",
-    "geo_lat": 31.7565507,
-    "geo_lon": 35.208662
+    "geo_lat": 31.7567059,
+    "geo_lon": 35.2087293,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קטמון",
@@ -1699,8 +1781,9 @@
     "admin": null,
     "district": null,
     "category": "גוננים - קטמונים, מקלט ציבורי, מקלט נגיש",
-    "geo_lat": 31.7553119,
-    "geo_lon": 35.1921991
+    "geo_lat": 31.755315,
+    "geo_lon": 35.191999,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קטמון",
@@ -1717,8 +1800,9 @@
     "admin": null,
     "district": null,
     "category": "גוננים - קטמונים, מקלט ציבורי",
-    "geo_lat": 31.7542148,
-    "geo_lon": 35.1919555
+    "geo_lat": 31.7543051,
+    "geo_lon": 35.1920082,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קטמון",
@@ -1735,8 +1819,9 @@
     "admin": null,
     "district": null,
     "category": "גוננים - קטמונים, מקלט ציבורי, מקלט נגיש",
-    "geo_lat": 31.7591885,
-    "geo_lon": 35.2089432
+    "geo_lat": 31.7592268,
+    "geo_lon": 35.2089806,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קטמון הישנה",
@@ -1753,8 +1838,9 @@
     "admin": null,
     "district": null,
     "category": "קטמון הישנה, מקלט נגיש, מקלט ציבורי",
-    "geo_lat": 31.7666056,
-    "geo_lon": 35.209138
+    "geo_lat": 31.7665917,
+    "geo_lon": 35.2090477,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קטמון הישנה",
@@ -1771,8 +1857,9 @@
     "admin": null,
     "district": null,
     "category": "קטמון הישנה, מקלט נגיש, מקלט ציבורי",
-    "geo_lat": 31.7661377,
-    "geo_lon": 35.2138407
+    "geo_lat": 31.7661552,
+    "geo_lon": 35.2138062,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קטמון הישנה",
@@ -1789,8 +1876,9 @@
     "admin": null,
     "district": null,
     "category": "קטמון הישנה, מקלט ציבורי",
-    "geo_lat": 31.7610162,
-    "geo_lon": 35.213364
+    "geo_lat": 31.7610918,
+    "geo_lon": 35.2133427,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קטמון הישנה",
@@ -1807,8 +1895,9 @@
     "admin": null,
     "district": null,
     "category": "קטמון הישנה, מקלט ציבורי",
-    "geo_lat": 31.7561702,
-    "geo_lon": 35.2051507
+    "geo_lat": 31.7561189,
+    "geo_lon": 35.2049868,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קריית היובל",
@@ -1825,8 +1914,9 @@
     "admin": null,
     "district": null,
     "category": "קריית יובל, מקלט ציבורי",
-    "geo_lat": 31.7556648,
-    "geo_lon": 35.1774252
+    "geo_lat": 31.7557793,
+    "geo_lon": 35.1774718,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קריית היובל",
@@ -1843,8 +1933,9 @@
     "admin": null,
     "district": null,
     "category": "קריית יובל, מקלט ציבורי",
-    "geo_lat": 31.7563362,
-    "geo_lon": 35.17666
+    "geo_lat": 31.7562884,
+    "geo_lon": 35.17665119999999,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קריית היובל",
@@ -1861,8 +1952,9 @@
     "admin": null,
     "district": null,
     "category": "קריית יובל, מקלט נגיש, מקלט ציבורי",
-    "geo_lat": 31.753959,
-    "geo_lon": 35.1765907
+    "geo_lat": 31.7540446,
+    "geo_lon": 35.1766657,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קריית היובל",
@@ -1879,8 +1971,9 @@
     "admin": null,
     "district": null,
     "category": "קריית יובל, מקלט ציבורי",
-    "geo_lat": 31.7581387,
-    "geo_lon": 35.1778656
+    "geo_lat": 31.758191,
+    "geo_lon": 35.1776071,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קריית היובל",
@@ -1897,8 +1990,9 @@
     "admin": null,
     "district": null,
     "category": "קריית יובל, מקלט ציבורי",
-    "geo_lat": 31.7601997,
-    "geo_lon": 35.1707038
+    "geo_lat": 31.7604818,
+    "geo_lon": 35.1704486,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קריית היובל",
@@ -1915,8 +2009,9 @@
     "admin": null,
     "district": null,
     "category": "קריית יובל, מקלט ציבורי, מקלט נגיש",
-    "geo_lat": 31.7598681,
-    "geo_lon": 35.1720002
+    "geo_lat": 31.7599405,
+    "geo_lon": 35.1721157,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קריית היובל",
@@ -1933,8 +2028,9 @@
     "admin": null,
     "district": null,
     "category": "קריית יובל, מקלט ציבורי",
-    "geo_lat": 31.7649215,
-    "geo_lon": 35.173982
+    "geo_lat": 31.7617458,
+    "geo_lon": 35.1731784,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קריית היובל",
@@ -1951,9 +2047,9 @@
     "admin": null,
     "district": null,
     "category": "קריית יובל, מקלט ציבורי",
-    "geo_lat": 31.7852154,
-    "geo_lon": 35.1938634,
-    "geo_source": "photon"
+    "geo_lat": 31.7660511,
+    "geo_lon": 35.1760201,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קריית היובל",
@@ -1970,8 +2066,9 @@
     "admin": null,
     "district": null,
     "category": "קריית יובל, מקלט ציבורי",
-    "geo_lat": 31.7591238,
-    "geo_lon": 35.1771112
+    "geo_lat": 31.7592371,
+    "geo_lon": 35.1772128,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קריית היובל",
@@ -1988,8 +2085,9 @@
     "admin": null,
     "district": null,
     "category": "קריית יובל, מקלט ציבורי",
-    "geo_lat": 31.7591238,
-    "geo_lon": 35.1771112
+    "geo_lat": 31.7592371,
+    "geo_lon": 35.1772128,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קריית היובל",
@@ -2006,9 +2104,9 @@
     "admin": null,
     "district": null,
     "category": "קריית יובל, מקלט ציבורי",
-    "geo_lat": 31.7722677,
-    "geo_lon": 35.1915379,
-    "geo_source": "photon"
+    "geo_lat": 31.7651059,
+    "geo_lon": 35.1752983,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קריית היובל",
@@ -2025,9 +2123,9 @@
     "admin": null,
     "district": null,
     "category": "קריית יובל, מקלט ציבורי",
-    "geo_lat": 31.7722677,
-    "geo_lon": 35.1915379,
-    "geo_source": "photon"
+    "geo_lat": 31.7651059,
+    "geo_lon": 35.1752983,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קריית היובל",
@@ -2044,9 +2142,9 @@
     "admin": null,
     "district": null,
     "category": "קריית יובל, מקלט ציבורי",
-    "geo_lat": 31.7658644,
-    "geo_lon": 35.1779321,
-    "geo_source": "photon"
+    "geo_lat": 31.7658085,
+    "geo_lon": 35.1773224,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קריית היובל",
@@ -2063,9 +2161,9 @@
     "admin": null,
     "district": null,
     "category": "קריית יובל, מקלט ציבורי",
-    "geo_lat": 31.7569938,
-    "geo_lon": 35.1758756,
-    "geo_source": "photon"
+    "geo_lat": 31.7573526,
+    "geo_lon": 35.1757899,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קריית היובל",
@@ -2082,8 +2180,9 @@
     "admin": null,
     "district": null,
     "category": "קריית יובל, מקלט נגיש, מקלט ציבורי",
-    "geo_lat": 31.7664774,
-    "geo_lon": 35.1769103
+    "geo_lat": 31.7665404,
+    "geo_lon": 35.1769957,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קריית היובל",
@@ -2100,9 +2199,9 @@
     "admin": null,
     "district": null,
     "category": "קריית יובל, מקלט ציבורי",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.7631766,
+    "geo_lon": 35.1774582,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קריית היובל",
@@ -2119,8 +2218,9 @@
     "admin": null,
     "district": null,
     "category": "קריית יובל, מקלט ציבורי",
-    "geo_lat": 31.7638562,
-    "geo_lon": 35.1746491
+    "geo_lat": 31.7638964,
+    "geo_lon": 35.1746685,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קריית מנחם",
@@ -2137,8 +2237,9 @@
     "admin": null,
     "district": null,
     "category": "קריית מנחם, מקלט ציבורי",
-    "geo_lat": 31.7561634,
-    "geo_lon": 35.165752
+    "geo_lat": 31.7558503,
+    "geo_lon": 35.1657631,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קריית מנחם",
@@ -2155,8 +2256,9 @@
     "admin": null,
     "district": null,
     "category": "קריית מנחם, מקלט ציבורי",
-    "geo_lat": 31.7569991,
-    "geo_lon": 35.1637922
+    "geo_lat": 31.7565378,
+    "geo_lon": 35.1668305,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קריית מנחם",
@@ -2173,8 +2275,9 @@
     "admin": null,
     "district": null,
     "category": "קריית מנחם, מקלט ציבורי, מקלט נגיש",
-    "geo_lat": 31.7586104,
-    "geo_lon": 35.165214
+    "geo_lat": 31.7584546,
+    "geo_lon": 35.16599679999999,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קריית מנחם",
@@ -2191,8 +2294,9 @@
     "admin": null,
     "district": null,
     "category": "קריית מנחם, מקלט נגיש, מקלט ציבורי",
-    "geo_lat": 31.7594896,
-    "geo_lon": 35.1654975
+    "geo_lat": 31.7594792,
+    "geo_lon": 35.165388,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קריית מנחם",
@@ -2209,8 +2313,9 @@
     "admin": null,
     "district": null,
     "category": "קריית מנחם, מקלט נגיש, מקלט ציבורי",
-    "geo_lat": 31.7594896,
-    "geo_lon": 35.1654975
+    "geo_lat": 31.7594792,
+    "geo_lon": 35.165388,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קריית מנחם",
@@ -2227,8 +2332,9 @@
     "admin": null,
     "district": null,
     "category": "קריית מנחם, מקלט ציבורי, מקלט נגיש",
-    "geo_lat": 31.7598928,
-    "geo_lon": 35.1686984
+    "geo_lat": 31.7599428,
+    "geo_lon": 35.1638806,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קריית מנחם",
@@ -2245,8 +2351,9 @@
     "admin": null,
     "district": null,
     "category": "קריית מנחם, מקלט ציבורי",
-    "geo_lat": 31.7588203,
-    "geo_lon": 35.1688871
+    "geo_lat": 31.7594846,
+    "geo_lon": 35.1688985,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קריית משה",
@@ -2263,8 +2370,9 @@
     "admin": null,
     "district": null,
     "category": "קריית משה, מקלט ציבורי",
-    "geo_lat": 31.7541611,
-    "geo_lon": 35.2261978
+    "geo_lat": 31.7533421,
+    "geo_lon": 35.2267374,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קריית שמואל",
@@ -2281,8 +2389,9 @@
     "admin": null,
     "district": null,
     "category": "קריית שמואל, מקלט ציבורי",
-    "geo_lat": 31.7674222,
-    "geo_lon": 35.2110729
+    "geo_lat": 31.767478,
+    "geo_lon": 35.2110332,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קריית שמואל",
@@ -2299,8 +2408,9 @@
     "admin": null,
     "district": null,
     "category": "קריית שמואל, מקלט נגיש, מקלט ציבורי",
-    "geo_lat": 31.7677159,
-    "geo_lon": 35.2120139
+    "geo_lat": 31.7678118,
+    "geo_lon": 35.2120205,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קריית משה",
@@ -2317,8 +2427,9 @@
     "admin": null,
     "district": null,
     "category": "קריית משה, מקלט ציבורי",
-    "geo_lat": 31.7862708,
-    "geo_lon": 35.1973185
+    "geo_lat": 31.7862135,
+    "geo_lon": 35.1973343,
+    "geo_source": "google"
   },
   {
     "neighborhood": "רוממה",
@@ -2335,8 +2446,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט ציבורי",
-    "geo_lat": 31.7954743,
-    "geo_lon": 35.2144479
+    "geo_lat": 31.7955884,
+    "geo_lon": 35.2144938,
+    "geo_source": "google"
   },
   {
     "neighborhood": "רוממה",
@@ -2353,8 +2465,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט ציבורי",
-    "geo_lat": 31.7954729,
-    "geo_lon": 35.2010382
+    "geo_lat": 31.7959485,
+    "geo_lon": 35.200855,
+    "geo_source": "google"
   },
   {
     "neighborhood": "רוממה",
@@ -2371,8 +2484,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט ציבורי",
-    "geo_lat": 31.7962424,
-    "geo_lon": 35.1995848
+    "geo_lat": 31.7957931,
+    "geo_lon": 35.1991455,
+    "geo_source": "google"
   },
   {
     "neighborhood": "רוממה",
@@ -2389,8 +2503,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט ציבורי",
-    "geo_lat": 31.794348,
-    "geo_lon": 35.2017279
+    "geo_lat": 31.794477,
+    "geo_lon": 35.2017481,
+    "geo_source": "google"
   },
   {
     "neighborhood": "רוממה",
@@ -2407,8 +2522,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט ציבורי",
-    "geo_lat": 31.7941106,
-    "geo_lon": 35.2019176
+    "geo_lat": 31.794189,
+    "geo_lon": 35.202044,
+    "geo_source": "google"
   },
   {
     "neighborhood": "רוממה",
@@ -2425,8 +2541,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט ציבורי",
-    "geo_lat": 31.7938882,
-    "geo_lon": 35.2021536
+    "geo_lat": 31.7939523,
+    "geo_lon": 35.20214989999999,
+    "geo_source": "google"
   },
   {
     "neighborhood": "רוממה",
@@ -2443,8 +2560,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט ציבורי",
-    "geo_lat": 31.7936374,
-    "geo_lon": 35.2023089
+    "geo_lat": 31.7936764,
+    "geo_lon": 35.2022781,
+    "geo_source": "google"
   },
   {
     "neighborhood": "רוממה",
@@ -2461,8 +2579,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט נגיש, מקלט ציבורי",
-    "geo_lat": 31.7948343,
-    "geo_lon": 35.2011194
+    "geo_lat": 31.7951012,
+    "geo_lon": 35.201072,
+    "geo_source": "google"
   },
   {
     "neighborhood": "רחביה",
@@ -2479,8 +2598,9 @@
     "admin": null,
     "district": null,
     "category": "רחביה, מקלט ציבורי",
-    "geo_lat": 31.7754886,
-    "geo_lon": 35.213877
+    "geo_lat": 31.7755397,
+    "geo_lon": 35.21406169999999,
+    "geo_source": "google"
   },
   {
     "neighborhood": "רחביה",
@@ -2497,8 +2617,9 @@
     "admin": null,
     "district": null,
     "category": "רחביה, מקלט ציבורי",
-    "geo_lat": 31.775072,
-    "geo_lon": 35.2152386
+    "geo_lat": 31.7750922,
+    "geo_lon": 35.2154157,
+    "geo_source": "google"
   },
   {
     "neighborhood": "רחביה",
@@ -2515,8 +2636,9 @@
     "admin": null,
     "district": null,
     "category": "רחביה, מקלט ציבורי",
-    "geo_lat": 31.7732561,
-    "geo_lon": 35.2108898
+    "geo_lat": 31.7732355,
+    "geo_lon": 35.210743,
+    "geo_source": "google"
   },
   {
     "neighborhood": "רחביה",
@@ -2533,8 +2655,9 @@
     "admin": null,
     "district": null,
     "category": "רחביה, מקלט ציבורי",
-    "geo_lat": 31.7729578,
-    "geo_lon": 35.2166277
+    "geo_lat": 31.7730426,
+    "geo_lon": 35.2166962,
+    "geo_source": "google"
   },
   {
     "neighborhood": "רחביה",
@@ -2551,8 +2674,9 @@
     "admin": null,
     "district": null,
     "category": "רחביה, מקלט ציבורי",
-    "geo_lat": 31.7715343,
-    "geo_lon": 35.2125021
+    "geo_lat": 31.771597,
+    "geo_lon": 35.2123937,
+    "geo_source": "google"
   },
   {
     "neighborhood": "רחביה",
@@ -2569,8 +2693,9 @@
     "admin": null,
     "district": null,
     "category": "רחביה, מקלט ציבורי",
-    "geo_lat": 31.77216,
-    "geo_lon": 35.2160533
+    "geo_lat": 31.7722083,
+    "geo_lon": 35.2159381,
+    "geo_source": "google"
   },
   {
     "neighborhood": "רחביה",
@@ -2587,8 +2712,9 @@
     "admin": null,
     "district": null,
     "category": "רחביה, מקלט ציבורי",
-    "geo_lat": 31.7760854,
-    "geo_lon": 35.2142805
+    "geo_lat": 31.7762631,
+    "geo_lon": 35.2142136,
+    "geo_source": "google"
   },
   {
     "neighborhood": "שמואל הנביא",
@@ -2605,8 +2731,9 @@
     "admin": null,
     "district": null,
     "category": "שמואל הנביא, מקלט ציבורי",
-    "geo_lat": 31.7957562,
-    "geo_lon": 35.2189347
+    "geo_lat": 31.7953757,
+    "geo_lon": 35.2188737,
+    "geo_source": "google"
   },
   {
     "neighborhood": "שמואל הנביא",
@@ -2623,8 +2750,9 @@
     "admin": null,
     "district": null,
     "category": "שמואל הנביא, מקלט ציבורי",
-    "geo_lat": 31.7924931,
-    "geo_lon": 35.2231813
+    "geo_lat": 31.7924702,
+    "geo_lon": 35.2231458,
+    "geo_source": "google"
   },
   {
     "neighborhood": "שמואל הנביא",
@@ -2641,8 +2769,9 @@
     "admin": null,
     "district": null,
     "category": "שמואל הנביא, מקלט ציבורי, מקלט נגיש",
-    "geo_lat": 31.7928183,
-    "geo_lon": 35.2231197
+    "geo_lat": 31.7928334,
+    "geo_lon": 35.2231139,
+    "geo_source": "google"
   },
   {
     "neighborhood": "שמואל הנביא",
@@ -2659,8 +2788,9 @@
     "admin": null,
     "district": null,
     "category": "שמואל הנביא, מקלט ציבורי",
-    "geo_lat": 31.7945549,
-    "geo_lon": 35.2189178
+    "geo_lat": 31.8025075,
+    "geo_lon": 35.1048629,
+    "geo_source": "google"
   },
   {
     "neighborhood": "תלפיות",
@@ -2677,8 +2807,9 @@
     "admin": null,
     "district": null,
     "category": "תלפיות ארנונה, מקלט ציבורי",
-    "geo_lat": 31.7574976,
-    "geo_lon": 35.2225646
+    "geo_lat": 31.7634002,
+    "geo_lon": 35.2256433,
+    "geo_source": "google"
   },
   {
     "neighborhood": "תלפיות",
@@ -2695,8 +2826,9 @@
     "admin": null,
     "district": null,
     "category": "תלפיות ארנונה, מקלט ציבורי",
-    "geo_lat": 31.7525539,
-    "geo_lon": 35.221933
+    "geo_lat": 31.7524992,
+    "geo_lon": 35.2218471,
+    "geo_source": "google"
   },
   {
     "neighborhood": "תלפיות",
@@ -2713,8 +2845,9 @@
     "admin": null,
     "district": null,
     "category": "תלפיות ארנונה, מקלט ציבורי",
-    "geo_lat": 31.7499232,
-    "geo_lon": 35.2211337
+    "geo_lat": 31.74913129999999,
+    "geo_lon": 35.2200234,
+    "geo_source": "google"
   },
   {
     "neighborhood": "תלפיות",
@@ -2731,8 +2864,9 @@
     "admin": null,
     "district": null,
     "category": "תלפיות ארנונה, מקלט ציבורי",
-    "geo_lat": 31.7490668,
-    "geo_lon": 35.223354
+    "geo_lat": 31.7490743,
+    "geo_lon": 35.2234383,
+    "geo_source": "google"
   },
   {
     "neighborhood": "תלפיות",
@@ -2749,8 +2883,9 @@
     "admin": null,
     "district": null,
     "category": "תלפיות ארנונה, מקלט ציבורי",
-    "geo_lat": 31.7519981,
-    "geo_lon": 35.2188431
+    "geo_lat": 31.7520878,
+    "geo_lon": 35.2189322,
+    "geo_source": "google"
   },
   {
     "neighborhood": "תלפיות",
@@ -2767,8 +2902,9 @@
     "admin": null,
     "district": null,
     "category": "תלפיות ארנונה, מקלט ציבורי",
-    "geo_lat": 31.7509423,
-    "geo_lon": 35.2201024
+    "geo_lat": 31.751154,
+    "geo_lon": 35.2200757,
+    "geo_source": "google"
   },
   {
     "neighborhood": "קרית יובל",
@@ -2785,8 +2921,9 @@
     "admin": "קרית היובל - 568",
     "district": "יובלים",
     "category": "קריית יובל, מקלט ציבורי",
-    "geo_lat": 31.7652014,
-    "geo_lon": 35.1730431
+    "geo_lat": 31.7639081,
+    "geo_lon": 35.1730133,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -2803,8 +2940,9 @@
     "admin": null,
     "district": null,
     "category": "רחביה, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7774536,
-    "geo_lon": 35.2159723
+    "geo_lat": 31.77754759999999,
+    "geo_lon": 35.2157297,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -2821,8 +2959,9 @@
     "admin": null,
     "district": null,
     "category": "תלפיות ארנונה, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7491931,
-    "geo_lon": 35.2061693
+    "geo_lat": 31.750588,
+    "geo_lon": 35.2099999,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -2839,8 +2978,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7925298,
-    "geo_lon": 35.2093952
+    "geo_lat": 31.790604,
+    "geo_lon": 35.200335,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -2857,9 +2997,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, חניון מוגן תת קרקעי",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.784294,
+    "geo_lon": 35.214896,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -2876,9 +3016,9 @@
     "admin": null,
     "district": null,
     "category": "מלחה, חניון מוגן תת קרקעי",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.7498445,
+    "geo_lon": 35.1860118,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -2895,8 +3035,9 @@
     "admin": null,
     "district": null,
     "category": "מלחה, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7528913,
-    "geo_lon": 35.1891363
+    "geo_lat": 31.7768831,
+    "geo_lon": 35.22243460000001,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -2913,9 +3054,9 @@
     "admin": null,
     "district": null,
     "category": "מלחה, חניון מוגן תת קרקעי",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.7498445,
+    "geo_lon": 35.1860118,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -2932,9 +3073,9 @@
     "admin": null,
     "district": null,
     "category": "מלחה, חניון מוגן תת קרקעי",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.7498445,
+    "geo_lon": 35.1860118,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -2951,8 +3092,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7892307,
-    "geo_lon": 35.2032246
+    "geo_lat": 31.7890344,
+    "geo_lon": 35.2033251,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -2969,8 +3111,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7835615,
-    "geo_lon": 35.2150563
+    "geo_lat": 31.7835849,
+    "geo_lon": 35.2147211,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -2987,8 +3130,9 @@
     "admin": null,
     "district": null,
     "category": "ארנונה, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7523532,
-    "geo_lon": 35.2253325
+    "geo_lat": 31.7522999,
+    "geo_lon": 35.2246047,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3005,8 +3149,9 @@
     "admin": null,
     "district": null,
     "category": "ארנונה, חניון מוגן תת קרקעי",
-    "geo_lat": 31.752154,
-    "geo_lon": 35.2252846
+    "geo_lat": 31.7522999,
+    "geo_lon": 35.2246047,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3023,8 +3168,9 @@
     "admin": null,
     "district": null,
     "category": "גבעת שאול, חניון מוגן תת קרקעי",
-    "geo_lat": 31.787797,
-    "geo_lon": 35.1817771
+    "geo_lat": 31.7871637,
+    "geo_lon": 35.1812814,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3041,9 +3187,9 @@
     "admin": null,
     "district": null,
     "category": "ארנונה, חניון מוגן תת קרקעי",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.7530459,
+    "geo_lon": 35.2271615,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3060,8 +3206,9 @@
     "admin": null,
     "district": null,
     "category": "גבעת שאול, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7860887,
-    "geo_lon": 35.1889843
+    "geo_lat": 31.7857228,
+    "geo_lon": 35.1893042,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3078,9 +3225,9 @@
     "admin": null,
     "district": null,
     "category": "קריית האומה, חניון מוגן תת קרקעי",
-    "geo_lat": 31.787569,
-    "geo_lon": 35.203469,
-    "geo_source": "photon"
+    "geo_lat": 31.7863215,
+    "geo_lon": 35.2023102,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3097,9 +3244,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7819705,
-    "geo_lon": 35.2222654,
-    "geo_source": "photon"
+    "geo_lat": 31.7820729,
+    "geo_lon": 35.2227089,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3116,8 +3263,9 @@
     "admin": null,
     "district": null,
     "category": "ארנונה, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7519146,
-    "geo_lon": 35.2268027
+    "geo_lat": 31.7521262,
+    "geo_lon": 35.2268227,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3134,9 +3282,9 @@
     "admin": null,
     "district": null,
     "category": "הר חוצבים, חניון מוגן תת קרקעי",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.8020725,
+    "geo_lon": 35.2073774,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3153,8 +3301,9 @@
     "admin": null,
     "district": null,
     "category": "קטמון, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7546504,
-    "geo_lon": 35.2053036
+    "geo_lat": 31.75363519999999,
+    "geo_lon": 35.2058298,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3171,8 +3320,9 @@
     "admin": null,
     "district": null,
     "category": "בית הכרם, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7812582,
-    "geo_lon": 35.1904554
+    "geo_lat": 31.7821237,
+    "geo_lon": 35.1904586,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3189,8 +3339,9 @@
     "admin": null,
     "district": null,
     "category": "גבעת שאול, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7862242,
-    "geo_lon": 35.186084
+    "geo_lat": 31.7864495,
+    "geo_lon": 35.1861561,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3207,8 +3358,9 @@
     "admin": null,
     "district": null,
     "category": "תלפיות ארנונה, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7513148,
-    "geo_lon": 35.2182209
+    "geo_lat": 31.7590837,
+    "geo_lon": 35.2216878,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3225,9 +3377,9 @@
     "admin": null,
     "district": null,
     "category": "טלביה - קוממיות, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7679276,
-    "geo_lon": 35.2165105,
-    "geo_source": "photon"
+    "geo_lat": 31.76788,
+    "geo_lon": 35.21652,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3244,8 +3396,9 @@
     "admin": null,
     "district": null,
     "category": "בקעה, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7569846,
-    "geo_lon": 35.2165088
+    "geo_lat": 31.7569609,
+    "geo_lon": 35.2164733,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3262,9 +3415,9 @@
     "admin": null,
     "district": null,
     "category": "קריית יובל, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7614787,
-    "geo_lon": 35.1754706,
-    "geo_source": "photon"
+    "geo_lat": 31.7620189,
+    "geo_lon": 35.1758857,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3281,8 +3434,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7908235,
-    "geo_lon": 35.2028034
+    "geo_lat": 31.790656,
+    "geo_lon": 35.202306,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3299,8 +3453,9 @@
     "admin": null,
     "district": null,
     "category": "ארנונה, חניון מוגן תת קרקעי",
-    "geo_lat": 31.753899,
-    "geo_lon": 35.2273023
+    "geo_lat": 31.753952,
+    "geo_lon": 35.22724120000001,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3317,8 +3472,9 @@
     "admin": null,
     "district": null,
     "category": "גבעת שאול, חניון מוגן תת קרקעי",
-    "geo_lat": 31.786842,
-    "geo_lon": 35.1814348
+    "geo_lat": 31.7869203,
+    "geo_lon": 35.181206,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3335,8 +3491,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7906305,
-    "geo_lon": 35.2015609
+    "geo_lat": 31.7906108,
+    "geo_lon": 35.2021799,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3353,8 +3510,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, חניון מוגן תת קרקעי",
-    "geo_lat": 31.77986,
-    "geo_lon": 35.219573
+    "geo_lat": 31.77997509999999,
+    "geo_lon": 35.2195234,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3371,8 +3529,9 @@
     "admin": null,
     "district": null,
     "category": "ממילא, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7757889,
-    "geo_lon": 35.2271971
+    "geo_lat": 31.777394,
+    "geo_lon": 35.2249417,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3389,8 +3548,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7798272,
-    "geo_lon": 35.2126426
+    "geo_lat": 31.7801433,
+    "geo_lon": 35.2128143,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3407,8 +3567,9 @@
     "admin": null,
     "district": null,
     "category": "ממילא, חניון מוגן תת קרקעי",
-    "geo_lat": 31.777598,
-    "geo_lon": 35.2229416
+    "geo_lat": 31.7771217,
+    "geo_lon": 35.22517029999999,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3425,8 +3586,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7843553,
-    "geo_lon": 35.2239218
+    "geo_lat": 31.7843144,
+    "geo_lon": 35.2239753,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3443,9 +3605,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, חניון מוגן תת קרקעי",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.7801262,
+    "geo_lon": 35.2247279,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3462,9 +3624,9 @@
     "admin": null,
     "district": null,
     "category": "קריית יובל, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7609755,
-    "geo_lon": 35.1715004,
-    "geo_source": "photon"
+    "geo_lat": 31.761096,
+    "geo_lon": 35.1713466,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3481,8 +3643,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7946815,
-    "geo_lon": 35.2085894
+    "geo_lat": 31.7947479,
+    "geo_lon": 35.208407,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3499,8 +3662,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7805388,
-    "geo_lon": 35.2255335
+    "geo_lat": 31.7816267,
+    "geo_lon": 35.2159239,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3517,8 +3681,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7697763,
-    "geo_lon": 35.2016345
+    "geo_lat": 31.781054,
+    "geo_lon": 35.2185436,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3535,8 +3700,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7812139,
-    "geo_lon": 35.2189353
+    "geo_lat": 31.7813488,
+    "geo_lon": 35.2189142,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3553,8 +3719,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7792258,
-    "geo_lon": 35.2180783
+    "geo_lat": 31.7794037,
+    "geo_lon": 35.2178001,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3571,8 +3738,9 @@
     "admin": null,
     "district": null,
     "category": "תלפיות ארנונה, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7507631,
-    "geo_lon": 35.2090365
+    "geo_lat": 31.7507208,
+    "geo_lon": 35.2086194,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3589,8 +3757,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7811283,
-    "geo_lon": 35.2157765
+    "geo_lat": 31.7810076,
+    "geo_lon": 35.2148542,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3607,8 +3776,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7792258,
-    "geo_lon": 35.2180783
+    "geo_lat": 31.7797312,
+    "geo_lon": 35.2179736,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3625,8 +3795,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7879197,
-    "geo_lon": 35.2275856
+    "geo_lat": 31.7898553,
+    "geo_lon": 35.2287173,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3643,8 +3814,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7823934,
-    "geo_lon": 35.215127
+    "geo_lat": 31.7822689,
+    "geo_lon": 35.2149563,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3661,8 +3833,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7839204,
-    "geo_lon": 35.2127277
+    "geo_lat": 31.7853236,
+    "geo_lon": 35.2100023,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3679,8 +3852,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, חניון מוגן תת קרקעי",
-    "geo_lat": 31.7890021,
-    "geo_lon": 35.2053137
+    "geo_lat": 31.7891368,
+    "geo_lon": 35.2052688,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3697,8 +3871,9 @@
     "admin": null,
     "district": null,
     "category": "גוננים - קטמונים, מקלט בבית ספר",
-    "geo_lat": 31.7536248,
-    "geo_lon": 35.1980021
+    "geo_lat": 31.7535232,
+    "geo_lon": 35.1984183,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3715,8 +3890,9 @@
     "admin": null,
     "district": null,
     "category": "גבעת שאול, מקלט בבית ספר",
-    "geo_lat": 31.7886414,
-    "geo_lon": 35.190279
+    "geo_lat": 31.7891321,
+    "geo_lon": 35.19032980000001,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3733,9 +3909,9 @@
     "admin": null,
     "district": null,
     "category": "א-טור, מקלט בבית ספר",
-    "geo_lat": 31.7605604,
-    "geo_lon": 35.2530412,
-    "geo_source": "photon"
+    "geo_lat": 31.7717648,
+    "geo_lon": 35.2510027,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3752,8 +3928,9 @@
     "admin": null,
     "district": null,
     "category": "א-טור, מקלט בבית ספר",
-    "geo_lat": 31.7765153,
-    "geo_lon": 35.2402499
+    "geo_lat": 31.7733712,
+    "geo_lon": 35.2484813,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3770,8 +3947,9 @@
     "admin": null,
     "district": null,
     "category": "אבו תור, מקלט בבית ספר",
-    "geo_lat": 31.7608325,
-    "geo_lon": 35.2265029
+    "geo_lat": 31.764109,
+    "geo_lon": 35.23205,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3788,8 +3966,9 @@
     "admin": null,
     "district": null,
     "category": "תלפיות ארנונה, מקלט בבית ספר",
-    "geo_lat": 31.7543603,
-    "geo_lon": 35.2165785
+    "geo_lat": 31.75450069999999,
+    "geo_lon": 35.2165463,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3806,8 +3985,9 @@
     "admin": null,
     "district": null,
     "category": "הבוכרים - בית ישראל, מקלט בבית ספר",
-    "geo_lat": 31.7908026,
-    "geo_lon": 35.2108202
+    "geo_lat": 31.7908992,
+    "geo_lon": 35.2106278,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3824,9 +4004,9 @@
     "admin": null,
     "district": null,
     "category": "הבוכרים - בית ישראל, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.7919357,
+    "geo_lon": 35.21030340000001,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3843,8 +4023,9 @@
     "admin": null,
     "district": null,
     "category": "הבוכרים - בית ישראל, מקלט בבית ספר",
-    "geo_lat": 31.7878576,
-    "geo_lon": 35.2100198
+    "geo_lat": 31.7880609,
+    "geo_lon": 35.2098647,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3861,8 +4042,9 @@
     "admin": null,
     "district": null,
     "category": "הבוכרים - בית ישראל, מקלט בבית ספר",
-    "geo_lat": 31.7919961,
-    "geo_lon": 35.2119799
+    "geo_lat": 31.7920026,
+    "geo_lon": 35.2117988,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3879,8 +4061,9 @@
     "admin": null,
     "district": null,
     "category": "הבוכרים - בית ישראל, מקלט בבית ספר",
-    "geo_lat": 31.7903055,
-    "geo_lon": 35.2101876
+    "geo_lat": 31.7900765,
+    "geo_lon": 35.2103498,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3897,8 +4080,9 @@
     "admin": null,
     "district": null,
     "category": "הבוכרים - בית ישראל, מקלט בבית ספר",
-    "geo_lat": 31.7906233,
-    "geo_lon": 35.2098124
+    "geo_lat": 31.7903734,
+    "geo_lon": 35.2097974,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3915,8 +4099,9 @@
     "admin": null,
     "district": null,
     "category": "הבוכרים - בית ישראל, מקלט בבית ספר",
-    "geo_lat": 31.790339,
-    "geo_lon": 35.2106672
+    "geo_lat": 31.7903887,
+    "geo_lon": 35.2107616,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3933,8 +4118,9 @@
     "admin": null,
     "district": null,
     "category": "הבוכרים - בית ישראל, מקלט בבית ספר",
-    "geo_lat": 31.7898749,
-    "geo_lon": 35.2098179
+    "geo_lat": 31.7899079,
+    "geo_lon": 35.2098606,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3951,9 +4137,9 @@
     "admin": null,
     "district": null,
     "category": "בית וגן, מקלט בבית ספר",
-    "geo_lat": 31.7624855,
-    "geo_lon": 35.187372,
-    "geo_source": "photon"
+    "geo_lat": 31.7624339,
+    "geo_lon": 35.187183,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3970,8 +4156,9 @@
     "admin": null,
     "district": null,
     "category": "הבוכרים - בית ישראל, מקלט בבית ספר",
-    "geo_lat": 31.7907278,
-    "geo_lon": 35.2111931
+    "geo_lat": 31.7907835,
+    "geo_lon": 35.2117773,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -3988,8 +4175,9 @@
     "admin": null,
     "district": null,
     "category": "בית הכרם, מקלט בבית ספר",
-    "geo_lat": 31.7812582,
-    "geo_lon": 35.1904554
+    "geo_lat": 31.7821237,
+    "geo_lon": 35.1904586,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4006,8 +4194,9 @@
     "admin": null,
     "district": null,
     "category": "בית הכרם, מקלט בבית ספר",
-    "geo_lat": 31.7794805,
-    "geo_lon": 35.1864383
+    "geo_lat": 31.7794768,
+    "geo_lon": 35.1864753,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4024,9 +4213,9 @@
     "admin": null,
     "district": null,
     "category": "בית הכרם, מקלט בבית ספר",
-    "geo_lat": 31.7712333,
-    "geo_lon": 35.1810525,
-    "geo_source": "photon"
+    "geo_lat": 31.7820688,
+    "geo_lon": 35.1899362,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4043,9 +4232,9 @@
     "admin": null,
     "district": null,
     "category": "בית הכרם, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.78034599999999,
+    "geo_lon": 35.1944743,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4062,8 +4251,9 @@
     "admin": null,
     "district": null,
     "category": "בית הכרם, מקלט בבית ספר",
-    "geo_lat": 31.772776,
-    "geo_lon": 35.183006
+    "geo_lat": 31.7762799,
+    "geo_lon": 35.1864181,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4080,8 +4270,9 @@
     "admin": null,
     "district": null,
     "category": "בית וגן, מקלט בבית ספר",
-    "geo_lat": 31.7671766,
-    "geo_lon": 35.1823239
+    "geo_lat": 31.7669741,
+    "geo_lon": 35.1814258,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4098,8 +4289,9 @@
     "admin": null,
     "district": null,
     "category": "בית וגן, מקלט בבית ספר",
-    "geo_lat": 31.7602552,
-    "geo_lon": 35.1916599
+    "geo_lat": 31.7618151,
+    "geo_lon": 35.1918035,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4116,8 +4308,9 @@
     "admin": null,
     "district": null,
     "category": "בית וגן, מקלט בבית ספר",
-    "geo_lat": 31.7622237,
-    "geo_lon": 35.1868475
+    "geo_lat": 31.7616538,
+    "geo_lon": 35.1870067,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4134,8 +4327,9 @@
     "admin": null,
     "district": null,
     "category": "בית וגן, מקלט בבית ספר",
-    "geo_lat": 31.7664106,
-    "geo_lon": 35.1826046
+    "geo_lat": 31.7664743,
+    "geo_lon": 35.1824545,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4152,8 +4346,9 @@
     "admin": null,
     "district": null,
     "category": "בית וגן, מקלט בבית ספר",
-    "geo_lat": 31.7679775,
-    "geo_lon": 35.1825585
+    "geo_lat": 31.767771,
+    "geo_lon": 35.1826199,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4170,8 +4365,9 @@
     "admin": null,
     "district": null,
     "category": "בית וגן, מקלט בבית ספר",
-    "geo_lat": 31.7652688,
-    "geo_lon": 35.185157
+    "geo_lat": 31.765328,
+    "geo_lon": 35.1852612,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4188,8 +4384,9 @@
     "admin": null,
     "district": null,
     "category": "בית וגן, מקלט בבית ספר",
-    "geo_lat": 31.7705545,
-    "geo_lon": 35.1825814
+    "geo_lat": 31.7705044,
+    "geo_lon": 35.1826361,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4206,8 +4403,9 @@
     "admin": null,
     "district": null,
     "category": "בית וגן, מקלט בבית ספר",
-    "geo_lat": 31.7675373,
-    "geo_lon": 35.1812274
+    "geo_lat": 31.7670162,
+    "geo_lon": 35.1812718,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4224,8 +4422,9 @@
     "admin": null,
     "district": null,
     "category": "בית וגן, מקלט בבית ספר",
-    "geo_lat": 31.7654644,
-    "geo_lon": 35.1833932
+    "geo_lat": 31.7631305,
+    "geo_lon": 35.1850261,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4242,9 +4441,9 @@
     "admin": null,
     "district": null,
     "category": "בית וגן, מקלט בבית ספר",
-    "geo_lat": 31.7657722,
-    "geo_lon": 35.1931388,
-    "geo_source": "photon"
+    "geo_lat": 31.7648461,
+    "geo_lon": 35.1901441,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4261,9 +4460,9 @@
     "admin": null,
     "district": null,
     "category": "בית וגן, מקלט בבית ספר",
-    "geo_lat": 31.7627254,
-    "geo_lon": 35.1887846,
-    "geo_source": "photon"
+    "geo_lat": 31.7627109,
+    "geo_lon": 35.1889018,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4280,8 +4479,9 @@
     "admin": null,
     "district": null,
     "category": "בית וגן, מקלט בבית ספר",
-    "geo_lat": 31.7672851,
-    "geo_lon": 35.1832707
+    "geo_lat": 31.7668689,
+    "geo_lon": 35.1827277,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4298,8 +4498,9 @@
     "admin": null,
     "district": null,
     "category": "בית וגן, מקלט בבית ספר",
-    "geo_lat": 31.7668362,
-    "geo_lon": 35.1804362
+    "geo_lat": 31.7657671,
+    "geo_lon": 35.1803398,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4316,9 +4517,9 @@
     "admin": null,
     "district": null,
     "category": "בית חנינא, מקלט בבית ספר",
-    "geo_lat": 31.7419457,
-    "geo_lon": 35.1906472,
-    "geo_source": "photon"
+    "geo_lat": 31.84102099999999,
+    "geo_lon": 35.219471,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4335,8 +4536,9 @@
     "admin": null,
     "district": null,
     "category": "בית חנינא, מקלט בבית ספר",
-    "geo_lat": 31.820442,
-    "geo_lon": 35.2299161
+    "geo_lat": 31.7768831,
+    "geo_lon": 35.22243460000001,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4353,8 +4555,9 @@
     "admin": null,
     "district": null,
     "category": "בית חנינא, מקלט בבית ספר",
-    "geo_lat": 31.8347662,
-    "geo_lon": 35.2240769
+    "geo_lat": 31.8274813,
+    "geo_lon": 35.227447,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4371,8 +4574,9 @@
     "admin": null,
     "district": null,
     "category": "בית חנינא, מקלט בבית ספר",
-    "geo_lat": 31.8339721,
-    "geo_lon": 35.2290788
+    "geo_lat": 31.8339497,
+    "geo_lon": 35.2288682,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4389,9 +4593,9 @@
     "admin": null,
     "district": null,
     "category": "בית חנינא, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.7768831,
+    "geo_lon": 35.22243460000001,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4408,9 +4612,9 @@
     "admin": null,
     "district": null,
     "category": "בית חנינא, מקלט בבית ספר",
-    "geo_lat": 31.828051,
-    "geo_lon": 35.228016,
-    "geo_source": "photon"
+    "geo_lat": 31.8276077,
+    "geo_lon": 35.2329199,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4427,9 +4631,9 @@
     "admin": null,
     "district": null,
     "category": "בית צפאפא, מקלט בבית ספר",
-    "geo_lat": 31.74421,
-    "geo_lon": 35.194515,
-    "geo_source": "photon"
+    "geo_lat": 31.7431459,
+    "geo_lon": 35.1941325,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4446,9 +4650,9 @@
     "admin": null,
     "district": null,
     "category": "בית צפאפא, מקלט בבית ספר",
-    "geo_lat": 31.7458972,
-    "geo_lon": 35.2039528,
-    "geo_source": "photon"
+    "geo_lat": 31.7472819,
+    "geo_lon": 35.2059409,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4465,8 +4669,9 @@
     "admin": null,
     "district": null,
     "category": "בית צפאפא, מקלט בבית ספר",
-    "geo_lat": 31.744716,
-    "geo_lon": 35.2059568
+    "geo_lat": 31.7446466,
+    "geo_lon": 35.2059006,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4483,9 +4688,9 @@
     "admin": null,
     "district": null,
     "category": "ג'אבל מוכבר, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.9512433,
+    "geo_lon": 34.9315856,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4502,9 +4707,9 @@
     "admin": null,
     "district": null,
     "category": "ג'אבל מוכבר, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.8307693,
+    "geo_lon": 35.2256213,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4521,8 +4726,9 @@
     "admin": null,
     "district": null,
     "category": "ג'אבל מוכבר, מקלט בבית ספר",
-    "geo_lat": 31.7491535,
-    "geo_lon": 35.2382578
+    "geo_lat": 31.7768831,
+    "geo_lon": 35.22243460000001,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4539,9 +4745,9 @@
     "admin": null,
     "district": null,
     "category": "ג'אבל מוכבר, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.8307693,
+    "geo_lon": 35.2256213,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4558,9 +4764,9 @@
     "admin": null,
     "district": null,
     "category": "ג'אבל מוכבר, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.8307693,
+    "geo_lon": 35.2256213,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4577,9 +4783,9 @@
     "admin": null,
     "district": null,
     "category": "ג'אבל מוכבר, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.832479,
+    "geo_lon": 35.2402773,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4596,9 +4802,9 @@
     "admin": null,
     "district": null,
     "category": "ג'אבל מוכבר, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.7951572,
+    "geo_lon": 35.1610935,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4615,8 +4821,9 @@
     "admin": null,
     "district": null,
     "category": "גאולה, מקלט בבית ספר",
-    "geo_lat": 31.7867142,
-    "geo_lon": 35.2185063
+    "geo_lat": 31.7857905,
+    "geo_lon": 35.2172166,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4633,8 +4840,9 @@
     "admin": null,
     "district": null,
     "category": "אבו תור, מקלט בבית ספר",
-    "geo_lat": 31.7811557,
-    "geo_lon": 35.2464598
+    "geo_lat": 31.785398,
+    "geo_lon": 35.247948,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4651,8 +4859,10 @@
     "admin": null,
     "district": null,
     "category": "גאולה, מקלט בבית ספר",
-    "geo_lat": 31.7904243,
-    "geo_lon": 35.2207545
+    "geo_lat": 31.7914812,
+    "geo_lon": 35.2188711,
+    "use_geo": false,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4669,8 +4879,9 @@
     "admin": null,
     "district": null,
     "category": "גאולה, מקלט בבית ספר",
-    "geo_lat": 31.7920974,
-    "geo_lon": 35.222056
+    "geo_lat": 31.7920927,
+    "geo_lon": 35.2221019,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4687,8 +4898,9 @@
     "admin": null,
     "district": null,
     "category": "גאולה, מקלט בבית ספר",
-    "geo_lat": 31.7922623,
-    "geo_lon": 35.2163596
+    "geo_lat": 31.792223,
+    "geo_lon": 35.2163315,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4705,8 +4917,9 @@
     "admin": null,
     "district": null,
     "category": "גאולה, מקלט בבית ספר",
-    "geo_lat": 31.7892652,
-    "geo_lon": 35.2219706
+    "geo_lat": 31.7891781,
+    "geo_lon": 35.2215988,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4723,8 +4936,9 @@
     "admin": null,
     "district": null,
     "category": "גאולה, מקלט בבית ספר",
-    "geo_lat": 31.7917046,
-    "geo_lon": 35.2183952
+    "geo_lat": 31.791849,
+    "geo_lon": 35.21811,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4741,8 +4955,9 @@
     "admin": null,
     "district": null,
     "category": "באב א זהרה, מקלט בבית ספר",
-    "geo_lat": 31.7834111,
-    "geo_lon": 35.2343769
+    "geo_lat": 31.7838104,
+    "geo_lon": 35.236511,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4759,9 +4974,9 @@
     "admin": null,
     "district": null,
     "category": "ג'אבל מוכבר, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.7368433,
+    "geo_lon": 35.2470881,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4778,8 +4993,9 @@
     "admin": null,
     "district": null,
     "category": "גאולה, מקלט בבית ספר",
-    "geo_lat": 31.7895809,
-    "geo_lon": 35.2204737
+    "geo_lat": 31.7895887,
+    "geo_lon": 35.2203394,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4796,9 +5012,9 @@
     "admin": null,
     "district": null,
     "category": "אבו תור, מקלט בבית ספר",
-    "geo_lat": 31.783711,
-    "geo_lon": 35.254923,
-    "geo_source": "photon"
+    "geo_lat": 31.780769,
+    "geo_lon": 35.250774,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4815,9 +5031,9 @@
     "admin": null,
     "district": null,
     "category": "אבו תור, מקלט בבית ספר",
-    "geo_lat": 31.7823704,
-    "geo_lon": 35.2456502,
-    "geo_source": "photon"
+    "geo_lat": 31.785398,
+    "geo_lon": 35.247948,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4834,8 +5050,9 @@
     "admin": null,
     "district": null,
     "category": "גאולה, מקלט בבית ספר",
-    "geo_lat": 31.7924248,
-    "geo_lon": 35.2210296
+    "geo_lat": 31.7923304,
+    "geo_lon": 35.2209166,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4852,8 +5069,9 @@
     "admin": null,
     "district": null,
     "category": "גאולה, מקלט בבית ספר",
-    "geo_lat": 31.7899625,
-    "geo_lon": 35.2195545
+    "geo_lat": 31.7900015,
+    "geo_lon": 35.2194896,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4870,8 +5088,9 @@
     "admin": null,
     "district": null,
     "category": "גאולה, מקלט בבית ספר",
-    "geo_lat": 31.7884003,
-    "geo_lon": 35.2182081
+    "geo_lat": 31.7884567,
+    "geo_lon": 35.2179787,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4888,8 +5107,9 @@
     "admin": null,
     "district": null,
     "category": "גאולה, מקלט בבית ספר",
-    "geo_lat": 31.7904534,
-    "geo_lon": 35.2198062
+    "geo_lat": 31.7905261,
+    "geo_lon": 35.219715,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4906,9 +5126,9 @@
     "admin": null,
     "district": null,
     "category": "אבו תור, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.764765,
+    "geo_lon": 35.231476,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4925,8 +5145,9 @@
     "admin": null,
     "district": null,
     "category": "גאולה, מקלט בבית ספר",
-    "geo_lat": 31.7889438,
-    "geo_lon": 35.22178
+    "geo_lat": 31.7891889,
+    "geo_lon": 35.22208800000001,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4943,8 +5164,9 @@
     "admin": null,
     "district": null,
     "category": "גאולה, מקלט בבית ספר",
-    "geo_lat": 31.7891731,
-    "geo_lon": 35.2144558
+    "geo_lat": 31.7886534,
+    "geo_lon": 35.2141561,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4961,8 +5183,9 @@
     "admin": null,
     "district": null,
     "category": "גאולה, מקלט בבית ספר",
-    "geo_lat": 31.7910134,
-    "geo_lon": 35.2207653
+    "geo_lat": 31.7920166,
+    "geo_lon": 35.2215126,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4979,8 +5202,9 @@
     "admin": null,
     "district": null,
     "category": "גאולה, מקלט בבית ספר",
-    "geo_lat": 31.7871449,
-    "geo_lon": 35.2176491
+    "geo_lat": 31.7872212,
+    "geo_lon": 35.2175901,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -4997,9 +5221,9 @@
     "admin": null,
     "district": null,
     "category": "בקעה, מקלט בבית ספר",
-    "geo_lat": 31.7560374,
-    "geo_lon": 35.219141,
-    "geo_source": "photon"
+    "geo_lat": 31.7558849,
+    "geo_lon": 35.2188135,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5016,9 +5240,9 @@
     "admin": null,
     "district": null,
     "category": "בית צפאפא, מקלט בבית ספר",
-    "geo_lat": 31.742034,
-    "geo_lon": 35.207132,
-    "geo_source": "photon"
+    "geo_lat": 31.7410286,
+    "geo_lon": 35.2057494,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5035,9 +5259,9 @@
     "admin": null,
     "district": null,
     "category": "ג'אבל מוכבר, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.8307693,
+    "geo_lon": 35.2256213,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5054,8 +5278,9 @@
     "admin": null,
     "district": null,
     "category": "בקעה, מקלט בבית ספר",
-    "geo_lat": 31.7575119,
-    "geo_lon": 35.2173409
+    "geo_lat": 31.757459,
+    "geo_lon": 35.2172058,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5072,9 +5297,9 @@
     "admin": null,
     "district": null,
     "category": "ג'אבל מוכבר, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.7395076,
+    "geo_lon": 35.244889,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5091,8 +5316,9 @@
     "admin": null,
     "district": null,
     "category": "הגבעה הצרפתית, מקלט בבית ספר",
-    "geo_lat": 31.807467,
-    "geo_lon": 35.2387234
+    "geo_lat": 31.8023823,
+    "geo_lon": 35.2400084,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5109,8 +5335,9 @@
     "admin": null,
     "district": null,
     "category": "הגבעה הצרפתית, מקלט בבית ספר",
-    "geo_lat": 31.8029117,
-    "geo_lon": 35.2356429
+    "geo_lat": 31.8013732,
+    "geo_lon": 35.234527,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5127,8 +5354,9 @@
     "admin": null,
     "district": null,
     "category": "הגבעה הצרפתית, מקלט בבית ספר",
-    "geo_lat": 31.8011679,
-    "geo_lon": 35.2397036
+    "geo_lat": 31.8013751,
+    "geo_lon": 35.2395233,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5145,8 +5373,9 @@
     "admin": null,
     "district": null,
     "category": "גבעת מרדכי, מקלט בבית ספר",
-    "geo_lat": 31.764868,
-    "geo_lon": 35.1949267
+    "geo_lat": 31.7632895,
+    "geo_lon": 35.1962569,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5163,8 +5392,9 @@
     "admin": null,
     "district": null,
     "category": "גבעת מרדכי, מקלט בבית ספר",
-    "geo_lat": 31.7648242,
-    "geo_lon": 35.1968605
+    "geo_lat": 31.7627408,
+    "geo_lon": 35.1985437,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5181,8 +5411,9 @@
     "admin": null,
     "district": null,
     "category": "גבעת מרדכי, מקלט בבית ספר",
-    "geo_lat": 31.7607473,
-    "geo_lon": 35.1981136
+    "geo_lat": 31.76041859999999,
+    "geo_lon": 35.1982873,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5199,8 +5430,9 @@
     "admin": null,
     "district": null,
     "category": "גבעת משואה, מקלט בבית ספר",
-    "geo_lat": 31.7478148,
-    "geo_lon": 35.1694622
+    "geo_lat": 31.7490847,
+    "geo_lon": 35.1718088,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5217,9 +5449,9 @@
     "admin": null,
     "district": null,
     "category": "גבעת משואה, מקלט בבית ספר",
-    "geo_lat": 31.756404,
-    "geo_lon": 35.162801,
-    "geo_source": "photon"
+    "geo_lat": 31.75142709999999,
+    "geo_lon": 35.1767842,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5236,9 +5468,9 @@
     "admin": null,
     "district": null,
     "category": "גבעת רם, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.7778137,
+    "geo_lon": 35.1944403,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5255,8 +5487,9 @@
     "admin": null,
     "district": null,
     "category": "מעלות דפנה, שמואל הנביא, מקלט בבית ספר",
-    "geo_lat": 31.797561,
-    "geo_lon": 35.2274253
+    "geo_lat": 31.7975722,
+    "geo_lon": 35.22819520000001,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5273,9 +5506,9 @@
     "admin": null,
     "district": null,
     "category": "גבעת רם, מקלט בבית ספר",
-    "geo_lat": 31.7724678,
-    "geo_lon": 35.2206678,
-    "geo_source": "photon"
+    "geo_lat": 31.7778137,
+    "geo_lon": 35.1944403,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5292,9 +5525,9 @@
     "admin": null,
     "district": null,
     "category": "גבעת שאול, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.793091,
+    "geo_lon": 35.1908711,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5311,8 +5544,9 @@
     "admin": null,
     "district": null,
     "category": "גבעת שאול, מקלט בבית ספר",
-    "geo_lat": 31.7892203,
-    "geo_lon": 35.191675
+    "geo_lat": 31.7890389,
+    "geo_lon": 35.1915056,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5329,8 +5563,9 @@
     "admin": null,
     "district": null,
     "category": "גבעת שאול, מקלט בבית ספר",
-    "geo_lat": 31.7894724,
-    "geo_lon": 35.1868322
+    "geo_lat": 31.7890287,
+    "geo_lon": 35.1824291,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5347,9 +5582,9 @@
     "admin": null,
     "district": null,
     "category": "גבעת שאול, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.785777,
+    "geo_lon": 35.190843,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5366,8 +5601,9 @@
     "admin": null,
     "district": null,
     "category": "גבעת שאול, מקלט בבית ספר",
-    "geo_lat": 31.7890319,
-    "geo_lon": 35.1975032
+    "geo_lat": 31.7889921,
+    "geo_lon": 35.1951108,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5384,8 +5620,9 @@
     "admin": null,
     "district": null,
     "category": "גבעת שאול, מקלט בבית ספר",
-    "geo_lat": 31.7901092,
-    "geo_lon": 35.193587
+    "geo_lat": 31.7902312,
+    "geo_lon": 35.1934976,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5402,8 +5639,9 @@
     "admin": null,
     "district": null,
     "category": "גבעת שאול, מקלט בבית ספר",
-    "geo_lat": 31.7901704,
-    "geo_lon": 35.1895372
+    "geo_lat": 31.7898538,
+    "geo_lon": 35.1894542,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5420,8 +5658,9 @@
     "admin": null,
     "district": null,
     "category": "גבעת שאול, מקלט בבית ספר",
-    "geo_lat": 31.7890319,
-    "geo_lon": 35.1975032
+    "geo_lat": 31.7895116,
+    "geo_lon": 35.1947808,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5438,9 +5677,9 @@
     "admin": null,
     "district": null,
     "category": "גבעת שאול, מקלט בבית ספר",
-    "geo_lat": 31.7919578,
-    "geo_lon": 35.1913592,
-    "geo_source": "photon"
+    "geo_lat": 31.7914675,
+    "geo_lon": 35.1912149,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5457,8 +5696,9 @@
     "admin": null,
     "district": null,
     "category": "גוננים - קטמונים, מקלט בבית ספר",
-    "geo_lat": 31.7590395,
-    "geo_lon": 35.2137454
+    "geo_lat": 31.7579098,
+    "geo_lon": 35.2072223,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5475,8 +5715,9 @@
     "admin": null,
     "district": null,
     "category": "גאולה, מקלט בבית ספר",
-    "geo_lat": 31.7854328,
-    "geo_lon": 35.2224832
+    "geo_lat": 31.7855847,
+    "geo_lon": 35.222656,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5493,8 +5734,9 @@
     "admin": null,
     "district": null,
     "category": "גוננים - קטמונים, מקלט בבית ספר",
-    "geo_lat": 31.753697,
-    "geo_lon": 35.2047628
+    "geo_lat": 31.7545042,
+    "geo_lon": 35.2043282,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5511,8 +5753,9 @@
     "admin": null,
     "district": null,
     "category": "גוננים - קטמונים, מקלט בבית ספר",
-    "geo_lat": 31.7514791,
-    "geo_lon": 35.1995659
+    "geo_lat": 31.7511736,
+    "geo_lon": 35.1995177,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5529,8 +5772,9 @@
     "admin": null,
     "district": null,
     "category": "גוננים - קטמונים, מקלט בבית ספר",
-    "geo_lat": 31.7578693,
-    "geo_lon": 35.2021144
+    "geo_lat": 31.7577393,
+    "geo_lon": 35.2015524,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5547,9 +5791,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.7989334,
-    "geo_lon": 35.2069915,
-    "geo_source": "photon"
+    "geo_lat": 31.7987334,
+    "geo_lon": 35.2073398,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5566,8 +5810,9 @@
     "admin": null,
     "district": null,
     "category": "גוננים - קטמונים, מקלט בבית ספר",
-    "geo_lat": 31.7562977,
-    "geo_lon": 35.2001854
+    "geo_lat": 31.7545476,
+    "geo_lon": 35.2036506,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5584,8 +5829,9 @@
     "admin": null,
     "district": null,
     "category": "גוננים - קטמונים, מקלט בבית ספר",
-    "geo_lat": 31.7542317,
-    "geo_lon": 35.2020357
+    "geo_lat": 31.7532191,
+    "geo_lon": 35.2053487,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5602,9 +5848,9 @@
     "admin": null,
     "district": null,
     "category": "גוננים - קטמונים, מקלט בבית ספר",
-    "geo_lat": 31.7607633,
-    "geo_lon": 35.2047601,
-    "geo_source": "photon"
+    "geo_lat": 31.7607734,
+    "geo_lon": 35.2045328,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5621,8 +5867,9 @@
     "admin": null,
     "district": null,
     "category": "גוננים - קטמונים, מקלט בבית ספר",
-    "geo_lat": 31.755181,
-    "geo_lon": 35.1937815
+    "geo_lat": 31.7552134,
+    "geo_lon": 35.1939727,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5639,8 +5886,9 @@
     "admin": null,
     "district": null,
     "category": "גוננים - קטמונים, מקלט בבית ספר",
-    "geo_lat": 31.7531959,
-    "geo_lon": 35.1986513
+    "geo_lat": 31.7528713,
+    "geo_lon": 35.1988049,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5657,8 +5905,9 @@
     "admin": null,
     "district": null,
     "category": "גילה, מקלט בבית ספר",
-    "geo_lat": 31.7329911,
-    "geo_lon": 35.187954
+    "geo_lat": 31.7334826,
+    "geo_lon": 35.1891889,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5675,8 +5924,9 @@
     "admin": null,
     "district": null,
     "category": "גילה, מקלט בבית ספר",
-    "geo_lat": 31.7339122,
-    "geo_lon": 35.1998345
+    "geo_lat": 31.7337289,
+    "geo_lon": 35.1994443,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5693,8 +5943,9 @@
     "admin": null,
     "district": null,
     "category": "גילה, מקלט בבית ספר",
-    "geo_lat": 31.7346713,
-    "geo_lon": 35.1988975
+    "geo_lat": 31.7344977,
+    "geo_lon": 35.1992852,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5711,8 +5962,9 @@
     "admin": null,
     "district": null,
     "category": "גילה, מקלט בבית ספר",
-    "geo_lat": 31.8067015,
-    "geo_lon": 35.1656915
+    "geo_lat": 31.8068124,
+    "geo_lon": 35.1657455,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5729,8 +5981,9 @@
     "admin": "גילה - 188",
     "district": null,
     "category": "גילה, מקלט בבית ספר",
-    "geo_lat": 31.7349035,
-    "geo_lon": 35.199199
+    "geo_lat": 31.7352331,
+    "geo_lon": 35.199279,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5747,8 +6000,9 @@
     "admin": null,
     "district": null,
     "category": "גילה, מקלט בבית ספר",
-    "geo_lat": 31.7352056,
-    "geo_lon": 35.1808988
+    "geo_lat": 31.735266,
+    "geo_lon": 35.1804283,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5765,9 +6019,9 @@
     "admin": null,
     "district": null,
     "category": "גילה, מקלט בבית ספר",
-    "geo_lat": 31.78081,
-    "geo_lon": 35.2239192,
-    "geo_source": "photon"
+    "geo_lat": 31.7318772,
+    "geo_lon": 35.1863092,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5784,8 +6038,9 @@
     "admin": null,
     "district": null,
     "category": "גילה, מקלט בבית ספר",
-    "geo_lat": 31.7276654,
-    "geo_lon": 35.1889822
+    "geo_lat": 31.8063758,
+    "geo_lon": 35.1632502,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5802,8 +6057,9 @@
     "admin": null,
     "district": null,
     "category": "גילה, מקלט בבית ספר",
-    "geo_lat": 31.7349035,
-    "geo_lon": 35.199199
+    "geo_lat": 31.7360938,
+    "geo_lon": 35.1974076,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5820,8 +6076,9 @@
     "admin": null,
     "district": null,
     "category": "גילה, מקלט בבית ספר",
-    "geo_lat": 31.7305056,
-    "geo_lon": 35.1894652
+    "geo_lat": 31.72980979999999,
+    "geo_lon": 35.1910803,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5838,8 +6095,9 @@
     "admin": null,
     "district": null,
     "category": "המושבה הגרמנית, המושבה היוונית, מקלט בבית ספר",
-    "geo_lat": 31.766487,
-    "geo_lon": 35.2181556
+    "geo_lat": 31.76603,
+    "geo_lon": 35.2178902,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5856,8 +6114,9 @@
     "admin": null,
     "district": null,
     "category": "המושבה הגרמנית, המושבה היוונית, מקלט בבית ספר",
-    "geo_lat": 31.7645407,
-    "geo_lon": 35.21808
+    "geo_lat": 31.7651488,
+    "geo_lon": 35.2154105,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5874,8 +6133,9 @@
     "admin": null,
     "district": null,
     "category": "המושבה הגרמנית, המושבה היוונית, מקלט בבית ספר",
-    "geo_lat": 31.7651569,
-    "geo_lon": 35.2211047
+    "geo_lat": 31.7651158,
+    "geo_lon": 35.2203913,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5892,8 +6152,9 @@
     "admin": "חומת שמואל - 242",
     "district": null,
     "category": "הר חומה, מקלט בבית ספר",
-    "geo_lat": 31.7261155,
-    "geo_lon": 35.2237848
+    "geo_lat": 31.72625,
+    "geo_lon": 35.2233488,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5910,9 +6171,9 @@
     "admin": null,
     "district": null,
     "category": "הר חומה, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.7768831,
+    "geo_lon": 35.22243460000001,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5929,8 +6190,9 @@
     "admin": null,
     "district": null,
     "category": "הר חומה, מקלט בבית ספר",
-    "geo_lat": 31.7237292,
-    "geo_lon": 35.2198252
+    "geo_lat": 31.7236055,
+    "geo_lon": 35.2202565,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5947,8 +6209,9 @@
     "admin": null,
     "district": null,
     "category": "הר חומה, מקלט בבית ספר",
-    "geo_lat": 31.7224316,
-    "geo_lon": 35.2246267
+    "geo_lat": 31.7221156,
+    "geo_lon": 35.2245686,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5965,8 +6228,9 @@
     "admin": null,
     "district": null,
     "category": "הר חומה, מקלט בבית ספר",
-    "geo_lat": 31.7220074,
-    "geo_lon": 35.2252691
+    "geo_lat": 31.7219988,
+    "geo_lon": 35.2243781,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -5983,8 +6247,9 @@
     "admin": null,
     "district": null,
     "category": "הר נוף, מקלט בבית ספר",
-    "geo_lat": 31.7814433,
-    "geo_lon": 35.172304
+    "geo_lat": 31.7813396,
+    "geo_lon": 35.1726159,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6001,8 +6266,9 @@
     "admin": null,
     "district": null,
     "category": "הר נוף, מקלט בבית ספר",
-    "geo_lat": 31.7866958,
-    "geo_lon": 35.1796651
+    "geo_lat": 31.7846622,
+    "geo_lon": 35.1755714,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6019,8 +6285,9 @@
     "admin": null,
     "district": null,
     "category": "הר נוף, מקלט בבית ספר",
-    "geo_lat": 31.781358,
-    "geo_lon": 35.173673
+    "geo_lat": 31.783744,
+    "geo_lon": 35.17172,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6037,8 +6304,9 @@
     "admin": null,
     "district": null,
     "category": "הר נוף, מקלט בבית ספר",
-    "geo_lat": 31.7824851,
-    "geo_lon": 35.1742602
+    "geo_lat": 31.7825655,
+    "geo_lon": 35.1741632,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6055,8 +6323,9 @@
     "admin": null,
     "district": null,
     "category": "הר נוף, מקלט בבית ספר",
-    "geo_lat": 31.7866958,
-    "geo_lon": 35.1796651
+    "geo_lat": 31.7832385,
+    "geo_lon": 35.1785888,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6073,8 +6342,9 @@
     "admin": null,
     "district": null,
     "category": "הר נוף, מקלט בבית ספר",
-    "geo_lat": 31.7827276,
-    "geo_lon": 35.1785331
+    "geo_lat": 31.7827573,
+    "geo_lon": 35.1782337,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6091,8 +6361,9 @@
     "admin": null,
     "district": null,
     "category": "הר נוף, מקלט בבית ספר",
-    "geo_lat": 31.790142,
-    "geo_lon": 35.175535
+    "geo_lat": 31.7878953,
+    "geo_lon": 35.1781904,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6109,8 +6380,9 @@
     "admin": null,
     "district": null,
     "category": "הר נוף, מקלט בבית ספר",
-    "geo_lat": 31.790142,
-    "geo_lon": 35.175535
+    "geo_lat": 31.7879781,
+    "geo_lon": 35.1753275,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6127,8 +6399,9 @@
     "admin": null,
     "district": null,
     "category": "הר נוף, מקלט בבית ספר",
-    "geo_lat": 31.7883155,
-    "geo_lon": 35.1751414
+    "geo_lat": 31.7890107,
+    "geo_lon": 35.17447629999999,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6145,8 +6418,9 @@
     "admin": null,
     "district": null,
     "category": "הר נוף, מקלט בבית ספר",
-    "geo_lat": 31.7814433,
-    "geo_lon": 35.172304
+    "geo_lat": 31.7813396,
+    "geo_lon": 35.1726159,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6163,8 +6437,9 @@
     "admin": null,
     "district": null,
     "category": "הר נוף, מקלט בבית ספר",
-    "geo_lat": 31.7871766,
-    "geo_lon": 35.1797837
+    "geo_lat": 31.7863728,
+    "geo_lon": 35.1757921,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6181,8 +6456,9 @@
     "admin": null,
     "district": null,
     "category": "הר נוף, מקלט בבית ספר",
-    "geo_lat": 31.7861563,
-    "geo_lon": 35.1764181
+    "geo_lat": 31.78825029999999,
+    "geo_lon": 35.1763789,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6199,8 +6475,9 @@
     "admin": null,
     "district": null,
     "category": "הר נוף, מקלט בבית ספר",
-    "geo_lat": 31.790142,
-    "geo_lon": 35.175535
+    "geo_lat": 31.7878245,
+    "geo_lon": 35.178269,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6217,8 +6494,9 @@
     "admin": null,
     "district": null,
     "category": "הר נוף, מקלט בבית ספר",
-    "geo_lat": 31.790142,
-    "geo_lon": 35.175535
+    "geo_lat": 31.7890435,
+    "geo_lon": 35.1775113,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6235,8 +6513,9 @@
     "admin": null,
     "district": null,
     "category": "הר נוף, מקלט בבית ספר",
-    "geo_lat": 31.790142,
-    "geo_lon": 35.175535
+    "geo_lat": 31.7891301,
+    "geo_lon": 35.1774309,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6253,8 +6532,9 @@
     "admin": null,
     "district": null,
     "category": "טלביה - קוממיות, מקלט בבית ספר",
-    "geo_lat": 31.7707916,
-    "geo_lon": 35.2211349
+    "geo_lat": 31.7695826,
+    "geo_lon": 35.2213909,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6271,8 +6551,9 @@
     "admin": null,
     "district": null,
     "category": "תלפיות מזרח - ארמון הנציב, מקלט בבית ספר",
-    "geo_lat": 31.7471406,
-    "geo_lon": 35.2313021
+    "geo_lat": 31.7428043,
+    "geo_lon": 34.9833471,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6289,8 +6570,9 @@
     "admin": null,
     "district": null,
     "category": "עיר העתיקה, מקלט בבית ספר",
-    "geo_lat": 31.7757843,
-    "geo_lon": 35.2327927
+    "geo_lat": 31.7765878,
+    "geo_lon": 35.23276730000001,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6307,8 +6589,9 @@
     "admin": null,
     "district": null,
     "category": "תלפיות מזרח - ארמון הנציב, מקלט בבית ספר",
-    "geo_lat": 31.7865033,
-    "geo_lon": 35.2205939
+    "geo_lat": 31.7501509,
+    "geo_lon": 35.2286364,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6325,8 +6608,9 @@
     "admin": null,
     "district": null,
     "category": "תלפיות מזרח - ארמון הנציב, מקלט בבית ספר",
-    "geo_lat": 31.7499598,
-    "geo_lon": 35.2372197
+    "geo_lat": 31.750129,
+    "geo_lon": 35.237592,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6343,8 +6627,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, מקלט בבית ספר",
-    "geo_lat": 31.7861572,
-    "geo_lon": 35.2189235
+    "geo_lat": 31.7858473,
+    "geo_lon": 35.2188101,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6361,8 +6646,9 @@
     "admin": null,
     "district": null,
     "category": "תלפיות מזרח - ארמון הנציב, מקלט בבית ספר",
-    "geo_lat": 31.7496261,
-    "geo_lon": 35.2309163
+    "geo_lat": 31.7501175,
+    "geo_lon": 35.2341775,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6379,8 +6665,9 @@
     "admin": null,
     "district": null,
     "category": "תלפיות מזרח - ארמון הנציב, מקלט בבית ספר",
-    "geo_lat": 31.7472902,
-    "geo_lon": 35.238566
+    "geo_lat": 31.7474686,
+    "geo_lon": 35.2383525,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6397,8 +6684,9 @@
     "admin": null,
     "district": null,
     "category": "מלחה, מקלט בבית ספר",
-    "geo_lat": 31.7514251,
-    "geo_lon": 35.1811857
+    "geo_lat": 31.7540778,
+    "geo_lon": 35.1818127,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6415,8 +6703,9 @@
     "admin": null,
     "district": null,
     "category": "מלחה, מקלט בבית ספר",
-    "geo_lat": 31.7532011,
-    "geo_lon": 35.1870815
+    "geo_lat": 31.74946,
+    "geo_lon": 35.1812405,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6433,8 +6722,9 @@
     "admin": null,
     "district": null,
     "category": "מעלות דפנה, שמואל הנביא, מקלט בבית ספר",
-    "geo_lat": 31.7904456,
-    "geo_lon": 35.2249738
+    "geo_lat": 31.79050699999999,
+    "geo_lon": 35.224916,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6451,8 +6741,9 @@
     "admin": null,
     "district": null,
     "category": "מעלות דפנה, שמואל הנביא, מקלט בבית ספר",
-    "geo_lat": 31.7937506,
-    "geo_lon": 35.2246553
+    "geo_lat": 31.7935959,
+    "geo_lon": 35.2246062,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6469,8 +6760,9 @@
     "admin": null,
     "district": null,
     "category": "מעלות דפנה, שמואל הנביא, מקלט בבית ספר",
-    "geo_lat": 31.795117,
-    "geo_lon": 35.2248962
+    "geo_lat": 31.7953258,
+    "geo_lon": 35.2246243,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6487,8 +6779,10 @@
     "admin": null,
     "district": null,
     "category": "מעלות דפנה, שמואל הנביא, מקלט בבית ספר",
-    "geo_lat": 31.7975153,
-    "geo_lon": 35.225227
+    "geo_lat": 31.7991167,
+    "geo_lon": 35.2261958,
+    "use_geo": false,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6505,8 +6799,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, מקלט בבית ספר",
-    "geo_lat": 31.7767794,
-    "geo_lon": 35.2129119
+    "geo_lat": 31.7769946,
+    "geo_lon": 35.2135389,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6523,8 +6818,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, מקלט בבית ספר",
-    "geo_lat": 31.7782155,
-    "geo_lon": 35.2126074
+    "geo_lat": 31.7782321,
+    "geo_lon": 35.2125376,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6541,9 +6837,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, מקלט בבית ספר",
-    "geo_lat": 31.7824668,
-    "geo_lon": 35.2255791,
-    "geo_source": "photon"
+    "geo_lat": 31.78454769999999,
+    "geo_lon": 35.2255586,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6560,8 +6856,9 @@
     "admin": null,
     "district": null,
     "category": "עיר העתיקה, מקלט בבית ספר",
-    "geo_lat": 31.7758738,
-    "geo_lon": 35.231507
+    "geo_lat": 31.7759808,
+    "geo_lon": 35.2315479,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6578,8 +6875,10 @@
     "admin": null,
     "district": null,
     "category": "רמת שלמה, מקלט בבית ספר",
-    "geo_lat": 31.8119028,
-    "geo_lon": 35.2162818
+    "geo_lat": 31.8130947,
+    "geo_lon": 35.2178381,
+    "use_geo": true,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6596,8 +6895,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, מקלט בבית ספר",
-    "geo_lat": 31.7792258,
-    "geo_lon": 35.2180783
+    "geo_lat": 31.7795097,
+    "geo_lon": 35.2182144,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6614,9 +6914,9 @@
     "admin": null,
     "district": null,
     "category": "מרכז העיר, מקלט בבית ספר",
-    "geo_lat": 31.782384,
-    "geo_lon": 35.2253614,
-    "geo_source": "photon"
+    "geo_lat": 31.784502,
+    "geo_lon": 35.226066,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6633,9 +6933,9 @@
     "admin": null,
     "district": null,
     "category": "נווה יעקב, מקלט בבית ספר",
-    "geo_lat": 31.8379661,
-    "geo_lon": 35.2399403,
-    "geo_source": "photon"
+    "geo_lat": 31.8378423,
+    "geo_lon": 35.2401416,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6652,9 +6952,9 @@
     "admin": null,
     "district": null,
     "category": "נווה יעקב, מקלט בבית ספר",
-    "geo_lat": 31.8403112,
-    "geo_lon": 35.2482541,
-    "geo_source": "photon"
+    "geo_lat": 31.7768831,
+    "geo_lon": 35.22243460000001,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6671,8 +6971,9 @@
     "admin": null,
     "district": null,
     "category": "נווה יעקב, מקלט בבית ספר",
-    "geo_lat": 31.8414803,
-    "geo_lon": 35.2506979
+    "geo_lat": 31.8412607,
+    "geo_lon": 35.2502277,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6689,8 +6990,9 @@
     "admin": null,
     "district": null,
     "category": "נווה יעקב, מקלט בבית ספר",
-    "geo_lat": 31.8434591,
-    "geo_lon": 35.2421135
+    "geo_lat": 31.8441763,
+    "geo_lon": 35.2419004,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6707,8 +7009,9 @@
     "admin": null,
     "district": null,
     "category": "נווה יעקב, מקלט בבית ספר",
-    "geo_lat": 31.8387353,
-    "geo_lon": 35.2453394
+    "geo_lat": 31.8386661,
+    "geo_lon": 35.2455641,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6725,9 +7028,9 @@
     "admin": null,
     "district": null,
     "category": "נווה יעקב, מקלט בבית ספר",
-    "geo_lat": 31.840495,
-    "geo_lon": 35.249144,
-    "geo_source": "photon"
+    "geo_lat": 31.7654555,
+    "geo_lon": 35.2036907,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6744,9 +7047,9 @@
     "admin": null,
     "district": null,
     "category": "נווה יעקב, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.7768831,
+    "geo_lon": 35.22243460000001,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6763,9 +7066,9 @@
     "admin": null,
     "district": null,
     "category": "נווה יעקב, מקלט בבית ספר",
-    "geo_lat": 31.8395593,
-    "geo_lon": 35.248637,
-    "geo_source": "photon"
+    "geo_lat": 31.7654555,
+    "geo_lon": 35.2036907,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6782,9 +7085,9 @@
     "admin": null,
     "district": null,
     "category": "נווה יעקב, מקלט בבית ספר",
-    "geo_lat": 31.8378045,
-    "geo_lon": 35.2393933,
-    "geo_source": "photon"
+    "geo_lat": 31.83764039999999,
+    "geo_lon": 35.239236,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6801,8 +7104,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.7926035,
-    "geo_lon": 35.2125277
+    "geo_lat": 31.7925634,
+    "geo_lon": 35.21213729999999,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6819,8 +7123,9 @@
     "admin": null,
     "district": null,
     "category": "נחלאות - לב העיר, מקלט בבית ספר",
-    "geo_lat": 31.7799913,
-    "geo_lon": 35.2099318
+    "geo_lat": 31.7800817,
+    "geo_lon": 35.2097218,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6837,8 +7142,9 @@
     "admin": null,
     "district": null,
     "category": "נחלאות - לב העיר, מקלט בבית ספר",
-    "geo_lat": 31.7865539,
-    "geo_lon": 35.2130026
+    "geo_lat": 31.786236,
+    "geo_lon": 35.2135828,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6855,8 +7161,9 @@
     "admin": null,
     "district": null,
     "category": "סילוואן, מקלט בבית ספר",
-    "geo_lat": 31.7700602,
-    "geo_lon": 35.2383704
+    "geo_lat": 31.76557399999999,
+    "geo_lon": 35.240689,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6873,8 +7180,9 @@
     "admin": null,
     "district": null,
     "category": "סילוואן, מקלט בבית ספר",
-    "geo_lat": 31.7700602,
-    "geo_lon": 35.2383704
+    "geo_lat": 31.76557399999999,
+    "geo_lon": 35.240689,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6891,8 +7199,9 @@
     "admin": null,
     "district": null,
     "category": "סילוואן, ראס אל עמוד, מקלט בבית ספר",
-    "geo_lat": 31.7681681,
-    "geo_lon": 35.2427978
+    "geo_lat": 31.7680178,
+    "geo_lon": 35.2430359,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6909,8 +7218,9 @@
     "admin": null,
     "district": null,
     "category": "סנהדריה, מקלט בבית ספר",
-    "geo_lat": 31.8011343,
-    "geo_lon": 35.2151512
+    "geo_lat": 31.8008481,
+    "geo_lon": 35.2158981,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6927,9 +7237,9 @@
     "admin": null,
     "district": null,
     "category": "סנהדריה, מקלט בבית ספר",
-    "geo_lat": 31.8007977,
-    "geo_lon": 35.2187066,
-    "geo_source": "photon"
+    "geo_lat": 31.8035695,
+    "geo_lon": 35.2172812,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6946,9 +7256,9 @@
     "admin": null,
     "district": null,
     "category": "סנהדריה, מקלט בבית ספר",
-    "geo_lat": 31.8019042,
-    "geo_lon": 35.2148629,
-    "geo_source": "photon"
+    "geo_lat": 31.8004963,
+    "geo_lon": 35.2155069,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6965,8 +7275,9 @@
     "admin": null,
     "district": null,
     "category": "סנהדריה, מקלט בבית ספר",
-    "geo_lat": 31.802587,
-    "geo_lon": 35.2175385
+    "geo_lat": 31.801798,
+    "geo_lon": 35.216002,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -6983,9 +7294,9 @@
     "admin": null,
     "district": null,
     "category": "סנהדריה, מקלט בבית ספר",
-    "geo_lat": 31.8030058,
-    "geo_lon": 35.2161688,
-    "geo_source": "photon"
+    "geo_lat": 31.8031684,
+    "geo_lon": 35.2163382,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7002,9 +7313,9 @@
     "admin": null,
     "district": null,
     "category": "עיסוויה, מקלט בבית ספר",
-    "geo_lat": 31.7605604,
-    "geo_lon": 35.2530412,
-    "geo_source": "photon"
+    "geo_lat": 31.7985183,
+    "geo_lon": 35.2546005,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7021,8 +7332,9 @@
     "admin": null,
     "district": null,
     "category": "עיסוויה, מקלט בבית ספר",
-    "geo_lat": 31.7985795,
-    "geo_lon": 35.2545902
+    "geo_lat": 31.7985183,
+    "geo_lon": 35.2546005,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7039,8 +7351,9 @@
     "admin": null,
     "district": null,
     "category": "עיסוויה, מקלט בבית ספר",
-    "geo_lat": 31.7985795,
-    "geo_lon": 35.2545902
+    "geo_lat": 31.7985183,
+    "geo_lon": 35.2546005,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7057,8 +7370,9 @@
     "admin": null,
     "district": null,
     "category": "עיסוויה, מקלט בבית ספר",
-    "geo_lat": 31.7985795,
-    "geo_lon": 35.2545902
+    "geo_lat": 31.7985183,
+    "geo_lon": 35.2546005,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7075,8 +7389,9 @@
     "admin": null,
     "district": null,
     "category": "פסגת זאב, מקלט בבית ספר",
-    "geo_lat": 31.8223293,
-    "geo_lon": 35.2383961
+    "geo_lat": 31.8222822,
+    "geo_lon": 35.23802999999999,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7093,8 +7408,9 @@
     "admin": null,
     "district": null,
     "category": "פסגת זאב, מקלט בבית ספר",
-    "geo_lat": 31.8278565,
-    "geo_lon": 35.242973
+    "geo_lat": 31.8282029,
+    "geo_lon": 35.242839,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7111,8 +7427,9 @@
     "admin": null,
     "district": null,
     "category": "פסגת זאב, מקלט בבית ספר",
-    "geo_lat": 31.8191804,
-    "geo_lon": 35.2438284
+    "geo_lat": 31.8192053,
+    "geo_lon": 35.244285,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7129,8 +7446,9 @@
     "admin": null,
     "district": null,
     "category": "פסגת זאב, מקלט בבית ספר",
-    "geo_lat": 31.820207,
-    "geo_lon": 35.2356538
+    "geo_lat": 31.82040039999999,
+    "geo_lon": 35.2372201,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7147,8 +7465,9 @@
     "admin": null,
     "district": null,
     "category": "פסגת זאב, מקלט בבית ספר",
-    "geo_lat": 31.834728,
-    "geo_lon": 35.2352226
+    "geo_lat": 31.835902,
+    "geo_lon": 35.2352953,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7165,8 +7484,9 @@
     "admin": null,
     "district": null,
     "category": "פסגת זאב, מקלט בבית ספר",
-    "geo_lat": 31.8288459,
-    "geo_lon": 35.2454991
+    "geo_lat": 31.8289642,
+    "geo_lon": 35.2457388,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7183,8 +7503,9 @@
     "admin": null,
     "district": null,
     "category": "פסגת זאב, מקלט בבית ספר",
-    "geo_lat": 31.8203202,
-    "geo_lon": 35.2526897
+    "geo_lat": 31.8202696,
+    "geo_lon": 35.2530381,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7201,8 +7522,9 @@
     "admin": null,
     "district": null,
     "category": "פסגת זאב, מקלט בבית ספר",
-    "geo_lat": 31.819117,
-    "geo_lon": 35.2467531
+    "geo_lat": 31.8188645,
+    "geo_lon": 35.2467736,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7219,8 +7541,9 @@
     "admin": "פסגת זאב - 532",
     "district": "פסגת זאב",
     "category": "פסגת זאב, מקלט בבית ספר",
-    "geo_lat": 31.815312,
-    "geo_lon": 35.2524963
+    "geo_lat": 31.8152561,
+    "geo_lon": 35.2530881,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7237,9 +7560,9 @@
     "admin": null,
     "district": null,
     "category": "פסגת זאב, מקלט בבית ספר",
-    "geo_lat": 31.8286839,
-    "geo_lon": 35.239832,
-    "geo_source": "photon"
+    "geo_lat": 31.8288365,
+    "geo_lon": 35.2398964,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7256,9 +7579,9 @@
     "admin": null,
     "district": null,
     "category": "פסגת זאב, מקלט בבית ספר",
-    "geo_lat": 31.832948,
-    "geo_lon": 35.244197,
-    "geo_source": "photon"
+    "geo_lat": 31.8298121,
+    "geo_lon": 35.239557,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7275,8 +7598,9 @@
     "admin": null,
     "district": null,
     "category": "פסגת זאב, מקלט בבית ספר",
-    "geo_lat": 31.8345302,
-    "geo_lon": 35.2336949
+    "geo_lat": 31.8334951,
+    "geo_lon": 35.2339812,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7293,8 +7617,9 @@
     "admin": null,
     "district": null,
     "category": "צור באחר - אום טובה, מקלט בבית ספר",
-    "geo_lat": 31.7323034,
-    "geo_lon": 35.2324936
+    "geo_lat": 31.7768831,
+    "geo_lon": 35.22243460000001,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7311,9 +7636,9 @@
     "admin": null,
     "district": null,
     "category": "צור באחר - אום טובה, מקלט בבית ספר",
-    "geo_lat": 31.7438204,
-    "geo_lon": 35.2272692,
-    "geo_source": "photon"
+    "geo_lat": 31.7768831,
+    "geo_lon": 35.22243460000001,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7330,9 +7655,9 @@
     "admin": null,
     "district": null,
     "category": "צור באחר - אום טובה, מקלט בבית ספר",
-    "geo_lat": 31.8244144,
-    "geo_lon": 35.2327112,
-    "geo_source": "photon"
+    "geo_lat": 31.7768831,
+    "geo_lon": 35.22243460000001,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7349,8 +7674,9 @@
     "admin": null,
     "district": null,
     "category": "צור באחר - אום טובה, מקלט בבית ספר",
-    "geo_lat": 31.742687,
-    "geo_lon": 35.234183
+    "geo_lat": 24.4672132,
+    "geo_lon": 39.6024496,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7367,8 +7693,9 @@
     "admin": null,
     "district": null,
     "category": "צור באחר - אום טובה, מקלט בבית ספר",
-    "geo_lat": 31.7335644,
-    "geo_lon": 35.2422541
+    "geo_lat": 31.7333502,
+    "geo_lon": 35.242455,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7385,9 +7712,9 @@
     "admin": null,
     "district": null,
     "category": "צור באחר - אום טובה, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.7768831,
+    "geo_lon": 35.22243460000001,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7404,8 +7731,9 @@
     "admin": null,
     "district": null,
     "category": "צור באחר - אום טובה, מקלט בבית ספר",
-    "geo_lat": 31.742687,
-    "geo_lon": 35.234183
+    "geo_lat": 24.4672132,
+    "geo_lon": 39.6024496,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7422,8 +7750,9 @@
     "admin": null,
     "district": null,
     "category": "קטמון, מקלט בבית ספר",
-    "geo_lat": 31.7642486,
-    "geo_lon": 35.2122494
+    "geo_lat": 31.7653072,
+    "geo_lon": 35.2120399,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7440,8 +7769,9 @@
     "admin": null,
     "district": null,
     "category": "קטמון הישנה, מקלט בבית ספר",
-    "geo_lat": 31.7649574,
-    "geo_lon": 35.2127336
+    "geo_lat": 31.7654204,
+    "geo_lon": 35.2126025,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7458,8 +7788,9 @@
     "admin": null,
     "district": null,
     "category": "קריית משה, מקלט בבית ספר",
-    "geo_lat": 31.78878,
-    "geo_lon": 35.1965424
+    "geo_lat": 31.7887545,
+    "geo_lon": 35.1966873,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7476,8 +7807,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.7907436,
-    "geo_lon": 35.2043531
+    "geo_lat": 31.7904601,
+    "geo_lon": 35.20446,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7494,8 +7826,9 @@
     "admin": null,
     "district": null,
     "category": "קריית משה, מקלט בבית ספר",
-    "geo_lat": 31.7839948,
-    "geo_lon": 35.1924941
+    "geo_lat": 31.7842549,
+    "geo_lon": 35.1928129,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7512,9 +7845,9 @@
     "admin": null,
     "district": null,
     "category": "קריית יובל, מקלט בבית ספר",
-    "geo_lat": 31.767289,
-    "geo_lon": 35.178331,
-    "geo_source": "photon"
+    "geo_lat": 31.7626315,
+    "geo_lon": 35.1773952,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7531,9 +7864,9 @@
     "admin": null,
     "district": null,
     "category": "קריית יובל, מקלט בבית ספר",
-    "geo_lat": 31.768796,
-    "geo_lon": 35.1788431,
-    "geo_source": "photon"
+    "geo_lat": 31.7589419,
+    "geo_lon": 35.1777003,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7550,9 +7883,9 @@
     "admin": null,
     "district": null,
     "category": "קריית יובל, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.7580229,
+    "geo_lon": 35.1783829,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7569,8 +7902,9 @@
     "admin": null,
     "district": null,
     "category": "קריית מנחם, מקלט בבית ספר",
-    "geo_lat": 31.7578088,
-    "geo_lon": 35.1630517
+    "geo_lat": 31.7580751,
+    "geo_lon": 35.1636908,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7587,8 +7921,9 @@
     "admin": null,
     "district": null,
     "category": "קריית מנחם, מקלט בבית ספר",
-    "geo_lat": 31.752691,
-    "geo_lon": 35.1720506
+    "geo_lat": 31.7525619,
+    "geo_lon": 35.1725226,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7605,8 +7940,9 @@
     "admin": null,
     "district": null,
     "category": "קריית מנחם, מקלט בבית ספר",
-    "geo_lat": 31.7564285,
-    "geo_lon": 35.1660191
+    "geo_lat": 31.7557459,
+    "geo_lon": 35.1655906,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7623,8 +7959,9 @@
     "admin": null,
     "district": null,
     "category": "קריית מנחם, מקלט בבית ספר",
-    "geo_lat": 31.7546422,
-    "geo_lon": 35.1714958
+    "geo_lat": 31.7550029,
+    "geo_lon": 35.172151,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7641,8 +7978,9 @@
     "admin": null,
     "district": null,
     "category": "גבעת מרדכי, מקלט בבית ספר",
-    "geo_lat": 31.764868,
-    "geo_lon": 35.1949267
+    "geo_lat": 31.7640244,
+    "geo_lon": 35.1955022,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7659,8 +7997,9 @@
     "admin": null,
     "district": null,
     "category": "קריית מנחם, מקלט בבית ספר",
-    "geo_lat": 31.7547847,
-    "geo_lon": 35.1712273
+    "geo_lat": 31.7552442,
+    "geo_lon": 35.1705416,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7677,8 +8016,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.795431,
-    "geo_lon": 35.2132289
+    "geo_lat": 31.7951181,
+    "geo_lon": 35.2131224,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7695,8 +8035,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.7935368,
-    "geo_lon": 35.2045906
+    "geo_lat": 31.793722,
+    "geo_lon": 35.204787,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7713,8 +8054,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.7971592,
-    "geo_lon": 35.2113373
+    "geo_lat": 31.7965692,
+    "geo_lon": 35.2122655,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7731,9 +8073,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.7670834,
+    "geo_lon": 35.2046298,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7750,9 +8092,9 @@
     "admin": null,
     "district": null,
     "category": "רמת שלמה, מקלט בבית ספר",
-    "geo_lat": 31.811718,
-    "geo_lon": 35.2145,
-    "geo_source": "photon"
+    "geo_lat": 31.8118481,
+    "geo_lon": 35.2145579,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7769,9 +8111,9 @@
     "admin": null,
     "district": null,
     "category": "סנהדריה, מקלט בבית ספר",
-    "geo_lat": 31.8007977,
-    "geo_lon": 35.2187066,
-    "geo_source": "photon"
+    "geo_lat": 31.8010997,
+    "geo_lon": 35.2198132,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7788,8 +8130,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.7927674,
-    "geo_lon": 35.2129672
+    "geo_lat": 31.7926899,
+    "geo_lon": 35.2125495,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7806,8 +8149,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.7990124,
-    "geo_lon": 35.2157658
+    "geo_lat": 31.799232,
+    "geo_lon": 35.2155634,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7824,8 +8168,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.7983326,
-    "geo_lon": 35.2115224
+    "geo_lat": 31.7993238,
+    "geo_lon": 35.2110257,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7842,8 +8187,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.7902486,
-    "geo_lon": 35.1999882
+    "geo_lat": 31.7904656,
+    "geo_lon": 35.2001065,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7860,8 +8206,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.7927674,
-    "geo_lon": 35.2129672
+    "geo_lat": 31.7926899,
+    "geo_lon": 35.2125495,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7878,8 +8225,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.7987791,
-    "geo_lon": 35.2161501
+    "geo_lat": 31.7989732,
+    "geo_lon": 35.2158351,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7896,8 +8244,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.7910808,
-    "geo_lon": 35.2019501
+    "geo_lat": 31.7911269,
+    "geo_lon": 35.2019358,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7914,8 +8263,9 @@
     "admin": null,
     "district": null,
     "category": "הר חומה, מקלט בבית ספר",
-    "geo_lat": 31.7203016,
-    "geo_lon": 35.2180466
+    "geo_lat": 31.7205196,
+    "geo_lon": 35.2175138,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7932,8 +8282,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.7935368,
-    "geo_lon": 35.2045906
+    "geo_lat": 31.793482,
+    "geo_lon": 35.205454,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7950,9 +8301,9 @@
     "admin": null,
     "district": null,
     "category": "סנהדריה, מקלט בבית ספר",
-    "geo_lat": 31.8007977,
-    "geo_lon": 35.2187066,
-    "geo_source": "photon"
+    "geo_lat": 31.8034841,
+    "geo_lon": 35.2184682,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7969,8 +8320,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.8214346,
-    "geo_lon": 35.2574226
+    "geo_lat": 31.7946714,
+    "geo_lon": 35.2134129,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -7987,8 +8339,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.7958311,
-    "geo_lon": 35.2001252
+    "geo_lat": 31.7958538,
+    "geo_lon": 35.1999624,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8005,8 +8358,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.7957713,
-    "geo_lon": 35.2092872
+    "geo_lat": 31.7932937,
+    "geo_lon": 35.21065129999999,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8023,8 +8377,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.7966028,
-    "geo_lon": 35.216598
+    "geo_lat": 31.7972878,
+    "geo_lon": 35.216237,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8041,8 +8396,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.7909535,
-    "geo_lon": 35.2008843
+    "geo_lat": 31.7925085,
+    "geo_lon": 35.2027673,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8059,8 +8415,9 @@
     "admin": null,
     "district": null,
     "category": "הבוכרים - בית ישראל, מקלט בבית ספר",
-    "geo_lat": 31.7892603,
-    "geo_lon": 35.2112204
+    "geo_lat": 31.7893276,
+    "geo_lon": 35.2098042,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8077,8 +8434,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.7971592,
-    "geo_lon": 35.2113373
+    "geo_lat": 31.7969427,
+    "geo_lon": 35.2112767,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8095,8 +8453,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.7966028,
-    "geo_lon": 35.216598
+    "geo_lat": 31.7963527,
+    "geo_lon": 35.2161348,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8113,8 +8472,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.7945567,
-    "geo_lon": 35.2097805
+    "geo_lat": 31.79444,
+    "geo_lon": 35.2097101,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8131,9 +8491,9 @@
     "admin": null,
     "district": null,
     "category": "גוננים - קטמונים, מקלט בבית ספר",
-    "geo_lat": 31.7622521,
-    "geo_lon": 35.2040694,
-    "geo_source": "photon"
+    "geo_lat": 31.7634174,
+    "geo_lon": 35.2045366,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8150,8 +8510,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.7971592,
-    "geo_lon": 35.2113373
+    "geo_lat": 31.7985098,
+    "geo_lon": 35.2105513,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8168,9 +8529,9 @@
     "admin": null,
     "district": null,
     "category": "רחביה, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.7713178,
+    "geo_lon": 35.2094718,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8187,8 +8548,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": 31.8188895,
-    "geo_lon": 35.1906272
+    "geo_lat": 31.8189492,
+    "geo_lon": 35.190616,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8205,8 +8567,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": 31.8198582,
-    "geo_lon": 35.1878944
+    "geo_lat": 31.8196377,
+    "geo_lon": 35.1884912,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8223,8 +8586,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": 31.8181056,
-    "geo_lon": 35.1956425
+    "geo_lat": 31.81981309999999,
+    "geo_lon": 35.1993385,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8241,8 +8605,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": 31.8207168,
-    "geo_lon": 35.1989731
+    "geo_lat": 31.8212452,
+    "geo_lon": 35.1975185,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8259,8 +8624,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": 31.8124164,
-    "geo_lon": 35.2051285
+    "geo_lat": 31.8182014,
+    "geo_lon": 35.2045333,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8277,8 +8643,9 @@
     "admin": null,
     "district": null,
     "category": "הבוכרים - בית ישראל, מקלט בבית ספר",
-    "geo_lat": 31.7897639,
-    "geo_lon": 35.2134604
+    "geo_lat": 31.7898054,
+    "geo_lon": 35.2131524,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8295,8 +8662,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": 31.8212944,
-    "geo_lon": 35.198116
+    "geo_lat": 31.8212456,
+    "geo_lon": 35.1975175,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8313,8 +8681,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": 31.814363,
-    "geo_lon": 35.1949969
+    "geo_lat": 31.8158016,
+    "geo_lon": 35.1949971,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8331,9 +8700,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.794075,
+    "geo_lon": 35.21579699999999,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8350,8 +8719,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": 31.8178181,
-    "geo_lon": 35.202196
+    "geo_lat": 31.8203464,
+    "geo_lon": 35.2023855,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8368,8 +8738,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": 31.8152653,
-    "geo_lon": 35.2013819
+    "geo_lat": 31.8144881,
+    "geo_lon": 35.2025994,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8386,8 +8757,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": 31.8233974,
-    "geo_lon": 35.1897775
+    "geo_lat": 31.7916154,
+    "geo_lon": 35.22468840000001,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8404,8 +8776,9 @@
     "admin": null,
     "district": null,
     "category": "שמואל הנביא, מעלות דפנה, מקלט בבית ספר",
-    "geo_lat": 31.7887098,
-    "geo_lon": 35.2261412
+    "geo_lat": 31.788943,
+    "geo_lon": 35.225847,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8422,8 +8795,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": 31.8218693,
-    "geo_lon": 35.1906531
+    "geo_lat": 31.8213122,
+    "geo_lon": 35.1911476,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8440,8 +8814,9 @@
     "admin": null,
     "district": null,
     "category": "רמת שרת, רמת דניה, מקלט בבית ספר",
-    "geo_lat": 31.7586321,
-    "geo_lon": 35.1845073
+    "geo_lat": 31.7595463,
+    "geo_lon": 35.1849039,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8458,8 +8833,9 @@
     "admin": null,
     "district": null,
     "category": "בית וגן, מקלט בבית ספר",
-    "geo_lat": 31.7689693,
-    "geo_lon": 35.1835876
+    "geo_lat": 31.768962,
+    "geo_lon": 35.183176,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8476,8 +8852,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": 31.8259267,
-    "geo_lon": 35.1905645
+    "geo_lat": 31.8257232,
+    "geo_lon": 35.1903855,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8494,9 +8871,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.8150421,
+    "geo_lon": 35.193991,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8513,9 +8890,9 @@
     "admin": null,
     "district": null,
     "category": "נווה יעקב, מקלט בבית ספר",
-    "geo_lat": 31.840281,
-    "geo_lon": 35.2475968,
-    "geo_source": "photon"
+    "geo_lat": 32.0663173,
+    "geo_lon": 34.7748214,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8532,8 +8909,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": 31.8097375,
-    "geo_lon": 35.1991531
+    "geo_lat": 31.8101563,
+    "geo_lon": 35.1993133,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8550,9 +8928,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": 31.8244978,
-    "geo_lon": 35.190233,
-    "geo_source": "photon"
+    "geo_lat": 31.8243864,
+    "geo_lon": 35.1901871,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8569,8 +8947,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": 31.8124164,
-    "geo_lon": 35.2051285
+    "geo_lat": 31.8179688,
+    "geo_lon": 35.2046449,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8587,8 +8966,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": 31.8214007,
-    "geo_lon": 35.1977632
+    "geo_lat": 31.8212454,
+    "geo_lon": 35.1975181,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8605,8 +8985,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": 31.8256473,
-    "geo_lon": 35.1866598
+    "geo_lat": 31.8256529,
+    "geo_lon": 35.1867536,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8623,8 +9004,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": 31.8256793,
-    "geo_lon": 35.1903987
+    "geo_lat": 31.8262864,
+    "geo_lon": 35.1901737,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8641,9 +9023,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": 31.8248305,
-    "geo_lon": 35.1921531,
-    "geo_source": "photon"
+    "geo_lat": 31.82223699999999,
+    "geo_lon": 35.193627,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8660,8 +9042,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": 31.8233974,
-    "geo_lon": 35.1897775
+    "geo_lat": 31.7916154,
+    "geo_lon": 35.22468840000001,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8678,8 +9061,9 @@
     "admin": null,
     "district": null,
     "category": "מעלות דפנה, שמואל הנביא, מקלט בבית ספר",
-    "geo_lat": 31.7948537,
-    "geo_lon": 35.2230044
+    "geo_lat": 31.7946846,
+    "geo_lon": 35.2223086,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8696,8 +9080,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": 31.821296,
-    "geo_lon": 35.196323
+    "geo_lat": 31.8202576,
+    "geo_lon": 35.1989884,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8714,8 +9099,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.7891309,
-    "geo_lon": 35.2012471
+    "geo_lat": 31.7893646,
+    "geo_lon": 35.2005658,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8732,8 +9118,9 @@
     "admin": null,
     "district": null,
     "category": "גאולה, מקלט בבית ספר",
-    "geo_lat": 31.7861163,
-    "geo_lon": 35.2161803
+    "geo_lat": 31.7861355,
+    "geo_lon": 35.216149,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8750,8 +9137,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": 31.8256793,
-    "geo_lon": 35.1903987
+    "geo_lat": 31.8258802,
+    "geo_lon": 35.1907824,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8768,8 +9156,9 @@
     "admin": null,
     "district": null,
     "category": "הרובע היהודי, מקלט בבית ספר",
-    "geo_lat": 31.7757843,
-    "geo_lon": 35.2327927
+    "geo_lat": 31.7752614,
+    "geo_lon": 35.232943,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8786,8 +9175,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": 31.8207168,
-    "geo_lon": 35.1989731
+    "geo_lat": 31.8202087,
+    "geo_lon": 35.1990656,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8804,9 +9194,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": 31.7523268,
-    "geo_lon": 35.1771731,
-    "geo_source": "photon"
+    "geo_lat": 31.8199125,
+    "geo_lon": 35.187679,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8823,8 +9213,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": 31.8201276,
-    "geo_lon": 35.1934833
+    "geo_lat": 31.8204561,
+    "geo_lon": 35.1941148,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8841,8 +9232,9 @@
     "admin": null,
     "district": null,
     "category": "גאולה, מקלט בבית ספר",
-    "geo_lat": 31.7904534,
-    "geo_lon": 35.2198062
+    "geo_lat": 31.7905261,
+    "geo_lon": 35.219715,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8859,8 +9251,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": 31.8187647,
-    "geo_lon": 35.1952727
+    "geo_lat": 31.815934,
+    "geo_lon": 35.1978784,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8877,8 +9270,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": 31.8176814,
-    "geo_lon": 35.1997306
+    "geo_lat": 31.817739,
+    "geo_lon": 35.1996853,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8895,8 +9289,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": 31.8220103,
-    "geo_lon": 35.1901486
+    "geo_lat": 31.8214697,
+    "geo_lon": 35.1908979,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8913,8 +9308,9 @@
     "admin": null,
     "district": null,
     "category": "רמת אשכול, מקלט בבית ספר",
-    "geo_lat": 31.8025068,
-    "geo_lon": 35.2274631
+    "geo_lat": 31.8018919,
+    "geo_lon": 35.2275543,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8931,8 +9327,9 @@
     "admin": null,
     "district": null,
     "category": "רמת אשכול, גבעת המבתר, מקלט בבית ספר",
-    "geo_lat": 31.8025068,
-    "geo_lon": 35.2274631
+    "geo_lat": 31.801304,
+    "geo_lon": 35.2264383,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8949,8 +9346,9 @@
     "admin": null,
     "district": null,
     "category": "רמת שלמה, מקלט בבית ספר",
-    "geo_lat": 31.8103424,
-    "geo_lon": 35.222314
+    "geo_lat": 31.8092586,
+    "geo_lon": 35.2228259,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8967,9 +9365,9 @@
     "admin": null,
     "district": null,
     "category": "רמת שלמה, מקלט בבית ספר",
-    "geo_lat": 31.812307,
-    "geo_lon": 35.214896,
-    "geo_source": "photon"
+    "geo_lat": 31.81357349999999,
+    "geo_lon": 35.2192402,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -8986,8 +9384,9 @@
     "admin": null,
     "district": null,
     "category": "רמת שלמה, מקלט בבית ספר",
-    "geo_lat": 31.8076221,
-    "geo_lon": 35.2202789
+    "geo_lat": 31.7768831,
+    "geo_lon": 35.22243460000001,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9004,8 +9403,9 @@
     "admin": null,
     "district": null,
     "category": "רמת שלמה, מקלט בבית ספר",
-    "geo_lat": 31.8130929,
-    "geo_lon": 35.2168484
+    "geo_lat": 31.8129432,
+    "geo_lon": 35.2175736,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9022,9 +9422,9 @@
     "admin": null,
     "district": null,
     "category": "רמת שלמה, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.809016,
+    "geo_lon": 35.2212156,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9041,9 +9441,9 @@
     "admin": null,
     "district": null,
     "category": "רמת שלמה, מקלט בבית ספר",
-    "geo_lat": 31.8122377,
-    "geo_lon": 35.2204867,
-    "geo_source": "photon"
+    "geo_lat": 31.813254,
+    "geo_lon": 35.2198678,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9060,8 +9460,9 @@
     "admin": null,
     "district": null,
     "category": "רמת שלמה, מקלט בבית ספר",
-    "geo_lat": 31.810574,
-    "geo_lon": 35.2176108
+    "geo_lat": 31.8097845,
+    "geo_lon": 35.2189095,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9078,8 +9479,9 @@
     "admin": null,
     "district": null,
     "category": "רמת שלמה, מקלט בבית ספר",
-    "geo_lat": 31.8119028,
-    "geo_lon": 35.2162818
+    "geo_lat": 31.8107981,
+    "geo_lon": 35.2187703,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9096,8 +9498,9 @@
     "admin": null,
     "district": null,
     "category": "רמת שלמה, מקלט בבית ספר",
-    "geo_lat": 31.809794,
-    "geo_lon": 35.2181493
+    "geo_lat": 31.8097689,
+    "geo_lon": 35.2169667,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9114,8 +9517,9 @@
     "admin": null,
     "district": null,
     "category": "רמת שלמה, מקלט בבית ספר",
-    "geo_lat": 31.809778,
-    "geo_lon": 35.2215605
+    "geo_lat": 31.8097907,
+    "geo_lon": 35.2215235,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9132,8 +9536,9 @@
     "admin": null,
     "district": null,
     "category": "רמת שרת, רמת דניה, מקלט בבית ספר",
-    "geo_lat": 31.7631162,
-    "geo_lon": 35.1857476
+    "geo_lat": 31.7610445,
+    "geo_lon": 35.185297,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9150,9 +9555,9 @@
     "admin": null,
     "district": null,
     "category": "רמת שרת, רמת דניה, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.7566971,
+    "geo_lon": 35.1834123,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9169,8 +9574,9 @@
     "admin": null,
     "district": null,
     "category": "רסקו - גבעת הורדים, גבעת מרדכי, מקלט בבית ספר",
-    "geo_lat": 31.766151,
-    "geo_lon": 35.2089119
+    "geo_lat": 31.7630731,
+    "geo_lon": 35.2044764,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9187,9 +9593,9 @@
     "admin": null,
     "district": null,
     "category": "שועפט, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.826164,
+    "geo_lon": 35.2424718,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9206,8 +9612,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.7932032,
-    "geo_lon": 35.2137788
+    "geo_lat": 31.7933514,
+    "geo_lon": 35.2136878,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9224,8 +9631,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.8212214,
-    "geo_lon": 35.2588452
+    "geo_lat": 31.792963,
+    "geo_lon": 35.2115689,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9242,9 +9650,9 @@
     "admin": null,
     "district": null,
     "category": "שועפט, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.8387366,
+    "geo_lon": 35.2255233,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9261,9 +9669,9 @@
     "admin": null,
     "district": null,
     "category": "שועפט, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.7768831,
+    "geo_lon": 35.22243460000001,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9280,9 +9688,9 @@
     "admin": null,
     "district": null,
     "category": "שועפט, מקלט בבית ספר",
-    "geo_lat": 31.8032324,
-    "geo_lon": 35.2110332,
-    "geo_source": "photon"
+    "geo_lat": 31.7768831,
+    "geo_lon": 35.22243460000001,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9299,8 +9707,9 @@
     "admin": null,
     "district": null,
     "category": "מעלות דפנה, שמואל הנביא, מקלט בבית ספר",
-    "geo_lat": 31.7913282,
-    "geo_lon": 35.2244515
+    "geo_lat": 31.791374,
+    "geo_lon": 35.224379,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9317,9 +9726,9 @@
     "admin": null,
     "district": null,
     "category": "שועפט, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.8135792,
+    "geo_lon": 35.2282662,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9336,9 +9745,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.798172,
-    "geo_lon": 35.2157243,
-    "geo_source": "photon"
+    "geo_lat": 31.7983064,
+    "geo_lon": 35.2154422,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9355,8 +9764,9 @@
     "admin": null,
     "district": null,
     "category": "תלפיות ארנונה, מקלט בבית ספר",
-    "geo_lat": 31.7940993,
-    "geo_lon": 35.2183619
+    "geo_lat": 31.7540798,
+    "geo_lon": 35.2243527,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9373,8 +9783,9 @@
     "admin": null,
     "district": null,
     "category": "תלפיות ארנונה, מקלט בבית ספר",
-    "geo_lat": 31.7483193,
-    "geo_lon": 35.2168249
+    "geo_lat": 31.7483035,
+    "geo_lon": 35.2168808,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9391,8 +9802,9 @@
     "admin": null,
     "district": null,
     "category": "תלפיות ארנונה, מקלט בבית ספר",
-    "geo_lat": 31.761258,
-    "geo_lon": 35.2246816
+    "geo_lat": 31.7488208,
+    "geo_lon": 35.2182971,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9409,8 +9821,9 @@
     "admin": null,
     "district": null,
     "category": "ראס אל עמוד, מקלט בבית ספר",
-    "geo_lat": 31.7615294,
-    "geo_lon": 35.2466181
+    "geo_lat": 31.755877,
+    "geo_lon": 35.220582,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9427,9 +9840,9 @@
     "admin": null,
     "district": null,
     "category": "בית וגן, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.7506104,
+    "geo_lon": 35.1654247,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9446,9 +9859,9 @@
     "admin": null,
     "district": null,
     "category": "גבעת רם, מקלט בבית ספר",
-    "geo_lat": null,
-    "geo_lon": null,
-    "geo_source": "none"
+    "geo_lat": 31.7804855,
+    "geo_lon": 35.1970457,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9465,8 +9878,9 @@
     "admin": null,
     "district": null,
     "category": "גוננים - קטמונים, מקלט בבית ספר",
-    "geo_lat": 31.7548387,
-    "geo_lon": 35.1949899
+    "geo_lat": 31.7545306,
+    "geo_lon": 35.1945079,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9483,8 +9897,9 @@
     "admin": null,
     "district": null,
     "category": "תלפיות ארנונה, מקלט בבית ספר",
-    "geo_lat": 31.7445005,
-    "geo_lon": 35.2191938
+    "geo_lat": 31.7443657,
+    "geo_lon": 35.2183915,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9501,8 +9916,9 @@
     "admin": null,
     "district": null,
     "category": "גאולה, מקלט בבית ספר",
-    "geo_lat": 31.7884225,
-    "geo_lon": 35.2244476
+    "geo_lat": 31.7884149,
+    "geo_lon": 35.2243334,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9519,9 +9935,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": 31.8244569,
-    "geo_lon": 35.1929014,
-    "geo_source": "photon"
+    "geo_lat": 31.8248339,
+    "geo_lon": 35.1921778,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9538,8 +9954,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.7966028,
-    "geo_lon": 35.216598
+    "geo_lat": 31.7972892,
+    "geo_lon": 35.2162504,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9556,8 +9973,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": 31.8213853,
-    "geo_lon": 35.1912479
+    "geo_lat": 31.8211513,
+    "geo_lon": 35.1913943,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9574,9 +9992,9 @@
     "admin": null,
     "district": null,
     "category": "ואדי ג'וז, מקלט בבית ספר",
-    "geo_lat": 31.827569,
-    "geo_lon": 35.232125,
-    "geo_source": "photon"
+    "geo_lat": 31.7924479,
+    "geo_lon": 35.2399459,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9593,8 +10011,9 @@
     "admin": null,
     "district": null,
     "category": "גבעת שאול, מקלט בבית ספר",
-    "geo_lat": 31.7859836,
-    "geo_lon": 35.1842587
+    "geo_lat": 31.7860455,
+    "geo_lon": 35.1841773,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9611,8 +10030,9 @@
     "admin": null,
     "district": null,
     "category": "גבעת שאול, מקלט בבית ספר",
-    "geo_lat": 31.7857754,
-    "geo_lon": 35.1827083
+    "geo_lat": 31.7862836,
+    "geo_lon": 35.1826232,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9629,8 +10049,9 @@
     "admin": null,
     "district": null,
     "category": "גאולה, מקלט בבית ספר",
-    "geo_lat": 31.7890722,
-    "geo_lon": 35.2230798
+    "geo_lat": 31.7893559,
+    "geo_lon": 35.22328359999999,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9647,8 +10068,9 @@
     "admin": null,
     "district": null,
     "category": "גבעת שאול, מקלט בבית ספר",
-    "geo_lat": 31.7911185,
-    "geo_lon": 35.1931023
+    "geo_lat": 31.7921234,
+    "geo_lon": 35.191704,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9665,8 +10087,9 @@
     "admin": null,
     "district": null,
     "category": "קריית יובל, מקלט בבית ספר",
-    "geo_lat": 31.7606677,
-    "geo_lon": 35.1684749
+    "geo_lat": 31.7659872,
+    "geo_lon": 35.1709099,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9683,8 +10106,9 @@
     "admin": null,
     "district": null,
     "category": "רמות, מקלט בבית ספר",
-    "geo_lat": 31.8255114,
-    "geo_lon": 35.1863709
+    "geo_lat": 31.825473,
+    "geo_lon": 35.1863513,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9701,8 +10125,9 @@
     "admin": null,
     "district": null,
     "category": "פסגת זאב, מקלט בבית ספר",
-    "geo_lat": 31.8260281,
-    "geo_lon": 35.2412576
+    "geo_lat": 31.8260115,
+    "geo_lon": 35.2412996,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9719,8 +10144,9 @@
     "admin": null,
     "district": null,
     "category": "בית וגן, מקלט בבית ספר",
-    "geo_lat": 31.7825996,
-    "geo_lon": 35.159334
+    "geo_lat": 31.7675425,
+    "geo_lon": 35.1834893,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9737,8 +10163,9 @@
     "admin": null,
     "district": null,
     "category": "בית וגן, מקלט בבית ספר",
-    "geo_lat": 31.7654879,
-    "geo_lon": 35.1843471
+    "geo_lat": 31.7654417,
+    "geo_lon": 35.1842273,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9755,8 +10182,9 @@
     "admin": null,
     "district": null,
     "category": "רמת שלמה, מקלט בבית ספר",
-    "geo_lat": 31.809794,
-    "geo_lon": 35.2181493
+    "geo_lat": 31.8112081,
+    "geo_lon": 35.2150049,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9773,9 +10201,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.7988997,
-    "geo_lon": 35.2061518,
-    "geo_source": "photon"
+    "geo_lat": 31.7988884,
+    "geo_lon": 35.2060203,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9792,8 +10220,9 @@
     "admin": null,
     "district": null,
     "category": "גבעת שאול, מקלט בבית ספר",
-    "geo_lat": 31.7896715,
-    "geo_lon": 35.1968379
+    "geo_lat": 31.7902733,
+    "geo_lon": 35.1949741,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9829,8 +10258,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.7956072,
-    "geo_lon": 35.2184106
+    "geo_lat": 31.795675,
+    "geo_lon": 35.218483,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9847,8 +10277,9 @@
     "admin": null,
     "district": null,
     "category": "רמת שלמה, מקלט בבית ספר",
-    "geo_lat": 31.8076391,
-    "geo_lon": 35.220735
+    "geo_lat": 31.738054,
+    "geo_lon": 34.9935358,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9865,8 +10296,9 @@
     "admin": null,
     "district": null,
     "category": "גאולה, מקלט בבית ספר",
-    "geo_lat": 31.7913488,
-    "geo_lon": 35.2192113
+    "geo_lat": 31.7914165,
+    "geo_lon": 35.2191782,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9883,8 +10315,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.7949202,
-    "geo_lon": 35.2165004
+    "geo_lat": 31.7950188,
+    "geo_lon": 35.2166078,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9901,8 +10334,9 @@
     "admin": null,
     "district": null,
     "category": "סנהדריה, מקלט בבית ספר",
-    "geo_lat": 31.801378,
-    "geo_lon": 35.216731
+    "geo_lat": 31.803907,
+    "geo_lon": 35.21836100000001,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9919,8 +10353,9 @@
     "admin": null,
     "district": null,
     "category": "גבעת שאול, מקלט בבית ספר",
-    "geo_lat": 31.7877541,
-    "geo_lon": 35.1801882
+    "geo_lat": 31.7896832,
+    "geo_lon": 35.1843069,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9937,9 +10372,9 @@
     "admin": null,
     "district": null,
     "category": "קריית יובל, מקלט בבית ספר",
-    "geo_lat": 31.7685176,
-    "geo_lon": 35.17012,
-    "geo_source": "photon"
+    "geo_lat": 31.7688305,
+    "geo_lon": 35.1701168,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9956,8 +10391,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.7972236,
-    "geo_lon": 35.2006902
+    "geo_lat": 31.7972287,
+    "geo_lon": 35.2001589,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9974,8 +10410,9 @@
     "admin": null,
     "district": null,
     "category": "הבוכרים - בית ישראל, מקלט בבית ספר",
-    "geo_lat": 31.7879518,
-    "geo_lon": 35.20888
+    "geo_lat": 31.78803749999999,
+    "geo_lon": 35.2085122,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -9992,8 +10429,9 @@
     "admin": null,
     "district": null,
     "category": "רוממה, מקלט בבית ספר",
-    "geo_lat": 31.7915524,
-    "geo_lon": 35.2063525
+    "geo_lat": 31.7914462,
+    "geo_lon": 35.2065866,
+    "geo_source": "google"
   },
   {
     "neighborhood": null,
@@ -10010,8 +10448,8 @@
     "admin": null,
     "district": null,
     "category": "גאולה, מקלט בבית ספר",
-    "geo_lat": 31.7923469,
-    "geo_lon": 35.2224863,
-    "geo_source": "photon"
+    "geo_lat": 31.7923274,
+    "geo_lon": 35.222439,
+    "geo_source": "google"
   }
 ]

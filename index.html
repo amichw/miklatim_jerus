@@ -333,7 +333,8 @@ function haversine(lat1, lon1, lat2, lon2) {
 
 function findNearest(latlng) {
   let nearest = null, minDist = Infinity;
-  for (const s of allShelters) {
+  const candidates = allShelters.filter(s => !s.suspect);
+  for (const s of candidates) {
     const d = haversine(latlng.lat, latlng.lng, s.lat, s.lon);
     if (d < minDist) { minDist = d; nearest = s; }
   }
@@ -537,6 +538,9 @@ function mapsLink(lat, lon, address, originLat, originLon) {
 function buildPopup(s) {
   let html = `<div class="shelter-popup">`;
   html += `<h6>${s.shelter_number || 'מקלט'}</h6>`;
+  if (s.suspect) {
+    html += `<div class="alert alert-warning py-1 px-2 small mt-1">⚠️ מיקום לא ודאי</div>`;
+  }
   if (activeOrigin) {
     const d = haversine(activeOrigin.lat, activeOrigin.lng, s.lat, s.lon);
     const popupId = `pdist-${s.shelter_number}`;

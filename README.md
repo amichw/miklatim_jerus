@@ -55,4 +55,4 @@ python3 -m http.server 8080
 - **Leaflet.js** – interactive map
 - **Bootstrap 5 RTL** – Hebrew-friendly UI
 - **GitHub Pages** – static hosting (no server required)
-- Data: `data/shelters.json` – 550 shelter records from the Jerusalem Municipality, geocoded via Google Maps (549) and Photon (1); each record includes `geo_lat`/`geo_lon`/`geo_source` alongside the original municipality coordinates
+- Data: `data/shelters.json` – 550 shelter records from the Jerusalem Municipality, geocoded via Google Maps with confidence scoring; out-of-Israel coordinates are excluded automatically

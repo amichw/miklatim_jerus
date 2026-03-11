@@ -4802,9 +4802,9 @@
     "admin": null,
     "district": null,
     "category": "ג'אבל מוכבר, מקלט בבית ספר",
-    "geo_lat": 31.7951572,
-    "geo_lon": 35.1610935,
-    "geo_source": "google"
+    "geo_lat": 31.75606746224162,
+    "geo_lon": 35.24382816624986,
+    "geo_source": "gov"
   },
   {
     "neighborhood": null,
@@ -5962,9 +5962,9 @@
     "admin": null,
     "district": null,
     "category": "גילה, מקלט בבית ספר",
-    "geo_lat": 31.8068124,
-    "geo_lon": 35.1657455,
-    "geo_source": "google"
+    "geo_lat": 31.72987320115094,
+    "geo_lon": 35.18634698263267,
+    "geo_source": "gov"
   },
   {
     "neighborhood": null,
@@ -6038,9 +6038,9 @@
     "admin": null,
     "district": null,
     "category": "גילה, מקלט בבית ספר",
-    "geo_lat": 31.8063758,
-    "geo_lon": 35.1632502,
-    "geo_source": "google"
+    "geo_lat": 31.72789011109422,
+    "geo_lon": 35.19008746314466,
+    "geo_source": "gov"
   },
   {
     "neighborhood": null,
@@ -6551,8 +6551,8 @@
     "admin": null,
     "district": null,
     "category": "תלפיות מזרח - ארמון הנציב, מקלט בבית ספר",
-    "geo_lat": 31.7428043,
-    "geo_lon": 34.9833471,
+    "geo_lat": 31.74664,
+    "geo_lon": 35.23218,
     "geo_source": "google"
   },
   {
@@ -8890,8 +8890,8 @@
     "admin": null,
     "district": null,
     "category": "נווה יעקב, מקלט בבית ספר",
-    "geo_lat": 32.0663173,
-    "geo_lon": 34.7748214,
+    "geo_lat": 31.84046,
+    "geo_lon": 35.24754,
     "geo_source": "google"
   },
   {
@@ -10277,8 +10277,8 @@
     "admin": null,
     "district": null,
     "category": "רמת שלמה, מקלט בבית ספר",
-    "geo_lat": 31.738054,
-    "geo_lon": 34.9935358,
+    "geo_lat": 31.80767,
+    "geo_lon": 35.22068,
     "geo_source": "google"
   },
   {

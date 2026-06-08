@@ -39,6 +39,9 @@ Open the sidebar with the **☰** button (top-right on desktop, auto-hidden on m
 
 All filters work together (AND logic) and update the map live.
 
+### Contact
+A **WhatsApp button** is pinned at the bottom of the sidebar — click it to report errors or send suggestions directly to the developer.
+
 ---
 
 ## Deployment

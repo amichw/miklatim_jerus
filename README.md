@@ -16,7 +16,6 @@ Interactive map of 550+ public emergency shelters (מקלטים) in Jerusalem.
 ### Marker colors
 | Color | Type |
 |-------|------|
-| 🔴 Red | מחסה – most protected shelter |
 | 🔵 Blue | מקלט נגיש – accessible shelter |
 | 🟢 Green | מקלט ציבורי – standard public shelter |
 | ⚫ Gray | בית ספר – school shelter |

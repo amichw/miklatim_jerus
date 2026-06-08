@@ -250,7 +250,6 @@
           <button class="btn btn-sm btn-outline-success active" data-type="standard">ציבורי</button>
           <button class="btn btn-sm btn-outline-secondary active" data-type="school">בית ספר</button>
           <button class="btn btn-sm btn-outline-primary active" data-type="accessible">נגיש</button>
-          <button class="btn btn-sm btn-outline-danger active" data-type="protected">מחסה</button>
         </div>
       </div>
 
@@ -307,7 +306,6 @@ legend.onAdd = () => {
   const div = L.DomUtil.create('div', 'legend');
   div.innerHTML = `
     <strong>סוגי מקלטים</strong><br>
-    מחסה <span class="legend-dot" style="background:#c0392b"></span><br>
     מקלט נגיש <span class="legend-dot" style="background:#2980b9"></span><br>
     מקלט ציבורי <span class="legend-dot" style="background:#27ae60"></span><br>
     בית ספר <span class="legend-dot" style="background:#7f8c8d"></span>
@@ -531,11 +529,10 @@ map.on('zoomend', () => {
 });
 
 // ── Color coding ──────────────────────────────────────────────
-// t values from slim_shelters.py: 'P'=protected, 'A'=accessible, 'S'=school, 'T'=standard
-const TYPE_CODE = { standard: 'T', school: 'S', accessible: 'A', protected: 'P' };
+// t values from slim_shelters.py: 'A'=accessible, 'S'=school, 'T'=standard
+const TYPE_CODE = { standard: 'T', school: 'S', accessible: 'A' };
 
 const TYPE_COLOR = {
-  P: '#c0392b',
   A: '#2980b9',
   T: '#27ae60',
   S: '#7f8c8d',
@@ -657,8 +654,8 @@ function buildNeighborhoodFilters() {
 }
 
 // ── Active type set ───────────────────────────────────────────
-// activeTypes stores the button data-type values ('standard','school','accessible','protected')
-const activeTypes = new Set(['standard', 'school', 'accessible', 'protected']);
+// activeTypes stores the button data-type values ('standard','school','accessible')
+const activeTypes = new Set(['standard', 'school', 'accessible']);
 
 document.getElementById('type-filters').querySelectorAll('button').forEach(btn => {
   btn.addEventListener('click', () => {

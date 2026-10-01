@@ -1,0 +1,328 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.2219,
+     31.7571
+    ]
+   },
+   "properties": {
+    "name": "תּוֹלֶה אֶרֶץ עַל בְּלִימָה",
+    "venue": "קהילת ידידיה",
+    "address": "ליפשיץ 12, בקעה",
+    "time": "19:00–20:00",
+    "confidence": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.2183,
+     31.7759
+    ]
+   },
+   "properties": {
+    "name": "לימוד ליל הושענא רבה בהיכל שלמה",
+    "venue": "היכל שלמה",
+    "address": "המלך ג'ורג' 58",
+    "time": "19:30–01:00",
+    "confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.2178,
+     31.7776
+    ]
+   },
+   "properties": {
+    "name": "אסיף לילה – בית אבי חי",
+    "venue": "בית אבי חי",
+    "address": "המלך ג'ורג' 44",
+    "time": "20:00–01:45",
+    "confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.22,
+     31.7781
+    ]
+   },
+   "properties": {
+    "name": "הַיָּמִים שֶׁעוֹד נָכוֹנוּ לָנוּ",
+    "venue": "מרכז פוקס (פוקסברג)",
+    "address": "גרשון אגרון 8",
+    "time": "20:00",
+    "confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.213,
+     31.7548
+    ]
+   },
+   "properties": {
+    "name": "שכוחן של ישראל הוא בפה",
+    "venue": "בית מתן",
+    "address": "רשב\"ג 30",
+    "time": "21:00–01:30",
+    "confidence": "low"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.2329,
+     31.7757
+    ]
+   },
+   "properties": {
+    "name": "ליל לימוד הושענא רבה ברובע",
+    "venue": "ישיבת הכותל",
+    "address": "הרובע היהודי",
+    "time": "22:20–בוקר",
+    "confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.215,
+     31.782
+    ]
+   },
+   "properties": {
+    "name": "ליל הושענא רבה במעיינותיך",
+    "venue": "מדרשת מעיינותיך",
+    "address": "סמטת יעבץ 4",
+    "time": "21:00–01:00",
+    "confidence": "low"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.2291,
+     31.7716
+    ]
+   },
+   "properties": {
+    "name": "תיקון ליל הושענא רבה בקבר דוד",
+    "venue": "קבר דוד המלך",
+    "address": "הר ציון",
+    "time": "21:00–08:30",
+    "confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.2202,
+     31.7786
+    ]
+   },
+   "properties": {
+    "name": "כל ישראל תחת סוכה אחת",
+    "venue": "מוזיאון הסובלנות",
+    "address": "הלל / גן העצמאות",
+    "time": "21:30",
+    "confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.2437,
+     31.7738
+    ]
+   },
+   "properties": {
+    "name": "הושענא בהר הזיתים",
+    "venue": "מלון שבע הקשתות",
+    "address": "הר הזיתים",
+    "time": "21:30",
+    "confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.2125,
+     31.7735
+    ]
+   },
+   "properties": {
+    "name": "תיקון ליל הושענא רבה – חב\"ד רחביה ונחלאות",
+    "venue": "בית חב\"ד",
+    "address": "אבן עזרא 2, רחביה",
+    "time": "01:00",
+    "confidence": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.1955,
+     31.7856
+    ]
+   },
+   "properties": {
+    "name": "אני והוא הושיעה נא",
+    "venue": "מכון מאיר",
+    "address": "הרב חן 2, קריית משה",
+    "time": "21:15–בוקר",
+    "confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.208,
+     31.7612
+    ]
+   },
+   "properties": {
+    "name": "ליל הושענא רבה בקהילת הר חורב",
+    "venue": "קהילת הר חורב",
+    "address": "כ\"ט בנובמבר 39, קטמון",
+    "time": "20:30",
+    "confidence": "low"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.211,
+     31.7815
+    ]
+   },
+   "properties": {
+    "name": "לימוד ליל הושענא רבה באוהבי ציון",
+    "venue": "בית הכנסת אוהבי ציון",
+    "address": "שילה 23, נחלאות",
+    "time": "20:45–05:50",
+    "confidence": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.22,
+     31.7623
+    ]
+   },
+   "properties": {
+    "name": "לימוד ליל הושענא רבה בעזרת ישראל",
+    "venue": "בית הכנסת עזרת ישראל",
+    "address": "הילדסהיימר 17, המושבה הגרמנית",
+    "time": "21:00",
+    "confidence": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.216,
+     31.7733
+    ]
+   },
+   "properties": {
+    "name": "ליל הושענא רבה בבית מדרש אחד העם",
+    "venue": "בית מדרש אחד העם",
+    "address": "אחד העם 3",
+    "time": "18:30",
+    "confidence": "low"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.2259,
+     31.7709
+    ]
+   },
+   "properties": {
+    "name": "ליל הושענא רבה במרכז מורשת בגין",
+    "venue": "מרכז מורשת מנחם בגין",
+    "address": "ש\"א נכון 6",
+    "time": "21:30",
+    "confidence": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.2138,
+     31.767
+    ]
+   },
+   "properties": {
+    "name": "ליל לימוד הושענא רבא בשיחתי",
+    "venue": "יד הרב ניסים",
+    "address": "ז'בוטינסקי 44",
+    "time": "20:30–02:45",
+    "confidence": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.2158,
+     31.7845
+    ]
+   },
+   "properties": {
+    "name": "שמחת בית השואבה",
+    "venue": "סוכה ענקית",
+    "address": "הנביאים 65 / יפו 72",
+    "time": "ערב",
+    "confidence": "medium"
+   }
+  }
+ ]
+}
